@@ -1,0 +1,652 @@
+[
+    {
+        "text": "Domanda 1: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 1.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 2: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 2.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 3: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 3.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 4: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 4.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 5: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 5.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 6: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 6.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 7: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 7.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 8: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 8.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 9: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 9.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 10: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 10.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 11: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 11.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 12: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 12.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 13: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 13.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 14: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 14.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 15: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 15.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 16: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 16.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 17: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 17.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 18: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 18.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 19: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 19.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 20: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 20.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 21: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 21.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 22: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 22.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 23: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 23.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 24: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 24.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 25: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 25.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 26: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 26.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 27: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 27.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 28: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 28.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 29: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 29.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 30: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 30.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 31: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 31.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 32: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 32.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 33: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 33.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 34: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 34.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 35: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 35.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 36: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 36.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 37: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 37.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 38: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 38.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 39: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 39.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 40: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 40.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 41: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 41.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 42: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 42.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 43: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 43.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 44: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 44.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 45: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 45.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 46: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 46.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 47: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 2,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 47.",
+        "topic": "Geografia"
+    },
+    {
+        "text": "Domanda 48: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 3,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 48.",
+        "topic": "Storia"
+    },
+    {
+        "text": "Domanda 49: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 0,
+        "verified": true,
+        "explanation": "Spiegazione per la domanda 49.",
+        "topic": "Matematica"
+    },
+    {
+        "text": "Domanda 50: Qual è la risposta corretta?",
+        "options": [
+            "Opzione A",
+            "Opzione B",
+            "Opzione C",
+            "Opzione D"
+        ],
+        "correct_index": 1,
+        "verified": false,
+        "explanation": "Spiegazione per la domanda 50.",
+        "topic": "Geografia"
+    }
+]
