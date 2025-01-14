@@ -139,14 +139,19 @@ class NetworkQuizBot:
             idx = user_quiz["current_index"]
             q_id = user_quiz["questions_ids"][idx]
 
-            is_correct = self.quiz_manager.check_answer(q_id, ord(ans) - ord('A'))
+            chosen_option = ord(ans) - ord('A')
+            q = self.quiz_manager.get_question_data(q_id)
+            if chosen_option < 0 or chosen_option >= len(q.options):
+                update.message.reply_text("Opzione non valida. Riprova!", reply_markup=make_keyboard_for_question(len(q.options)))
+                return QUIZ
+            is_correct = self.quiz_manager.check_answer(q_id, chosen_option)
 
             if is_correct:
                 user_quiz["correct_count"] += 1
                 text = "✅ Risposta corretta!"
             else:
                 text = "❌ Risposta sbagliata!"
-            q = self.quiz_manager.get_question_data(q_id)
+
             text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
             verified = q.verified
             expl = q.explanation if verified else "Spiegazione non disponibile."

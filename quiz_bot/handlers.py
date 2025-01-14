@@ -34,7 +34,7 @@ def build_main_conversation(bot_instance):
                 MessageHandler(Filters.text & ~Filters.command, bot_instance.choose_number_of_questions),
             ],
             QUIZ: [
-                MessageHandler(Filters.regex(r"^(A|B|C|D|E|F|Skip|Cancel)$"), bot_instance.quiz_ans),
+                MessageHandler(Filters.regex(r"(?i)^(A|B|C|D|E|F|Skip|Cancel)$"), bot_instance.quiz_ans),
             ],
         },
         fallbacks=[MessageHandler(Filters.regex("Cancel"), bot_instance.cancel_quiz)],
