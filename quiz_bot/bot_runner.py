@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CallbackContext, PicklePersistence, CommandHandler, ConversationHandler
 
 from .quiz_manager import QuizManager
-from .handlers import build_main_conversation, get_main_menu_keyboard, make_keyboard_for_question, BUTTONS, INIT, CUSTOM_NQ, QUIZ
+from .handlers import build_main_conversation, get_main_menu_keyboard, make_keyboard_for_question, make_keyboard_for_topics, BUTTONS, INIT, CUSTOM_NQ, QUIZ, TOPIC
 
 class NetworkQuizBot:
     def __init__(self, token, questions_json_path):
@@ -59,6 +59,9 @@ class NetworkQuizBot:
         elif action == "set_nq":
             self.reply_to_choose_nq(update, context)
             return CUSTOM_NQ
+        elif action == "select_topic":
+            self.reply_to_choose_topic(update, context)
+            return TOPIC
         else:
             print(f"Comando non riconosciuto: {action}")
             update.message.reply_text("Comando non riconosciuto. Usa /start per riprovare.")
@@ -68,8 +71,15 @@ class NetworkQuizBot:
         """
         Chiede all'utente di inserire il numero di domande desiderato.
         """
-        max_q = self.quiz_manager.get_number_of_questions()
-        update.message.reply_text(f"Inserisci un numero di domande (massimo {max_q}):")
+        selected_topic = context.user_data.get("selected_topic")
+        if selected_topic:
+            max_q = self.quiz_manager.get_number_of_questions(selected_topic)
+            text_topic = f"per l'argomento {selected_topic}"
+        else:
+            max_q = self.quiz_manager.get_number_of_questions()
+            text_topic = ""
+
+        update.message.reply_text(f"Inserisci un numero di domande {text_topic} (massimo {max_q}):")
         return CUSTOM_NQ
 
     def choose_number_of_questions(self, update: Update, context: CallbackContext):
@@ -78,7 +88,12 @@ class NetworkQuizBot:
         """
         try:
             num = int(update.message.text)
-            max_q = self.quiz_manager.get_number_of_questions()
+            selected_topic = context.user_data.get("selected_topic")
+            if selected_topic:
+                max_q = self.quiz_manager.get_number_of_questions(selected_topic)
+            else:
+                max_q = self.quiz_manager.get_number_of_questions()
+
             if 1 <= num <= max_q:
                 self._start_quiz_for_user(update, context, num)
                 return QUIZ
@@ -88,12 +103,44 @@ class NetworkQuizBot:
         except ValueError:
             update.message.reply_text("Per favore, inserisci un numero valido.")
             return CUSTOM_NQ
+        
+    def reply_to_choose_topic(self, update: Update, context: CallbackContext):
+        """
+        Chiede all'utente di scegliere l'argomento.
+        """
+        list_topics = self.quiz_manager.extract_list_of_all_topics()
+        update.message.reply_text("Seleziona l'argomento su cui ti vuoi allenare:", reply_markup=make_keyboard_for_topics(list_topics))
+        return TOPIC
+    
+    def choose_topic(self, update: Update, context: CallbackContext):
+        """
+        Imposta l'argomento scelto dall'utente
+        """
+        try:
+            selected_topic = update.message.text
+            list_topics = self.quiz_manager.extract_list_of_all_topics()
+            if selected_topic in list_topics:
+                context.user_data["selected_topic"] = selected_topic
+                self.reply_to_choose_nq(update, context)
+                return CUSTOM_NQ
+            else:
+                update.message.reply_text("L'argomento scelto non è valido. Selezionare un argomento tra quelli proposti")
+                return TOPIC
+        except ValueError:
+            update.message.reply_text("Per favore, seleziona un argomento tra quelli proposti.")
+            return TOPIC
 
     def _start_quiz_for_user(self, update: Update, context: CallbackContext, n_questions: int):
         """
-        Inizia il quiz per l'utente con il numero di domande specificato.
+        Inizia il quiz per l'utente con il numero di domande e l'argomento specificato.
         """
-        questions_ids = self.quiz_manager.pick_questions(n_questions)
+        selected_topic = context.user_data.get("selected_topic")
+        if selected_topic:
+            excluded_keys = self.quiz_manager.exclude_questions_not_related_to_selected_topic(selected_topic)
+        else:
+            excluded_keys = None
+        questions_ids = self.quiz_manager.pick_questions(n_questions, excluded_keys)
+
         context.user_data["quiz"] = {
             "questions_ids": questions_ids,
             "current_index": 0,
