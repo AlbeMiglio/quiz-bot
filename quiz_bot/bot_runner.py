@@ -99,6 +99,7 @@ class NetworkQuizBot:
             "current_index": 0,
             "correct_count": 0
         }
+        print(f"User {update.effective_user.username} started a quiz with {n_questions} questions.")
         self._send_question(update, context)
 
     def _send_question(self, update: Update, context: CallbackContext):
@@ -146,11 +147,13 @@ class NetworkQuizBot:
             else:
                 text = "❌ Risposta sbagliata!"
             q = self.quiz_manager.get_question_data(q_id)
+            text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
             verified = q.verified
             expl = q.explanation if verified else "Spiegazione non disponibile."
             text += f"\n\nCommento: {expl}"
-
-            update.message.reply_text(text)
+            text = self._escape_markdown(text)
+            update.message.reply_text(text, parse_mode="MarkdownV2")
+            print(f"User {update.effective_user.username} answered {ans} for question {q_id}. Correct: {is_correct}")
             user_quiz["current_index"] += 1
 
         self._send_question(update, context)
@@ -176,6 +179,7 @@ class NetworkQuizBot:
         total = len(user_quiz.get("questions_ids", []))
 
         context.user_data["quiz"] = {}
+        print(f"User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
         update.message.reply_text(
             f"🏁 Quiz terminato!\n\n"
             f"✅ Risposte corrette: {correct}/{total}")
@@ -187,5 +191,10 @@ class NetworkQuizBot:
         Annulla il quiz in corso.
         """
         context.user_data["quiz"] = {}
+        print(f"User {update.effective_user.username} cancelled the quiz.")
         update.message.reply_text("Quiz annullato.")
         return self.show_menu(update, context)
+
+    def _escape_markdown(self, text: str) -> str:
+        escape_chars = r'\_*[]()~`>#+-={}.!'
+        return ''.join(f'\\{char}' if char in escape_chars else char for char in text)

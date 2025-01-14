@@ -1,5 +1,3 @@
-import re
-
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
 
