@@ -1,6 +1,8 @@
 # quiz_manager.py
 
 from typing import Dict, Tuple, Optional
+
+from quiz_bot.question import Question
 from utils.json_loader import JSONQuestionsLoader
 import random
 
@@ -11,7 +13,7 @@ class QuizManager:
 
     def __init__(self, json_path: str):
         loader = JSONQuestionsLoader()
-        self.questions_db: Dict[int, Dict] = loader.load_from_file(json_path)
+        self.questions_db: Dict[int, Question] = loader.load_from_file(json_path)
 
     def get_number_of_questions(self) -> int:
         return len(self.questions_db)
@@ -25,15 +27,8 @@ class QuizManager:
     def check_answer(self, question_id: int, answer_index: int) -> bool:
         """Verifica se l'indice scelto corrisponde alla risposta corretta."""
         question = self.questions_db.get(question_id)
-        return question and question["correct_index"] == answer_index
+        return question and question.correct_index == answer_index
 
-    def get_question_data(self, question_id: int) -> Tuple[str, list, int, str, Optional[str]]:
+    def get_question_data(self, question_id: int) -> Question:
         """Ritorna i dettagli della domanda."""
-        question = self.questions_db.get(question_id, {})
-        return (
-            question.get("text", "Domanda non disponibile"),
-            question.get("options", []),
-            question.get("correct_index", 0),
-            question.get("explanation", ""),
-            question.get("topic", None)
-        )
+        return self.questions_db.get(question_id)

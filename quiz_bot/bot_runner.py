@@ -111,11 +111,14 @@ class NetworkQuizBot:
 
         if idx >= len(q_ids):
             # Quiz terminato
-            return self.finish_quiz(update, context)
+            self.finish_quiz(update, context)
+            return INIT
 
         q_id = q_ids[idx]
-        text, options, _, _, _ = self.quiz_manager.get_question_data(q_id)
-
+        q = self.quiz_manager.get_question_data(q_id)
+        text = q.text
+        options = q.options
+        text = f"Domanda {idx + 1}/{len(q_ids)}:\n{text}"
         msg = f"{text}\n\n" + "\n".join([f"{chr(65+i)}) {opt}" for i, opt in enumerate(options)])
         update.message.reply_text(msg, reply_markup=make_keyboard_for_question(len(options)))
 
@@ -139,9 +142,15 @@ class NetworkQuizBot:
 
             if is_correct:
                 user_quiz["correct_count"] += 1
-                update.message.reply_text("✅ Risposta corretta!")
+                text = "✅ Risposta corretta!"
             else:
-                update.message.reply_text("❌ Risposta sbagliata!")
+                text = "❌ Risposta sbagliata!"
+            q = self.quiz_manager.get_question_data(q_id)
+            verified = q.verified
+            expl = q.explanation if verified else "Spiegazione non disponibile."
+            text += f"\n\nCommento: {expl}"
+
+            update.message.reply_text(text)
             user_quiz["current_index"] += 1
 
         self._send_question(update, context)
@@ -169,9 +178,9 @@ class NetworkQuizBot:
         context.user_data["quiz"] = {}
         update.message.reply_text(
             f"🏁 Quiz terminato!\n\n"
-            f"✅ Risposte corrette: {correct}/{total}\n")
-        return self.show_menu(update, context)
-
+            f"✅ Risposte corrette: {correct}/{total}")
+        self.show_menu(update, context)
+        return INIT
 
     def cancel_quiz(self, update: Update, context: CallbackContext):
         """

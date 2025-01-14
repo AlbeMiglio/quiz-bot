@@ -1,652 +1,2510 @@
 [
-    {
-        "text": "Domanda 1: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 1.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 2: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 2.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 3: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 3.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 4: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 4.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 5: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 5.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 6: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 6.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 7: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 7.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 8: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 8.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 9: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 9.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 10: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 10.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 11: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 11.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 12: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 12.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 13: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 13.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 14: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 14.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 15: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 15.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 16: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 16.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 17: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 17.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 18: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 18.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 19: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 19.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 20: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 20.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 21: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 21.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 22: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 22.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 23: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 23.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 24: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 24.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 25: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 25.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 26: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 26.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 27: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 27.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 28: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 28.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 29: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 29.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 30: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 30.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 31: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 31.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 32: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 32.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 33: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 33.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 34: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 34.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 35: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 35.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 36: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 36.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 37: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 37.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 38: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 38.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 39: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 39.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 40: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 40.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 41: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 41.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 42: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 42.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 43: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 43.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 44: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 44.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 45: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 45.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 46: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 46.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 47: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 2,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 47.",
-        "topic": "Geografia"
-    },
-    {
-        "text": "Domanda 48: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 3,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 48.",
-        "topic": "Storia"
-    },
-    {
-        "text": "Domanda 49: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 0,
-        "verified": true,
-        "explanation": "Spiegazione per la domanda 49.",
-        "topic": "Matematica"
-    },
-    {
-        "text": "Domanda 50: Qual è la risposta corretta?",
-        "options": [
-            "Opzione A",
-            "Opzione B",
-            "Opzione C",
-            "Opzione D"
-        ],
-        "correct_index": 1,
-        "verified": false,
-        "explanation": "Spiegazione per la domanda 50.",
-        "topic": "Geografia"
-    }
+  {
+    "text": "Nel meccanismo del secchiello a gettoni si riesce a controllare: (1879)",
+    "options": [
+      "Il tempo di attraversamento massimo di un router.",
+      "La gestione interna delle code con WFQ.",
+      "La velocità minima di immissione dei dati.",
+      "Il burst size massimo e la velocità media di immissione dei dati."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "A differenza della versione 4 dell'IP, la versione 6: (1895)",
+    "options": [
+      "Non ha una versione dell'ICMP associata.",
+      "Non permette di scoprire l'indirizzo MAC di un'altra stazione, conoscendone l'indirizzo IP.",
+      "Non ha indirizzi broadcast.",
+      "Non ha un equivalente del campo TTL (time-to-live)."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Un protocollo usato in MPLS per la distribuzione delle label è: (1980)",
+    "options": [
+      "OSPF",
+      "IS-IS",
+      "RIP",
+      "BGP"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "IPsec: (1953)",
+    "options": [
+      "Usato solo per VPN",
+      "Gestisce Key encryption",
+      "Ha problemi con soluzioni che usano il NAT"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Quale tra le seguenti definizioni è una novità dello standard UMTS? (2197)",
+    "options": [
+      "Microdiversity",
+      "Network Slicing",
+      "Nessuna delle presenti definizioni",
+      "Macrodiversity"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "UMTS"
+  },
+  {
+    "text": "aumentando il numero di VLAN (1950)",
+    "options": [
+      "Aumentano i domini di collisione",
+      "Diminuiscono i domini di collisione",
+      "Aumentano i domini di broadcast",
+      "Diminuiscono i domini di broadcast"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VLAN"
+  },
+  {
+    "text": "Handover è il meccanismo che permette di: (2181)",
+    "options": [
+      "criptare un canale di comunicazione",
+      "gestire lo sgancio da una cella e il riaggancio ad una nuova",
+      "notificare ad un utente una chiamata in arrivo",
+      "richiedere accesso alla rete da parte di un utente"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il protocollo PPTP viene utilizzato di solito per: (1875)",
+    "options": [
+      "Permettere di creare un tunnel in una VPN di accesso.",
+      "Permettere di creare un tunnel in una VPN site-to-site di tipo overlay.",
+      "Permettere di creare un tunnel in una VPN site-to-site di tipo peer.",
+      "Permettere di creare un tunnel in una VPN di livello 4."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "le comunicazioni multicast in una rete ipv4 (2150)",
+    "options": [
+      "sono possibili solo all'interno di una singola rete lan, anche con l'utilizzo di protocolli aggiuntivi",
+      "sono sempre possibili, IGMP le rende solo più efficienti",
+      "non sono possibili senza l'utilizzo di protocolli aggiuntivi nella rete",
+      "sono possibili su scala geografica grazie all'utilizzo del solo protocollo IGMP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "Si consideri una semplice topologia di rete in cui sono presenti quattro router (A, B, C, D). I primi 3 sono collegati tra di loro ad anello (A-B-C-A), mentre il quarto `e collegato a C attraverso un link punto-punto (C-D). Se gli host utilizzano un algoritmo di routing di tipo flooding e il router A invia un pacchetto a D, quante copie del medesimo pacchetto saranno recapitate al router D? (2164)",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "E proporzionale al valore del campo Time To Live presente nel pacchetto"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "L'importanza di MPLS (multi-protocol label switching) nelle reti odierne e future deriva dalla possibilità di (1899)",
+    "options": [
+      "Trasportare efficientemente pacchetti IP sulle reti ATM",
+      "Collegare ad alta velocità i server ai loro dischi",
+      "Realizzare facilmente ed efficacemente ingegnerizzazione del traffico (traffic engineering)",
+      "Realizzare apparati in grado di operare senza bisogno di configurazione"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "La tecnica “Path Vector” impiegata dal BGP: (1939)",
+    "options": [
+      "Memorizza nei Path Vectors l'elenco degli Autonomous Systems da attraversare per raggiungere una data rete di destinazione",
+      "Memorizza nei Path Vectors l'elenco di routers da attraversare per raggiungere una data rete di destinazione",
+      "Memorizza nei Path Vectors il prossimo Autonomous System da attraversare per raggiungere una data rete di destinazione",
+      "Memorizza nei Path Vectors il prossimo router da attraversare per raggiungere una data rete di destinazione"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "BGP"
+  },
+  {
+    "text": "il fatto che una VPN offra accesso ad internet centralizzato implica che (2155)",
+    "options": [
+      "la rete aziendale utilizzi un singolo internet service provider",
+      "non è necessario utilizzare dispositivi per la protezione della rete aziendale,quali firewall, da attacchi provenienti da internet",
+      "i pacchetti inviati verso stazioni non appartenenti alla rete privata(cioè stazioni di internet) potrebbero seguire un percorso non ottimale sulla topologia fisica della rete",
+      "l'impatto del traffico pubblico (diretto o proveniente da internet) sulle infrastrutture di rete aziendali viene ridotto"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "I concetti di Forwarding e Routing: (1910)",
+    "options": [
+      "Sono sinonimi; individuano il processo che permette di trovare un percorso valido per un pacchetto, dal mittente al destinatario",
+      "Sono sinonimi; individuano il processo che permette, a fronte di un pacchetto entrante in un nodo di rete, di determinare qual è la migliore porta di uscita verso la destinazione",
+      "Sono concetti differenti; il processo di forwarding mira ad individuare un percorso valido per un pacchetto, dal mittente al destinatario; il processo di routing permette, a fronte di un pacchetto entrante in un nodo di rete, di determinare qual è la migliore porta di uscita verso la destinazione",
+      "Sono concetti differenti; il processo di routing mira ad individuare un percorso valido per un pacchetto, dal mittente al destinatario; il processo di forwarding permette, a fronte di un pacchetto entrante in un nodo di rete, di determinare qual è la migliore porta di uscita verso la destinazione"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "per l'instaurazione di un LSB è indispensabile che (2160)",
+    "options": [
+      "tutti i link sul percorso utilizzino lo stesso protocollo di livello due",
+      "i router mpls sul percorso utilizzino lo stesso protocollo per la distribuzione delle etichette",
+      "le destinazioni finali dei pacchetti che viaggiano sull'LSP supportino mpls",
+      "i router mpls sul percorso eseguano un' operazione di mapping"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Header IPv6 (2043)",
+    "options": [
+      "L’header è di dimensione fissa e non possono essere aggiunte opzioni",
+      "L’header è di dimensione variabile",
+      "Dimensione dell’header fissa ma con eventuale aggiunta di Header aggiuntivi(?)"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Qual è un vantaggio di utilizzare un algoritmo di routing di tipo Link State rispetto ad uno di tipo Distance Vector? (1955)",
+    "options": [
+      "La presenza del Link State Database elimina la necessità di avere una routing table, con un risparmio di memoria",
+      "Avendo a disposizione il Link State Database, ogni router è in grado di calcolare autonomamente i percorsi verso ogni destinazione",
+      "Una minore richiesta in termini di potenza elaborativa per l’esecuzione dell’algoritmo",
+      "Minori errori di instradamento in quanto i Link State sono scambiati dai router con una frequenza molto elevata"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Un host appartenente ad una certa VLAN (1949)",
+    "options": [
+      "Può contattare solo host nella stessa VLAN",
+      "Può contattare host nelle altre VLAN tramite un router"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VLAN"
+  },
+  {
+    "text": "Indicate the false claim among the below statements about the Link State algorithm (2296)",
+    "options": [
+      "A: The Link State algorithm converges faster than the Distance Vector algorithm",
+      "B: The RIP (Routing Information Protocol) protocol is based on the Link State algorithm",
+      "C: The Link State algorithm seldom generates loops",
+      "D: The Link State algorithm exchanges less information than the Distance Vector algorithm."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Quale tra questi elementi rappresenta un notevole svantaggio nella tecnica del routing centralizzato? (1915)",
+    "options": [
+      "Scarse prestazioni nel caso in cui il traffico trasportato sia di tipo voce",
+      "Difficoltà nel determinare l'effettiva topologia di rete in caso di guasti",
+      "Traffico dati particolarmente intenso nell'intorno del nodo centrale",
+      "Criticità del nodo centrale dal punto di vista della robustezza e della scalabilità"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Un indirizzo link-local: (1906)",
+    "options": [
+      "E' utilizzabile per permettere la comunicazione tra stazioni su link locali (es. una LAN) in mancanza di altri indirizzi IPv6.",
+      "Serve per collegare fisicamente due stazioni su un link locale.",
+      "E' l'indirizzo utilizzato dalle stazioni su una LAN per scambiarsi i dati.",
+      "E' utilizzato in tutte le comunicazioni tra stazioni locali."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Data una rete composta da diversi reti fisiche interconnesse da opportuni router e un range di indirizzi IP da utilizzare in tale rete, è possibile realizzare un piano di indirizzamento in grado di ottimizzare il routing su un certo router di quella rete: (2162)",
+    "options": [
+      "Assegnando alle varie reti fisiche presenti degli indirizzi scelti randomicamente all’interno del range di indirizzi definito per la rete",
+      "Assegnando alle varie reti fisiche presenti degli indirizzi scelti all’interno del range di indirizzi definito per la rete, procedendo con l’assegnazione in ordine decrescente di dimensione della rete",
+      "Dividendo la rete in aree e definendo, all’interno del range di indirizzi di partenza, dei range di indirizzi distinti da utilizzare in ciascuna di quelle aree"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Le procedure di Neighbor Discovery in IPv6 (2154)",
+    "options": [
+      "è basata su ARPv6",
+      "è basata su un pacchetto ICMPv6 inviato in broadcast",
+      "è basata sun un pacchetto ICMPv6 inviato in multicast",
+      "richiede che la rete supporti anche IPv4"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "High speed packet access (HSPA): (2198)",
+    "options": [
+      "Utilizza canali dedicati per una migliore trasmissione",
+      "Il TTI aumenta 10ms (2ms in UMTS)",
+      "Utilizza canali condivisi per ridurre lo spreco di risorse",
+      "Il TTI di 1ms grazie all'utilizzo di OFDMA, sistemi MIMO e modulazione 64QAM"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "RIP, caratteristica: (1946)",
+    "options": [
+      "Necessità della configurazione da parte dell’amministratore per funzionare",
+      "Comunica informazioni con i router vicini",
+      "È in grado di rilevare gli indirizzi IP degli host collegati e comunicarli ai router vicini"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Qual è l'uso dei meccanismi di policing? (1877)",
+    "options": [
+      "Servono all'utente per concordare con il fornitore il livello di QoS da ottenere.",
+      "Servono al fornitore di servizi per verificare che il traffico immesso dal cliente sia conforme agli accordi presi.",
+      "Servono all'utente per verificare che il traffico in arrivo dal fornitore sia conforme agli accordi presi.",
+      "Sono usati nei vari router per garantire un tempo massimo di attraversamento per ciascuno di essi."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "DiffServ si differenzia da IntServ perché: (1876)",
+    "options": [
+      "DiffServ tende a fornire una garanzia su QoS che IntServ non dà.",
+      "DiffServ introduce nuovi protocolli per permettere la prenotazione di risorse allo scopo di ottenere una data QoS.",
+      "IntServ tende a fornire una garanzia su QoS che DiffServ non dà.",
+      "DiffServ tende a garantire un tempo massimo di attraversamento, mentre IntServ tende a fornire una banda minima garantita."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Il Il protocollo RIP è caratterizzato da (2032)",
+    "options": [
+      "L’uso dell’algoritmo di routing link state",
+      "La possibilità di essere utilizzato sia per il routing interdominio che per il routing intradominio",
+      "La capacità di operare su reti di larghe dimensioni per via della sua capacità di operare in modo gerarchico",
+      "Frequenti instabilità e facilità nel creare percorsi di inoltro circolari"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Il protocollo GRE ha lo scopo di: (1891)",
+    "options": [
+      "Proteggere i pacchetti contro le intercettazioni.",
+      "Gestire l'incapsulamento di pacchetti da trasportare attraverso un tunnel.",
+      "Autenticare il mittente dei pacchetti.",
+      "Verificare l'integrità dei pacchetti in arrivo."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Tunneling"
+  },
+  {
+    "text": "Gli indirizzi IPv6 Aggregatable Global Unicast sono: (2205)",
+    "options": [
+      "Aggregabili solo in address range molto piccoli, in modo da favorire la precisione del calcolo dei percorsi",
+      "Univoci a livello globale, sostanzialmente equivalenti agli indirizzi pubblici IPv4",
+      "Utilizzabili solo su dispositivi appartenenti alla stessa rete locale",
+      "Utilizzabili a livello globale solo insieme ad opportune tecniche di Network Address Translation (NAT)"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "L'architettura MPLS (multi-protocol label switching) è caratterizzato da (1874)",
+    "options": [
+      "Un diverso meccanismo (rispetto all'IP puro) per decidere l'interfaccia di uscita verso cui un pacchetto debba essere inoltrato.",
+      "Un supporto particolarmente evoluto per fornire servizi a qualità garantita.",
+      "Protocolli di routing particolarmente veloci ad aggiornare le tabelle di routing in seguito a cambiamenti topologici in modo da recuperare velocemente i guasti.",
+      "Terminali di rete intelligenti in grado di personalizzare i servizi ricevuti dalla rete."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Utilizzando l'algoritmo del secchiello a gettoni (o secchio bucato) di capacità B token e velocità di riempimento r token/s si riesce a controllare: (1896)",
+    "options": [
+      "Che il tempo di attraversamento non superi rB secondi.",
+      "Il numero di pacchetti al secondo immessi non superi r, ed il massimo burst non superi B.",
+      "Il numero di pacchetti al secondo immessi non superi B, ed il massimo burst non superi r.",
+      "Il jitter non superi B/r."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Un “Internal Router” OSPF in un'area mantiene nell'archivio di LSA: (1934)",
+    "options": [
+      "La descrizione dettagliata della topologia di tutto il dominio OSPF",
+      "Solo ed esclusivamente una descrizione dettagliata della topologia dell'area di cui il router fa parte",
+      "La descrizione dettagliata della topologia dell'area di cui il router fa parte e i sommari di tutte le destinazioni presenti nel dominio di routing OSPF",
+      "La descrizione dettagliata della topologia dell'area di cui il router fa parte, la descrizione dettagliata dell'area backbone, e il sommario delle restanti destinazioni presenti nel dominio di routing OSPF"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "In un pacchetto che viaggia su un tunnel GRE quante intestazioni possono essere presenti? (1869)",
+    "options": [
+      "Una sola, altrimenti l'indirizzamento è ambiguo.",
+      "Due intestazioni, ma quella interna può solo contenere indirizzi privati.",
+      "Due intestazioni, senza particolari limitazioni.",
+      "Due intestazioni, ma quella esterna può solo contenere indirizzi privati."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Tunneling"
+  },
+  {
+    "text": "Cosa sono i bursts? (2178)",
+    "options": [
+      "Sono dei pacchetti che viaggiano sulla rete IP",
+      "Sono trame che viaggiano attraverso onde radio",
+      "Sono blocchi dati che viaggiano su circuit switched networks",
+      "Sono i raggruppamenti di celle di dimensione G"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "L'architettura MPLS (multi-protocol label switching) è caratterizzato da: (2044)",
+    "options": [
+      "Un diverso meccanismo (rispetto all'IP puro) per decidere l'interfaccia di uscita verso cui un pacchetto debba essere inoltrato",
+      "Protocolli di routing particolarmente veloci ad aggiornare le tabelle di routing in seguito a cambiamenti topologici in modo da recuperare velocemente i guasti.",
+      "Terminali di rete intelligenti in grado di personalizzare i servizi ricevuti dalla rete.",
+      "Un supporto particolarmente evoluto per fornire servizi a qualità garantita."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "La metrica (costo) in un algoritmo di instradamento esprime (1972)",
+    "options": [
+      "Il peso da assegnare ad un collegamento e usato nella selezione del cammino",
+      "La probabilità che venga utilizzato il cammino più breve",
+      "La complessità di calcolo dell'algoritmo"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (2041)",
+    "options": [
+      "192.168.0.0/23",
+      "0.0.0.0/0",
+      "192.168.1.0/23",
+      "Non sono aggregabili."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Le soluzioni di VPN (virtual private network) di livello 3 basate su MPLS sono caratterizzate da (1983)",
+    "options": [
+      "Livelli particolarmente alti di sicurezza grazie all’utilizzo di tecniche crittografiche",
+      "Buon livello di automatizzazione e integrazione tra la dorsale pubblica e le reti private",
+      "Meccanismi di tunneling di livello 3, ovvero all’interno di pacchetti IP."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Il Solicited Node Multicast Address è: (2206)",
+    "options": [
+      "L'indirizzo multicast utilizzato come indirizzo sorgente in un pacchetto di Neighbor Solicitation",
+      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ARPv6) di un pacchetto di Neighbor Solicitation",
+      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ICMPv6) di un pacchetto di Neighbor Solicitation",
+      "L'indirizzo multicast utilizzato come indirizzo destinazione in un pacchetto di Neighbor Solicitation"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le soluzioni di VPN (virtual private network) basate su SSL (secure socket layer) consentono: (2047)",
+    "options": [
+      "Di distribuire in modo sicuro su diversi server applicazioni basate sul web",
+      "Di creare cluster di server privati",
+      "Ad un’azienda di rendere disponibili in modo sicuro ai propri dipendenti fuori sede specifiche applicazioni aziendali.",
+      "La realizzazione di un backbone sul quale un fornitore di servizi (service provider) può facilmente ed efficientemente fornire servizi di connettività ai suoi clienti"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "La tecnica “Path Vector” permette di: (1921)",
+    "options": [
+      "Risolvere il problema del count to infinity",
+      "Risolvere il problema delle route sovrapposte",
+      "Rendere il protocollo “trasparente” rispetto all'informazione trasportata",
+      "Nessuna delle precedenti"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Una BSC (Base Station Controller) (2177)",
+    "options": [
+      "è il punto di accesso per il MT",
+      "Contiene i dati statici dell'utente (come ID, servizi abilitati e parametri di sicurezza)",
+      "è in grado di controllare una singola BTS",
+      "è in grado di controllare un grande numero di BTS"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching) (1890)",
+    "options": [
+      "Rappresentano percorsi alternativi mantenuti nella tabella di un router per l'inoltro di pacchetti verso una destinazione.",
+      "Vengono scambiati dai router per costruire una mappa della rete.",
+      "Costituiscono il percorso più breve verso una destinazione.",
+      "Vengono creati (set up) per il trasporto di pacchetti appartenenti ad una classe di equivalenza di inoltro (forwarding equivalence class, FEC)."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Un algoritmo di routing di tipo selective flooding: (2165)",
+    "options": [
+      "E' sostanzialmente simile all’algoritmo di flooding classico, con la differenza che ciascun flooding classico, con la differenza che ciascun pacchetto in arrivo viene ritrasmesso su tutte le linee eccetto quella su cui è stato ricevuto",
+      "E' sicuramente più robusto di un classico algoritmo di flooding",
+      "Consente di ridurre il numero di volte in cui un pacchetto viene inviato sulla stessa porzione di rete",
+      "Richiede che i pacchetti inviati contengano un numero di sequenza"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Un Area Border Router OSPF (1937)",
+    "options": [
+      "Dispone di informazioni riassuntive sulle aree su cui si affaccia e le diffonde nelle aree; non conosce i dettagli di tali aree.",
+      "Conosce i dettagli della backbone area",
+      "Genera LSA di tipo 5 per descrivere destinazioni esterne al dominio di routing.",
+      "Inoltra, mediante il meccanismo del flooding, tutti gli LSA che riceve da un'area a tutte le altre su cui si affaccia"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "In OSPF, un pacchetto di “Database Description”: (2173)",
+    "options": [
+      "Viene utilizzato durante la fase di “Neighbor Discovery”",
+      "Viene utilizzato durante la fase di riallineamento delle adiacenze",
+      "Viene sempre inviato cifrato per evitare problemi di sicurezza",
+      "Viene sempre inviato cifrato per problemi di privacy"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Il meccanismo dello “Split Horizon” permette di: (1918)",
+    "options": [
+      "Eliminare la possibilità che si verifichino loop (percorsi di inoltro ciclici) in seguito a cambiamenti della topologia",
+      "Ridurre la probabilità che si verifichino loop in seguito a cambiamenti della topologia",
+      "Disabilitare, durante la fase di convergenza, l'invio di pacchetti dati verso quelle destinazioni che potrebbero dare luogo a loop",
+      "Diminuire il traffico di routing implementando la fase di neighbor discovery con dei pacchetti appositi (“Hello Packets”)"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Nell'algoritmo del secchiello a gettoni: (1866)",
+    "options": [
+      "La capacità del secchiello è legata alla velocità media sul lungo periodo.",
+      "La capacità del secchiello è legata al massimo burst size.",
+      "La capacità del secchiello ha relazione diretta con la banda.",
+      "Serve per implementare il weighted fair queuing."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Due host collegati ad uno switch Ethernet (1971)",
+    "options": [
+      "Possono comunicare solo se appartenenti alla stessa VLAN, qualsiasi sia la configurazione della rete",
+      "Possono comunicare anche se appartenenti a VLAN diverse, dipende dalla configurazione della rete",
+      "Devono poter comunicare sempre senza utilizzare un router intermedio",
+      "Non possono comunicare utilizzando un router in quanto connessi allo stesso switch."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "Il protocollo RSVP (Resource reSerVation Protocol) è in grado di: (1977)",
+    "options": [
+      "Limitare le variazioni di ritardo (jitter) subite dai pacchetti nei router",
+      "Far conoscere ai router le richieste di qualità di servizio avanzate dalle applicazioni",
+      "Riservare risorse di calcolo nei server che condividono i loro processori",
+      "Verificare i ritardi e le perdite subiti dai pacchetti di applicazioni multimediali sulla rete."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Due host collegati ad una rete Switched Ethernet attraverso porte configurate in modalità (2030)",
+    "options": [
+      "Possono comunicare solo se appartenenti alla stessa VLAN",
+      "Non possono comunicare",
+      "Se appartengono a VLAN diverse, possono comunicare solo se sono collegati a switch diversi e il link tra gli switch è configurato in modalità Trunk",
+      "Se appartengono a VLAN diverse, è possibile che riescano a comunicare anche se sono collegati a switch diversi e le porte degli switch sono configurate in modalità Access."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "In OSPF, un pacchetto di “Link State Update”: (2174)",
+    "options": [
+      "Viene utilizzato anche nella procedura di Exchange per lo scambio di tutti gli LSA posseduti dai router, e trasporta ogni LSA in forma completa",
+      "Trasporta le informazioni principali relative ad un Link State Advertisement",
+      "E utilizzato per aggiornare lo stato dell’adiacenza con un router vicino e trasporta solamente le informazioni relative a quel cambiamento",
+      "Viene inviato per in condizioni di rete a regime, quando il transitorio `e ormai esaurito"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "vantaggio fibra ottica: (2046)",
+    "options": [
+      "maggiore velocità nelle trasmissioni sul canale",
+      "switch ottici performanti e bassa complessità"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Optical Networks"
+  },
+  {
+    "text": "In un pacchetto che viaggia su una rete MPLS, è possibile avere più label contemporaneamente? (1870)",
+    "options": [
+      "No, non è previsto.",
+      "Sì, ma non più di 2.",
+      "Sì, ma non più di 20.",
+      "Sì, ma solo nei tunnel MPLS usati per le VPN."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Una differenza del protocollo di routing OSPF rispetto all'IGRP è che: (1932)",
+    "options": [
+      "OSPF è gerarchico",
+      "OSPF consente di effettuare anche routing tra AS diversi",
+      "OSPF permette di trasportare contemporaneamente informazioni di routing relative a diverse architetture protocollari (routing integrato)",
+      "OSPF è proprietario"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24. (1963)",
+    "options": [
+      "A comunica direttamente con B e viceversa",
+      "A comunica direttamente con B ma non viceversa",
+      "A comunica con B solo attraverso un router",
+      "A non può comunicare con B"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "L’importanza di MPLS (multi-protocol label switching) nelle reti odierne e future deriva dalla possibilità di (2033)",
+    "options": [
+      "Realizzare commutatori con supporto specifico per garantire qualità del servizio",
+      "Avere un unico piano di controllo per diverse tencologie di commutazione",
+      "Realizzare apparati in grado di operare senza bisogno di configurazione",
+      "Distribuire il traffico su batterie di server"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Le soluzioni di VPN (virtual private network) basate su SSL (secure socket layer) consentono (1902)",
+    "options": [
+      "Di distribuire in modo sicuro su diversi server applicazioni basate sul web",
+      "Di creare cluster di server privati",
+      "Ad un'azienda di rendere disponibili in modo sicuro ai propri dipendenti fuori sede specifiche applicazioni aziendali.",
+      "La realizzazione di un backbone sul quale un fornitore di servizi (service provider) può facilmente ed efficientemente fornire servizi di connettività ai suoi clienti"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "L'International Mobile Equipment Identity (IMEI) è: (2176)",
+    "options": [
+      "Un codice temporaneo assegnato dall'ISP",
+      "Un codice fisso assegnato dal BTS",
+      "Un numero telefonico temporaneo assegnato al terminale in base alla sua posizione",
+      "Identifica il dispositivo, è assegnato dal venditore e non è modificabile"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Nel protocollo OSPF i router connessi ad una stessa LAN vengono rappresentati nel grafo che descrive la rete come: (1935)",
+    "options": [
+      "Un unico nodo",
+      "Una struttura di connessioni logiche di forma stellare",
+      "Una struttura di connessioni logiche completamente magliata",
+      "Una struttura composta da un insieme di nodi su un link broadcast"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Lo schema di indirizzamento IPv6: (1886)",
+    "options": [
+      "Prevede esclusivamente indirizzi assegnati in modo univoco da un ente preposto.",
+      "Prevede che ogni entità (es. azienda) si faccia assegnare globalmente un insieme di indirizzi, che diventano di sua proprietà a tempo illimitato.",
+      "Prevede che i primi 64 bit di un indirizzo siano normalmente identificati come il prefisso di rete, almeno sulle LAN.",
+      "Non prevede l'esistenza di indirizzi di multicast."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Nella fase finale di un algoritmo di routing di tipo Link State, ogni router: (1923)",
+    "options": [
+      "Esegue l'algoritmo di Shortest Path First, utilizzando come input il Link State Database",
+      "Invia in flooding i propri Link State ai vicini",
+      "Invia in flooding tutti i Link State ai vicini",
+      "Esegue l'algoritmo DUAL (Diffusing Update Algorithm)"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Si consideri una semplice topologia di rete in cui sono presenti quattro router (A, B, C, D), collegati tra di loro ad anello (A-B-C-D-A). Se gli host utilizzano un algoritmo di routing di tipo flooding e il router A invia un pacchetto a D, quante copie del medesimo pacchetto saranno recapitate al router D? (2163)",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "E proporzionale al valore del campo Time To Live presente nel pacchetto"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "DWDM è una tecnologia che permette di (2157)",
+    "options": [
+      "impaccare in modo denso un elevato numero di fibre ottiche sullo stesso cavo",
+      "commutare un segnale ottico dall'ingresso all'uscita di un dispositivo",
+      "multiplare/demultiplare segnali ottici a diverse lunghezze d'onda sulla stessa fibra",
+      "multiplare/demultiplare vari flussi di bit rate su un singolo canale ottico a una specifica lunghezza d'onda"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Optical Networks"
+  },
+  {
+    "text": "indirizzi global unicast aggregatable (2042)",
+    "options": [
+      "Possono essere usati solo dai router",
+      "Possono essere usati solo dagli host",
+      "Sono distribuiti geograficamente in modo gerarchico"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Quale di queste tecniche non è una soluzione per la transizione IPV4-IPV6? (1959)",
+    "options": [
+      "6to4",
+      "Teredo",
+      "6over4",
+      "6mix4"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Nel protocollo OSPF, gli LSA di tipo Network Link presenti nel Link State Database di un router contengono: (2171)",
+    "options": [
+      "Le adiacenze di ogni router con le reti IP configurate sulle proprie interfacce",
+      "Le reti IP presenti nel dominio OSPF ma in aree differenti dall’area nella quale è situato il router",
+      "Le adiacenze con le reti di transito presenti nel dominio OSPF",
+      "Le adiacenze con le reti di transito presenti nell’area in esame"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Il protocollo RIP è caratterizzato da (1975)",
+    "options": [
+      "L’uso dell’algoritmo di routing link state",
+      "La possibilità di essere utilizzato sia per il routing interdominio che per il routing intradominio",
+      "La capacità di operare su reti di larghe dimensioni per via della sua capacità di operare in modo gerarchico",
+      "Frequenti instabilità e facilità nel creare percorsi di inoltro circolari"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Nel protocollo di routing BGP: (1940)",
+    "options": [
+      "Le informazioni di topologia hanno sempre la precedenza sull'applicazione delle politiche di instradamento (“policy”)",
+      "L'applicazione delle politiche di instradamento (“policy”) ha sempre la precedenza rispetto alle informazioni di topologia",
+      "Viene scelto sempre il percorso a costo inferiore verso ogni destinazione",
+      "Viene scelto sempre il percorso a costo inferiore verso ogni destinazione, a meno di limitazioni intrinseche al funzionamento del routing gerarchico"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "BGP"
+  },
+  {
+    "text": "L’indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C è: (1968)",
+    "options": [
+      "Un indirizzo utilizzabile da un host con MAC address 00:01:06:A5:3A:4C per le comunicazioni con un altro host sullo stesso link",
+      "Un indirizzo utilizzabile da un server con MAC address 00:01:06:A5:3A:4C per offrire un servizio sulla Internet pubblica IPv6",
+      "Un indirizzo utilizzabile da più dispositivi nello stesso link",
+      "Un indirizzo al momento non previsto in IPv6"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "mplementazione Multicast in IPv4 (1944)",
+    "options": [
+      "Disponibile senza necessità di protocolli aggiuntivi",
+      "Disponibile ma con protocolli aggiuntivi",
+      "Non supportato"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "In OSPF, un pacchetto di “Database Description”: (2172)",
+    "options": [
+      "Viene utilizzato da due router adiacenti per scambiarsi le rispettive copie del database OSPF",
+      "Viene utilizzato da due router adiacenti per scambiarsi le rispettive copie della routing table",
+      "Permette ad un router che ha rilevato una nuova adiacenza con un altro router OSPF di conoscere gli LSA a lui mancanti",
+      "Permette ad un router appena acceso di conoscere gli LSA a lui mancanti"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Il pacchetto ICMPv6 Router Advertisement (1956)",
+    "options": [
+      "Viene inviato in risposta ad un pacchetto ICMPv6 Neighbor Solicitation",
+      "è un pacchetto broadcast",
+      "Permette l’autoconfigurazione dei dispositivi senza l’utilizzo del protocollo DHCP",
+      "Viene inviato periodicamente da un router a tutti gli altri router della rete internet"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le operazioni che un router MPLS può effettuare sui label sono le seguenti: (1981)",
+    "options": [
+      "Aggiungere un label in posizione qualsiasi dell’intestazione MPLS (PUSH), eliminare un label in posizione qualsiasi (POP), cambiare il contenuto di un qualsiasi label (SWAP).",
+      "Aggiungere un label in posizione più esterna nell’intestazione MPLS (PUSH), eliminare il label nella posizione più esterna dell’intestazione MPLS (POP), cambiare il contenuto del label esterno (SWAP).",
+      "Aggiungere un label solo se non ce ne sono altri (un solo label è ammesso) (PUSH), eliminare l’unico label ammissibile all’uscita dalla rete MPLS (POP), e cambiare il contenuto del label (SWAP).",
+      "I label non possono essere manipolati dai router MPLS."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Cosa contraddistingue una VPN realizzata secondo uno schema overlay? (1941)",
+    "options": [
+      "Le apparecchiature dell'utente sono le stesse che si userebbero nel caso i vari tronconi di rete aziendale fossero collegati direttamente",
+      "Non è possibile avere comunicazioni riservate",
+      "Non possono essere realizzate senza l'assenso dell'ISP prescelto",
+      "Il gestore della rete non è al corrente che si sta realizzando una VPN"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Lo standard IPsec viene utilizzato nelle VPN (virtual private network) per (1897)",
+    "options": [
+      "Verificare le informazioni di autenticazione fornite da utenti remoti tramite uno scambio di informazione con un server di autenticazione.",
+      "Consentire l'invio di informazioni di autenticazione (per esempio username e password o tramite meccanismi di sfida) da parte degli utenti di una VPN di accesso.",
+      "La realizzazione di tunnel attraverso una rete IP pubblica sul tramite i quali sia possibile trasportare pacchetti IP provenienti da o destinati ad una rete privata indipendentemente dal piano di indirizzamento utilizzato su tale rete privata (purchè i piani di indirizzamento delle due reti private non siano sovrapposti).",
+      "La creazione automatica di collegamenti cifrati tra le sedi di un'azienda attraverso una rete pubblica, sulla quale la comunicazione è quindi intrinsecamente non sicura."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Nella connessione UMTS (2194)",
+    "options": [
+      "Esiste ancora il riuso delle frequenze, con possibili interferenze",
+      "Non esiste più il riuso delle frequenze e non si hanno interferenze grazie all'utilizzo di codici diversi",
+      "Esiste ancora il riuso delle frequenze, ma ottimizzato per evitare interferenze",
+      "Non esiste più il riuso delle frequenze e non si hanno interferenze grazie all'utilizzo di tempi di accesso diversi"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "L'inoltro di pacchetti Ipv6 su una LAN: (1904)",
+    "options": [
+      "Non fa uso di meccanismi di neighbor discovery in quanto esiste una regola per mappare un qualunque indirizzo IPv6 in un indirizzo MAC.",
+      "Non fa uso di meccanismo di neighbor discovery per quanto riguarda l'inoltro di pacchetti IPv6 multicast e broadcast in quanto esiste una regola per mappare questi indirizzi IPv6 in un indirizzo MAC.",
+      "Fa uso di meccanismi di neighbor discovery per tutte le tipologie di indirizzi IPv6.",
+      "Non fa uso di meccanismi di neighbor discovery per quanto riguarda l'inoltro di pacchetti IPv6 multicast in quanto esiste una regola per mappare questi indirizzi IPv6 in un indirizzo MAC."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Lo stack protocollare dell'interfaccia radio si articola nei seguenti livelli (2195)",
+    "options": [
+      "MAC layer, IP layer, TCP/UDP layer",
+      "MAC layer, Manage protocol layer",
+      "MAC layer, RLC layer, RRC layer",
+      "Esiste un singolo livello"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il protocollo GRE serve per: (1882)",
+    "options": [
+      "Incapsulare i pacchetti in altre intestazioni IP, in modo da poterle inviare su un tunnel.",
+      "Garantire la riservatezza delle comunicazioni.",
+      "Garantire l'autenticità dei pacchetti.",
+      "Riservare della banda per la comunicazione."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Tunneling"
+  },
+  {
+    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in: (2025)",
+    "options": [
+      "130.192.0.0/23",
+      "130.192.2.0/23",
+      "Non sono aggregabili",
+      "130.192.0.0/22"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "In topology-based control-driven label binding: (2203)",
+    "options": [
+      "Il traffico di applicazioni diverse in esecuzione sugli stessi host viene trasportato su LSP differenti",
+      "Le tabelle di forwarding dei router MPLS vengono configurate manualmente",
+      "Un LSP viene creato a seguito dell'identificazione di un percorso verso una destinazione (in altre parole, viene creato un LSP per ogni destinazione scoperta)",
+      "I router MPLS devono utilizzare il protocollo BGP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "A device equipped with the NAT64 functionality is able to (2403)",
+    "options": [
+      "Operate on 64-bit IP addresses",
+      "Replace the IPv6 header of a packet with an IPv4 one, and vice versa 1,00",
+      "Convert an IPv6 packet in an Ethernet frame",
+      "Replace the IPv6 destination address in the IPv6 header of a packet with an IPv4 one, and vice versa"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "il coount to infinity (2288)",
+    "options": [
+      "permette di capire se un nodo non è più raggiungibile",
+      "è una variante dell'algoritmo link state ch evita la creazione di loop",
+      "è uno stato transitorio dell'algoritmo distance vector",
+      "nessuna delle precedenti"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Le così dette soluzioni VPN (virtual private network) di accesso o virtual dial-up VPN attualmente più diffuse sono basate su: (1867)",
+    "options": [
+      "Connessioni dial-up.",
+      "Tunnelling attraverso una rete IP.",
+      "Utilizzo di un'infrastruttura di cablaggio esistente per fornire servizi di accesso a larga banda",
+      "Nuovi protocolli di linea (livello data-link)."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "L'autoconfigurazione stateless di IPv6 presenta problemi di riservatezza? (1872)",
+    "options": [
+      "Non vi sono particolari problemi.",
+      "Non permette la cifratura del carico.",
+      "E' possibile individuare la stessa interfaccia, se si collega a internet da vari provider.",
+      "Non permette l'uso delle intestazioni di sicurezza (tipo IPsec)."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Nel protocollo OSPF a regime tutti i router hanno in memoria: (1936)",
+    "options": [
+      "Lo stesso albero di percorsi ottimi",
+      "La base di dati descrivente l'area cui appartengono",
+      "La stessa base di dati che descrive l'intero AS",
+      "Un set di Distance Vector di tutti i router adiacenti"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Nei protocolli di routing, il periodo di transitorio: (1914)",
+    "options": [
+      "è presente solo quando vengono adottati gli algoritmi più semplici (es. Distance Vector)",
+      "Non è mai presente, in quanto è una caratteristica dei protocolli che lavorano a livello data-link (es. Spanning Tree)",
+      "Si verifica sempre nel periodo immediatamente successivo al rilevamento di un guasto",
+      "Si verifica sempre nel momento in cui una parte della rete cambia di stato"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Il routing inter-dominio: (1925)",
+    "options": [
+      "Prevede che ogni router sappia esattamente il percorso, in termini di router attraversati, fatto dai pacchetti verso una destinazione",
+      "Prevede che un exterior gateway operi scelte di percorsi, basate su informazioni raccolte tramite protocolli di routing inter-dominio, coerenti con gli accordi esistenti con altri autonomous system",
+      "Prevede che ogni router sappia esattamente il costo di raggiungimento di qualsiasi destinazione (ad esempio in termini di banda dei link attraversati) per poter calcolare il percorso a costo minore (per esempio a banda più elevata)",
+      "è un concetto che tenderà a sparire"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "A device equipped with the NAT64 functionality is able to (2404)",
+    "options": [
+      "Operate on 64-bit ip address",
+      "Replace the Ipv6 header of a packet with an ipv4 one, and vice versa",
+      "convert an IPv6 packet in an ethernet frame",
+      "replace the ipv6 destination address in the ipv6 header of a packet with an ipv4 one, and vice versa"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le reti ottiche sono caratterizzate in modo specifico e univoco dall’uso di apparati in grado di: (1982)",
+    "options": [
+      "Trasmettere segnali ottici su collegamenti in fibra ottica",
+      "Commutare un canale ottico da una porta di ingresso ad una porta di uscita",
+      "Instradare pacchetti elaborandone l’intestazione tramite circuiti ottici (non tramite circuiti elettronici)",
+      "Trasportare enormi quantità di dati grazie alla loro capacità di commutare il traffico secondo le informazioni contenute in un’etichetta, presente in una speciale instestazione del pacchetto"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Optical Networks"
+  },
+  {
+    "text": "What is the typical role of IPSec in VPNs? (1909)",
+    "options": [
+      "To distribute in a secure way the key required by other protocols to open a tunnel",
+      "To allow the transmission of authentication information (e.g. username and password) by users of access VPN",
+      "To open a managed secure tunnel across the public internet",
+      "To verify the user identity to allow other protocols to open tunnels only with authorized parties."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "In una rete IPv4: (2200)",
+    "options": [
+      "Una stazione è raggiunta da un pacchetto multicast relativo ad un particolare gruppo solo se iscritta a quel gruppo, qualunque sia la tecnologia di livello 2 utilizzata.",
+      "Una stazione è raggiunta da un pacchetto multicast relativo ad un particolare gruppo anche se non è iscritta a quel gruppo.",
+      "una stazione consegna sempre a livello applicazione tutti i pacchetti multicast ricevuti.",
+      "una stazione non è in grado di comprendere un pacchetto IPv4 multicast."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "i gruppi multicast in ipv4 (2149)",
+    "options": [
+      "vengono identificati da particolari indirizzi IP che non possono essere assegnati alle singole stazioni",
+      "vengono identificati dalla lista degli indirizzi MAC delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi mac destinazione nelle trame multicast indirizzate",
+      "non esistono",
+      "vengono identificati dalla lista degli indirizzi IP delle stazioni appartenenti ad un dato gruppo. questi indirizzi vengono poi utilizzati come indirizzi IP destinazione nelle trame multicast indirizzate a tali stazioni"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "La tecnica di transizione IPv4-IPv6 denominata DS-lite prevede che: (2201)",
+    "options": [
+      "Non sia possibile collegare alla rete delle stazioni IPv6",
+      "Il NAT sia posizionato sul Customer Premises Equipment (CPE) dell'utente",
+      "Non siano mai utilizzati indirizzi IPv4 di tipo privato sui dispositivi utente",
+      "Il NAT sia posizionato sull'Address Family Translation Router (AFTR)"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Gli indirizzi Ipv6 (1907)",
+    "options": [
+      "Permettono la comunicazione di stazioni IPv6 con stazioni IPv4 senza nessun particolare meccanismo aggiuntivo.",
+      "Mantengono la stessa suddivisione flessibile tra una parte network e una parte host già presente in IPv4.",
+      "Sono rigidamente partizionati in una parte network, subnetwork e host.",
+      "Sono rigidamente partizionati in una parte network e una parte host."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "tabella di filtering di una VLAN: (1948)",
+    "options": [
+      "Si può aggiornare solo manualmente",
+      "Si può aggiornare manualmente o automaticamente con appositi protocolli",
+      "Contiene solo IP della rete locale"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VLAN"
+  },
+  {
+    "text": "Qual è una conseguenza dell’uso di VLAN in una rete locale? (1970)",
+    "options": [
+      "Creare sugli switch interfacce virtuali che, in quanto tali, sono sempre funzionanti",
+      "Il traffico broadcast è limitato alla VLAN in cui è stato generato",
+      "La sicurezza della comunicazione sulla rete aziendale aumenta in quanto le trame sono crittografate.",
+      "Gli utenti sono obbligati ad autenticarsi prima di poter accedere alla VLAN"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VLAN"
+  },
+  {
+    "text": "Gli algoritmi di scheduling vengono utilizzati: (1889)",
+    "options": [
+      "Nei router di accesso, per assicurarsi che il traffico generato da un utente sia conforme al profilo di traffico contrattato con il proprio service provider.",
+      "Nei firewall, per ritardare i pacchetti che entrano in una rete aziendale provenendo dalla rete Internet con lo scopo di impedire alcuni tipi di attacchi alla sicurezza.",
+      "Nei router, per decidere quale sia l'ordine con cui debbano essere trasmessi i pacchetti in attesa ad una interfaccia.",
+      "Nei router, per schedulare opportunamente l'elenco dei comandi di configurazione impartiti dall'utente in modo da minimizzare il disservizio causato dal tempo necessario per l'applicazione delle modifiche."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Il protocollo BGP è utilizzato in Internet per (1973)",
+    "options": [
+      "Lo scambio di informazioni tra router che appartengono ad autonomous system diversi",
+      "Comunicare ai router confinanti lo stato dei link di un router",
+      "La scoperta di router vicini (bordering routers) su una rete locale",
+      "Individuare la posizione geografica di un host in base al suo indirizzo IP"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "BGP"
+  },
+  {
+    "text": "Il protocollo IGMP (1965)",
+    "options": [
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono presenti in una rete ad esso direttamente connessa",
+      "Permette ad un host IPv4 di creare un nuovo gruppo multicast",
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono attivi in un dato momento nella rete Internet",
+      "E’ una nuova versione del protocollo ICMP"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "Il protocollo IPv6 prevede che l'intestazione dei pacchetti IP: (1903)",
+    "options": [
+      "Sia sempre autenticata tramite oppurtuni algoritmi di cifratura per aumentare la sicurezza delle transmissioni",
+      "Sia di dimensioni inferiori rispetto a quella dei pacchetti IPv4 in modo da aumentare l'efficienza nell'uso della banda trasmissiva riducendo l'overhead protocollare",
+      "Sia costituita solo da campi di lunghezza fissa che portano informazioni necessarie in ogni pacchetto",
+      "Comprenda alcuni campi, prima disponibili solamente come opzioni di IPv4, per funzionalità che si sono rivelate di largo uso nel corso del tempo."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "nella soluzione di livello 3 di vpn basate su MPLS e BGP i pachetti che transitano sulla dorsale MPLS hanno due etichette (2286)",
+    "options": [
+      "i router interni (p) non modificano(swap) mai l'etichetta più esterna",
+      "l'etichetta più esterna è usata dai router interni(p) per inoltrare verso un router PE",
+      "l'etichetta più interna è usata dai router interni(p) per inoltrare verso un router PE",
+      "entrambe le etichette sono usate dai router interni (P) per inoltrare pachetti verso router PE"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "A differenza della versione 4 dell'IP, la versione 6: (1878)",
+    "options": [
+      "Non ha intestazione di lunghezza variabile.",
+      "Non permette di scoprire l'indirizzo MAC di un'altra stazione, conoscendone l'indirizzo IP.",
+      "Non ha un equivalente del TTL (time-to-live).",
+      "Non permette l'uso di IPsec."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "The Mapping Address and Port (MAP) technique for the IPv4-IPv6 transition is based on (2401)",
+    "options": [
+      "The utilization, on the Customer Premises Equipment (CPE), of an IPv6 address derived from the IPv4 address and the Port Set ID assigned by the provider to the customer",
+      "The utilization, on the Border Relay, of an IPv6 address derived from the IPv4 address and the Port Set ID assigned by the provider to the various customers",
+      "The utilization, on the Customer Premises Equipment (CPE), of an IPv6 address selected among a fixed set of addresses defined by a standard",
+      "The utilization, on the Customer Premises Equipment (CPE), of an IPv6 address which varies on the basis of the IPv4 destination address that the user would like to reach"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le reti ottiche si basano sull'utilizzo di (1900)",
+    "options": [
+      "Collegamenti in fibra ottica tra commutatori di pacchetto ad elevate prestazioni",
+      "Router IP in grado di inoltrare i pacchetti in base al loro indirizzo destinazione realizzando il look-up nella tabella di routing con tecniche ottiche.",
+      "Apparati in grado di commutare un segnale elettromagnetico ad una certa frequenza portante nel campo dell'ottica da una porta di ingresso ad una porta di uscita"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Optical Networks"
+  },
+  {
+    "text": "Il frequency hopping (FH) permette (2179)",
+    "options": [
+      "di trasmettere bursts consecutivi su frequenze diverse a discapito di una riduzione della capacità",
+      "di trasmettere slot consecutivi sulla stessa frequenza con una riduzione della capacità",
+      "di trasmettere bursts consecutivi su frequenze diverse con un aumento della capacità",
+      "di trasmettere bursts consecutivi sulla stessa frequenza"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "una extranet è (2158)",
+    "options": [
+      "una rete che è utilizzata quando serve capacità trasmissiva extra per collegare due siti aziendali",
+      "una parte di una rete privata che è accessibile pubblicamente da internet, a cui sono normalmente collegati server aziendali pubblici, come server web,server mail,server dns",
+      "una rete privata che include reti di organizzazioni indipendenti,come per esempio diverse reti aziendali",
+      "una rete privata utilizzata per collegare server aggiuntivi come server disco o server di database da utilizzare in caso di bisogno"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Network Architecture"
+  },
+  {
+    "text": "Per realizzare una VPN usando MPLS, al livello 3 secondo il modello peer, è possibile: (1888)",
+    "options": [
+      "Utilizzare una versione opportunamente modificata del BGP.",
+      "Utilizzare una versione opportunamente modificata del TCP.",
+      "Utilizzare una versione opportunamente modificata del RIP.",
+      "Utilizzare una versione opportunamente modificata del RTP."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "La differenza tra gli algoritmi di instradamento di tipo link state e distance vector si può riassumere come segue (1974)",
+    "options": [
+      "Gli algoritmi link state inviano informazioni sulla rete nella sua interezza a tutti i nodi della rete; gli algoritmi distance vector inviano informazioni sulla topologia locale solo ai nodi vicini",
+      "Gli algoritmi link state inviano informazioni sulla topologia locale solo ai nodi vicini; gli algoritmi distance vector inviano informazioni sulla rete nella sua interezza a tutti i nodi",
+      "Gli algoritmi link state inviano informazioni sulla topologia locale a tutti i nodi della rete; gli algoritmi distance vector inviano informazioni sulla rete nella sua interezza solo ai nodi vicini"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "L’architettura DiffServ è caratterizzata da: (2045)",
+    "options": [
+      "Un meccanismo per separare il traffico in classi ognuna delle quali può ricevere un servizio specifico in ogni nodo attraversato",
+      "Protocolli di segnalazione sofisticati per la prenotazione delle risorse",
+      "La capacità di fornire servizio a qualità garantita alle applicazioni o flussi che ne facciano esplicita richiesta alla rete",
+      "Protocolli di routing sofisticati per scegliere il percorso di ogni singolo pacchetto in modo da assicurare che esso riceva il servizio di cui necessita"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Relativamente a soluzioni di VPN basate su SSL (Secure Socket Layer), quale di queste affermazioni è falsa? (2208)",
+    "options": [
+      "Non fanno autenticazione dell'header IP",
+      "Hanno delle criticità rispetto ad attacchi DoS",
+      "Utilizzano tunnel basati sul protocollo TCP o UDP",
+      "Esistono soluzioni standard"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "L'importanza di MPLS (multi-protocol label switching) nelle reti odierne e future deriva dalla possibilità di (1979)",
+    "options": [
+      "Realizzare commutatori con supporto specifico per garantire qualità del servizio",
+      "Avere un unico piano di controllo per diverse tencologie di commutazione",
+      "Realizzare apparati in grado di operare senza bisogno di configurazione",
+      "Distribuire il traffico su batterie di server"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Le soluzioni per la realizzazione di VPN (virtual private network) di livello 3 attraverso una dorsale MPLS sono caratterizzate da (1868)",
+    "options": [
+      "Livelli particolarmente alti di sicurezza.",
+      "Elevata scalabilità",
+      "A differenza di tutte le altre soluzioni proposte, non richiedono l'utilizzo di funzionalità di NAT (network address translator) quando si abbia a che fare con indirizzi privati.",
+      "La fornitura di un servizio a qualità garantita al traffico che attraversa la VPN."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Le soluzioni di VPN (virtual private network) di livello 3 basate su MPLS sono caratterizzate da (2036)",
+    "options": [
+      "Livelli particolarmente alti di sicurezza grazie all’utilizzo di tecniche crittografiche",
+      "Buon livello di automatizzazione e integrazione tra la dorsale pubblica e le reti private",
+      "Meccanismi di tunneling di livello 3, ovvero all’interno di pacchetti IP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "indirizzi global unicast aggregatable (1945)",
+    "options": [
+      "Possono essere usati solo dai router",
+      "Possono essere usati solo dagli host",
+      "Sono distribuiti geograficamente in modo gerarchico"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le reti private virtuali (virtual private network, VPN) vengono utilizzate per (1901)",
+    "options": [
+      "Trasportare traffico privato su una infrastruttura condivisa ricreando le stesse condizioni che si avrebbero tramite l'utilizzo di una infrastruttura privata",
+      "Suddividere una rete locale aziendale in una serie di sottoreti separate per le diverse funzioni aziendali (vendite, acquisti, engineering, marketing)",
+      "Partizionare una rete privata (per esempio quella di un'azienda madre con un certo numero di aziende sussidiare) in varie reti virtualmente separate"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Due host collegati ad una rete switch ethernet attraverso porte configurate in modalità Access: (1960)",
+    "options": [
+      "Non possono comunicare",
+      "Se appartengono a VLAN diverse, possono comunicare solo se collegati a switch diversi e il link tra gli switch è configurato in modalità trunk",
+      "possono comunicare solo se appartenenti alla stessa VLAN",
+      "Se appartengono a VLAN diverse, è possibile che riescano a comunicare anche se collegati a switch diversi e le porte degli switch sono configurate in modo access"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "Quale è la funzione dello “scope” associato agli indirizzi IPv6? (1871)",
+    "options": [
+      "Serve a risolvere, in casi particolari, l'ambiguità riguardo il mittente.",
+      "Non esiste uno scope associato agli indirizzi IPv6.",
+      "Serve per poter utilizzare gli indirizzi globali.",
+      "Serve per poter utilizzare gli indirizzi anycast."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "L'autoconfigurazione stateless in IPv6 richiede: (1892)",
+    "options": [
+      "Un server DHCPv6 (Dinamic Host Configuration Protocol version 6).",
+      "Un server presente sulla rete locale.",
+      "Un server presente sulla rete aziendale (intranet).",
+      "È possibile anche se non si è in presenza di server o router."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "L'algoritmo di routing di tipo Distance Vector: (1917)",
+    "options": [
+      "Può causare di fenomeni di “Counting to Infinity” solo in reti che presentano maglie",
+      "Causa sempre fenomeni di “Counting to Infinity” in reti non magliate",
+      "è caratterizzato da una minore possibilità di fenomeni di “Counting to Infinity” in reti che non presentano maglie qualora si faccia uso della tecnica “Split Horizon”",
+      "Il fenomeno di “Counting to Infinity” è proprio delle reti Link State."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La distribuzione delle etichette in MPLS (Multi-Protocol Label Switching) (2202)",
+    "options": [
+      "Può essere operata utilizzando il protocollo RSVP (Resource ReSerVation Protocol)",
+      "Non è necessaria quando i nodi della rete utilizzano il protocollo di routing BGP (Border Gateway Protocol)",
+      "Coinvolge nodi di rete e stazioni",
+      "Può essere fatta implicitamente tramite il protocollo di routing OSPF (Open Shortest Path First)"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "due stazioni A e B hanno rispettivamente 130.192.1.1/25 e 130.192.1.100/24 (2161)",
+    "options": [
+      "comunica direttamente con B e viceversa",
+      "comunica direttamente con A ma non viceversa",
+      "comunica direttamente con B solo attraverso un router",
+      "comunica direttamente con b ma non viceversa"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Nel IPv6 cosa sparisce dalle intestazioni, rispetto a IPv4? (1885)",
+    "options": [
+      "Il tempo di vita del pacchetto.",
+      "Gli indirizzi mittente e destinatario.",
+      "L'indicazione su quale sia l'intestazione successiva.",
+      "Il checksum dell'intestazione."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Si supponga l'esistenza di tre AS (Autonomous System) collegati sequenzialmente (A-B-C). Se l'AS intermedio B vuole impedire che la sua rete venga usato come transito da A verso C: (1928)",
+    "options": [
+      "Deve effettuare il mascheramento delle route verso A",
+      "Deve impostare una access list (“packet filtering”) all'ingresso del suo dominio che scarta tutti i pacchetti in ingresso da A verso C",
+      "Deve impostare il mascheramento delle route verso A e una access list all'ingresso del suo dominio sui pacchetti provenienti da A e diretti a C",
+      "L'AS B non può bloccare il traffico, in quanto ogni AS deve fornire il transito agli AS a lui adiacenti"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "BGP"
+  },
+  {
+    "text": "Il protocollo RIP prevede meccanismi per ridurre la possibilità di verificarsi di loop: (1930)",
+    "options": [
+      "Attraverso l'analisi dei pacchetti in transito e l'identificazione di quelli che passano più di una volta dallo stesso router",
+      "Per mezzo di processi di “traceroute” attivati periodicamente",
+      "Attraverso meccanismi di “Split-Horizon” e di “Hold-Down”",
+      "Nessuna delle risposte precedenti"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "In una stazione utente collegata ad una VPN con accesso centralizzato, i messaggi diretti a stazioni esterne alla VPN passano attraverso: (1894)",
+    "options": [
+      "Il sito della VPN a cui la macchina utente è collegata.",
+      "Non è possibile raggiungere stazioni esterne alla VPN.",
+      "Un router specializzato per questi pacchetti.",
+      "Vengono inviati direttamente dalla stazione utente al destinatario esterno."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "La caratteristica di una VPN di accesso centralizzata è che (1883)",
+    "options": [
+      "Il traffico non diretto alla VPN viene fatto passare comunque attraverso il VPN gateway.",
+      "L'autenticazione dell'utente per l'accesso alla VPN viene delegato all'ISP.",
+      "Il traffico non diretto alla VPN non è costretto a passare attraverso il VPN gateway.",
+      "L'autenticazione dell'utente non viene fatta dal VPN gateway."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching) (1880)",
+    "options": [
+      "Sono ottenuti riservando risorse nei nodi di rete in modo da garantire opportuna qualità del servizio alle applicazioni che li hanno creati.",
+      "Costituiscono il percorso più breve verso una destinazione.",
+      "Vengono creati (set up) dalle applicazioni per il trasporto di pacchetti appartenenti ad una classe di equivalenza di inoltro (forwarding equivalence class, FEC).",
+      "Vengono creati dai nodi di rete che si accordano sulle etichette da utilizzare per i pacchetti appartenenti ad una classe di equivalenza di inoltro (forwarding equivalence class, FEC)."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Il protocollo RIP `e imbustato: (2169)",
+    "options": [
+      "Direttamente in IP, per limitare la dimensione dei pacchetti di routing",
+      "Direttamente in IP, per consentire la trasmissione in broadcast dei pacchetti",
+      "In UDP, per consentire la trasmissione in broadcast dei pacchetti",
+      "In UDP, per questioni principalmente legate alla maggiore semplicità di sviluppo del software"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La combinazione di meccanismi di secchiello dei token (o secchio bucato) e Weighted Fair Queueing (WFQ) serve a garantire: (1908)",
+    "options": [
+      "Un tempo di attraversamento massimo di un router.",
+      "Un tempo di attraversamento massimo di un NAT.",
+      "Una banda massima per ogni flusso di pacchetti.",
+      "Un burst massimo di pacchetti consecutivi, per ciascun flusso."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "La procedura di Neighbor Discovery in IPv6 (1966)",
+    "options": [
+      "E’ basata su un pacchetto ICMPv6 inviato in multicast",
+      "E’ basata su un pacchetto ICMPv6 inviato in broadcast",
+      "E’ basata su ARPv6",
+      "Richiede che la rete supporti anche IPv4"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Cos'è l'effetto ping-pong? (2193)",
+    "options": [
+      "Il proporre la cella di sgancio come cella di aggancio",
+      "Il rimbalzo dei segnali all'interno di una cella",
+      "Un modo alternativo per definire il concetto di handover"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Un Host A ha indirizzo 192.168.1.1/24 e un Host B 192.168.1.129/25. (1942)",
+    "options": [
+      "Entrambi possono comunicare direttamente l’uno con l’altro.",
+      "A può comunicare direttamente con B ma non viceversa.",
+      "A ha bisogno di un router per comunicare con B",
+      "Non possono comunicare."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "vantaggio fibra ottica (1952)",
+    "options": [
+      "maggiore velocità nelle trasmissioni sul canale",
+      "switch ottici performanti e bassa complessità"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Optical Networks"
+  },
+  {
+    "text": "fixing cell size G and DECREASING radius R (2152)",
+    "options": [
+      "capacity increase",
+      "capacity decrease",
+      "capacity remains same"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "L'indirizzo IPv6 2001:4600::0201:06FF:FEA5:3A4C è: (2207)",
+    "options": [
+      "Un indirizzo di tipo privato",
+      "Un indirizzo utilizzabile da un server per offrire un servizio sulla Internet pubblica IPv6",
+      "Un indirizzo utilizzabile da un host unicamente per effettuare delle comunicazioni con un altro host sullo stesso link",
+      "Un indirizzo al momento non valido in IPv6"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "In MPLS, il protocollo per l’assegnazione delle Label è: (1951)",
+    "options": [
+      "OSPF",
+      "RSVP-TE",
+      "IS-IS",
+      "L2TP"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "In una rete IPV4 (1962)",
+    "options": [
+      "Una stazione è raggiunta da un pacchetto multicast relativo a un particolare gruppo solo se iscritta a quel gruppo, qualunque sia la tecnologia di liv 2 utilizzata",
+      "Una stazione può essere raggiunta da un pacchetto multicast relativo ad un particolare gruppo anche se non è iscritta a quel gruppo",
+      "Una stazione non è in grado di comprendere un pacchetto IPV4 multicast",
+      "Una stazione consegna sempre al livello applicazione tutti i multicast ricevuti"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "Un Neutral Access Point `e una particolare rete in cui: (2166)",
+    "options": [
+      "Più Autonomous System collegano, a livello 2, un certo numero di router in modo scambiarsi le informazioni di routing",
+      "Più Autonomous System collegano, a livello 3, un certo numero di router in modo scambiarsi le informazioni di routing",
+      "Un Autonomous System collega, a livello 2, un certo numero di router in modo da velocizzare lo scambio delle informazioni di routing all’interno del dominio",
+      "Un Autonomous System collega, a livello 3, un certo numero di router in modo da velocizzare lo scambio delle informazioni di routing all’interno del dominio"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Network Architecture"
+  },
+  {
+    "text": "Gli indirizzi IPv6 di tipo Site Local (2027)",
+    "options": [
+      "Sono impostati automaticamente dalle stazioni per le comunicazioni on-link",
+      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale",
+      "Non esistono",
+      "Sono deprecati ma possono comunque essere utilizzati"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Il termine “Peering” si riferisce a: (1926)",
+    "options": [
+      "Il punto di collegamento tra due router di due Internet Service Provider diversi",
+      "Lo scambio di informazioni tra un router e una stazione utilizzando un protocollo di routing",
+      "Lo scambio di informazioni tra due router OSPF collegati da un virtual link",
+      "Lo scambio di informazioni tra due router OSPF della stessa area"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "In una interfaccia radio, tra le tante funzioni il MAC layer (2196)",
+    "options": [
+      "Permette il controllo del flusso",
+      "Permette l'accesso al canale",
+      "Esegue la negoziazione e il controllo del QoS",
+      "Nessuna delle precedenti"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "La modalità di funzionamento “Tunnel mode” di IPsec prevede che venga criptato (1961)",
+    "options": [
+      "Esclusivamente l’intestazione TCP/UDP e il payload",
+      "Solo il payload del pacchetto interno",
+      "L’intestazione IP, l’intestazione TCP/UDP e il payload del pacchetto interno",
+      "Tutto il pacchetto esterno, inclusa l’intestazione IP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Gli indirizzi link-local (1887)",
+    "options": [
+      "Sono validi all'interno di una organizzazione che li può utilizzare per assegnare indirizzi alle macchine nelle varie sottoreti della propria intranet (sono gli omologhi degli indirizzi privati di IPv4).",
+      "Non possono essere assegnati ai router.",
+      "Sono normalmente costruiti automaticamente dalla stazione a partire dall'indirizzo MAC della propria scheda, a cui si pre-pende un prefisso predefinito.",
+      "Vengono utilizzati per identificare macchine che svolgono un certo servizio (ad esempio server DNS)."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (1943)",
+    "options": [
+      "192.168.0.0/23",
+      "192.168.1.0/23",
+      "0.0.0.0/0",
+      "Non sono aggregabili."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Le soluzioni di VPN (virtual private network) di livello 3 attraverso una dorsale MPLS sono caratterizzate da (1881)",
+    "options": [
+      "Livelli particolarmente alti di sicurezza grazie all'utilizzo di tecniche crittografiche.",
+      "Buon livello di automatizzazione e integrazione tra la dorsale pubblica e le reti private.",
+      "Meccanismi di tunneling di livello 3, ovvero all'interno di pacchetti IP.",
+      "Gestione diretta da parte dell'utente, senza intervento dell'operatore."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Un Network Provider considerato “Tier-1”: (1929)",
+    "options": [
+      "Dispone di una sola interconnessione verso un altro Autonomous System di tipo Tier-1",
+      "è un Autonomous System collegato ad altri AS Tier-1 solamente con connessioni di tipo “Peering”, ossia non a pagamento",
+      "è un Autonomous System collegato ad altri AS Tier-1 prevalentemente con connessioni di tipo “Peering”, ossia non a pagamento",
+      "è un Autonomous System collegato ad altri AS Tier-1 prevalentemente con connessioni di tipo “transit”, ossia a pagamento"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Network Architecture"
+  },
+  {
+    "text": "La tecnica di “Split Horizon”: (1919)",
+    "options": [
+      "Prevede che le route ricevute negli annunci di un router vicino vengano sempre annunciate a quel vicino con metrica pari a infinito",
+      "Prevede che un prefisso non venga annunciato al vicino che rappresenta il “next hop” verso quella destinazione",
+      "Prevede che una destinazione venga dichiarata irraggiungibile nel momento in cui il costo supera una certa soglia di infinito.",
+      "Nessuna delle risposte precedenti"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "redistribuzione nel contesto dei protocolli di routing consiste nel (2146)",
+    "options": [
+      "distribuire la tabella di routing su più dispositivi in modo da ridurre l'occupazione di memoria su ogni dispositivo",
+      "redistribuire il traffico su più percorsi alternativi per sfruttare a pieno le risorse di rete ed evitare la congestione su percorsi specifici",
+      "comunicare tramite un protocollo di routing route acquisite con un altro, per quanto questo risulti in una perdita di informazione",
+      "apprendere come raggiungere le destinazioni senza dover scambiare informazioni di routing con altri computer"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Gli indirizzi IPv6 di tipo Private (1967)",
+    "options": [
+      "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale",
+      "Vengono usati solo per le comunicazioni on-link",
+      "Vengono usati solo sui router",
+      "Vengono utilizzati per collegare reti private attraverso una rete pubblica"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "In che modo MPLS può essere utilizzato per realizzare una VPN? (1873)",
+    "options": [
+      "Per realizzare una VPN di accesso.",
+      "MPLS non può essere usato per realizzare VPN.",
+      "Può fornire tutto il meccanismo di instradamento in reti overlay o dei collegamenti punto-a-punto in reti peer.",
+      "Può fornire collegamenti punto-a-punto in reti overlay o tutto il meccanismo di instradamento in reti peer."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Quanti tipi di bursts esistono? (2180)",
+    "options": [
+      "3: Regular, Access and Synchronization",
+      "2: Regular and Access",
+      "5: Regular, Access, Synchronization, Frequency Correction and Dummy",
+      "1: Regular"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Per il supporto dei prefissi di rete a lunghezza variabile in una zona della rete in cui sia utilizzato routing dinamico: (2168)",
+    "options": [
+      "La netmask associata al prefisso deve essere fornita ai router in fase di configurazione (con il comando “network” sui router Cisco)",
+      "La netmask viene dedotta automaticamente dalla classe degli indirizzi utilizzati",
+      "Le informazioni di routing scambiate tra i router devono includere la subnet mask associata ad ogni prefisso annunciato",
+      "E obbligatorio l’utilizzo dei protocolli OSPF o BGP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La differenza tra gli algoritmi di instradamento di tipo link state e distance vector si può riassumere come segue (2031)",
+    "options": [
+      "Gli algoritmi link state inviano informazioni sulla rete nella sua interezza a tutti i nodi della rete; gli algoritmi distance vector inviano informazioni sulla topologia locale solo ai nodi vicini",
+      "Gli algoritmi link state inviano informazioni sulla topologia locale solo ai nodi vicini; gli algoritmi distance vector inviano informazioni sulla rete nella sua interezza a tutti i nodi",
+      "Gli algoritmi link state inviano informazioni sulla topologia locale a tutti i nodi della rete; gli algoritmi distance vector inviano informazioni sulla rete nella sua interezza solo ai nodi vicini"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La principale limitazione del protocollo di routing RIP rispetto all'IGRP è che: (1931)",
+    "options": [
+      "Essendo il RIP proprietario non è disponibile su tutti i router",
+      "La metrica del RIP è meno indicativa, rispetto a quella dell'IGRP, del reale grado di preferibilità di un percorso di rete rispetto ad altri",
+      "Non permette, a differenza dell'IGRP, il routing gerarchico",
+      "è un protocollo di tipo Distance Vector, quindi meno scalabile dell'IGRP (Link State)"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Nella soluzione DS-Lite per la transizione IPv4-IP6 (2029)",
+    "options": [
+      "La funzionalità di NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP",
+      "La funzionalità di NAT è realizzata sul CPE dell’utente",
+      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP",
+      "Non è prevista la funzionalità di NAT"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "E' possibile l'instaurazione di un loop in una rete che utilizza un routing di tipo Link State? (1922)",
+    "options": [
+      "Si",
+      "No, perché ogni router ha una visione completa della topologia della rete",
+      "No, perché gli aggiornamenti del Link State vengono inviati in flooding",
+      "No, perché viene usato un Hold-Down timer"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "In Diffserv, una “Classe di Servizio” identifica: (1978)",
+    "options": [
+      "Un set di pacchetti che appartengono alla stessa sessione V oIP",
+      "Un set di pacchetti che ricevono lo stesso trattamento da parte del router (ad esempio, tutto il traffico V oIP)",
+      "Una modalità operativa dei router di bordo, che devono classificare e marcare i pacchetti in arrivo"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Nella soluzione DS-Lite per la transizione IPV4-IPV6 (1958)",
+    "options": [
+      "non è prevista la funzionalità di NAT",
+      "La funzionalità di NAT è realizzata sul CPE dell’utente",
+      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP",
+      "La funzionalità del NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "La modalità di funzionamento “Tunnel mode” di IPsec prevede che vanga criptato: (2035)",
+    "options": [
+      "Solo il payload del pacchetto interno",
+      "L’intestazione IP, l’intestazione TCP/UDP e il payload del pacchetto interno",
+      "Esclusivamente l’intestazioneTCP/UDP e il payload",
+      "Tutto il pacchetto esterno, inclusa l’intestazione IP."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in: (1964)",
+    "options": [
+      "130.192.0.0/23",
+      "130.192.2.0/23",
+      "Non sono aggregabili",
+      "130.192.0.0/22"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "In MPLS, il protocollo per l'assegnazione delle label è: (2153)",
+    "options": [
+      "OSPF",
+      "RSVP-TE",
+      "IS-IS",
+      "L2TP"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "uno dei motivi che sta favorendo la diffusione di ipv6 è (2156)",
+    "options": [
+      "scarsità indirizzi MAC",
+      "possibile inefficienza dell'indirizzamento ipv4 privato",
+      "necessità sempre più diffusa di utilizzare applicazioni multicast",
+      "scarsa attitudine degli operatori a modificare la configurazione delle proprie reti"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "In quale situazione è possibile che un pacchetto abbia due intestazioni IP? (1893)",
+    "options": [
+      "Il pacchetto ha attraversato un firewall in ingresso.",
+      "Il pacchetto è nella rete pubblica, dopo aver attraversato in uscita un NAT.",
+      "Il pacchetto è nella rete pubblica, dopo aver attraversato in uscita un firewall.",
+      "Il pacchetto è nella rete pubblica in transito su un tunnel IP che collega due segmenti di una VPN basata su IP."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Tunneling"
+  },
+  {
+    "text": "Nel protocollo IPv6: (1884)",
+    "options": [
+      "I protocolli di routing (ad esempio il formato dei pacchetti) non cambiano rispetto ad IPv4.",
+      "Il protocollo ARP viene inglobato in ICMPv6, ma mantiene esattamente lo schema di funzionamento (richiesta broadcast, risposta unicast) precedente.",
+      "Esiste la possibilità, per una stazione su un segmento di rete, di autoconfigurarsi attraverso l'ascolto di messaggi di Router Advertisement.",
+      "Come IPv4, IPv6 non prevede meccanismi di riconfigurazione dei router."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Il Multipath routing: (2175)",
+    "options": [
+      "è supportato dalle maggiori implementazioni di RIP",
+      "Permette ai router di utilizzare percorsi multipli durante i transitori sulla rete, così da velocizzare la diffusione delle informazioni di routing e diminuire la durata del transitorio",
+      "Pu`o essere causa di loop se si ammette che i percorsi utilizzati possano avere costi differenti",
+      "E consigliato solamente se il traffico dati `e composto prevalentemente da pacchetti TCP"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "la più piccola aggregazione che può contenere le due reti IP 130.192.0.0/25 e 130.192.1.0/25 (2159)",
+    "options": [
+      "130.192.1.0/23",
+      "130.192.0.0/24",
+      "130.192.1.0/24",
+      "130.192.0.0/23"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Nel routing isolato: (1916)",
+    "options": [
+      "Ogni router calcola, attraverso scambi di messaggi con i soli vicini, la propria tabella di routing",
+      "Ogni router calcola, attraverso scambi di messaggi con tutti i router nella rete, la propria tabella di routing",
+      "Ogni router calcola, analizzando solamente il traffico che lo attraversa, la propria tabella di routing",
+      "Alcune porzioni della rete vengono isolate dai rimanenti router, impedendo il transito di dati tra la porzione pubblica della rete e quella isolata"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La procedura di Neighbor Discovery in IPv6 (2026)",
+    "options": [
+      "E’ basata su un pacchetto ICMPv6 inviato in multicast",
+      "E’ basata su un pacchetto ICMPv6 inviato in broadcast",
+      "E’ basata su ARPv6",
+      "Richiede che la rete supporti anche IPv4"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "La redistribuzione: (1924)",
+    "options": [
+      "è quel processo che va abilitato sul router per far sì che riesca a smistare i pacchetti verso l'opportuna destinazione",
+      "è utilizzata per lo scambio di informazioni tra un router interno (interior gateway) ed un router esterno (exterior gateway) che usa il protocollo BGP",
+      "Viene utilizzata soprattutto dai domini di routing periferici, che si collegano ad un solo Internet service provider per l'accesso ad Internet",
+      "è utilizzata per permettere il passaggio delle informazioni di routing da un dominio di routing A ad un dominio di routing B"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "La tecnica di forwarding “Label Swapping”: (1911)",
+    "options": [
+      "Non è adatta qualora si abbia la necessità di fornire garanzie di qualità del servizio nell'inoltro dei pacchetti",
+      "Prevede che un pacchetto dati mantenga la stessa etichetta (“label”) per tutto il percorso dal nodo sorgente a quello destinazione",
+      "Richiede che tutti i nodi presenti sul percorso condividano esattamente la stessa tabella di forwarding",
+      "Può richiedere una fase di “Path Setup” per la determinazione del percorso"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Un Neutral Access Point `e una particolare rete in cui: (2167)",
+    "options": [
+      "Tutti gli apparati sono collegati mediante l’utilizzo di un router centrale ad alte prestazioni, dotato di interfacce di rete multiple",
+      "I vari AS si scambiano il traffico in modalità “peering”, ossia non a pagamento",
+      "Il collegamento tra gli apparati è realizzato a livello 2",
+      "Ogni router collegato vede a livello 3 tutti gli altri router presenti sulla rete ed in grado di effettuare peering con ognuno di essi"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Network Architecture"
+  },
+  {
+    "text": "li indirizzi in IPv6 di tipo Site Local (1957)",
+    "options": [
+      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale",
+      "Sono deprecati ma possono essere comunque usati",
+      "Non esistono",
+      "Sono impostati automaticamente dalle stazioni per la comunicazione on-link"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "1. Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24 (2024)",
+    "options": [
+      "A comunica direttamente con B e viceversa",
+      "A comunica direttamente con B ma non viceversa",
+      "A comunica con B solo attraverso un router",
+      "A non può comunicare con B"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "Le entry del filtering database di uno switch Ethernet (1969)",
+    "options": [
+      "Hanno tutte validità temporale infinita",
+      "Hanno una validità temporale generalmente impostabile dall’amministratore dello switch",
+      "Hanno tutte validità temporale inferiore al secondo per poter gestire al meglio gli spostamenti dei dispositivi",
+      "Hanno una validità temporale che varia nel tempo, in base al numero di trame ricevute"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "Un Autonomous System è: (1927)",
+    "options": [
+      "Un calcolatore in grado di autoconfigurarsi",
+      "Una zona di una rete IP amministrata, soprattutto da punto di vista del routing, autonomamente dalle altre e con delle connessioni con almeno altri due Autonomous System",
+      "Un dispositivo di rete in grado di scoprire autonomamente la strada migliore lungo cui inoltrare pacchetti per le destinazioni",
+      "La rete di un ISP"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Network Architecture"
+  },
+  {
+    "text": "Il protocollo di routing OSPF sceglie il percorso verso una destinazione tenendo conto di: (1933)",
+    "options": [
+      "Lunghezza di ciascun link lungo il percorso",
+      "Banda e ritardo per ogni link",
+      "Può essere configurato ad utilizzare svariate metriche la cui semantica viene stabilita dal gestore della rete",
+      "Hop Count"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Quali di queste tecnologie è più adatta a gestire percorsi multipli verso la stessa destinazione (“multipath”)? (1913)",
+    "options": [
+      "Forwarding by network address",
+      "Label Swapping e Source Routing",
+      "Label Swapping",
+      "Source Routing"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Data una certa LAN su cui sono state definite delle VLAN, una frame broadcast: (1947)",
+    "options": [
+      "Raggiunge possibilmente solo una porzione della LAN",
+      "Raggiunge tutti gli host della LAN"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "VLAN"
+  },
+  {
+    "text": "Gli LSP (label switched path) nell’architettura MPLS (multi-protocol label switching): (2034)",
+    "options": [
+      "Rappresentano percorsi alternativi mantenuti nella tabella di un router per l’inoltro di pacchetti verso una destinazione",
+      "Vengono scambiati dai router per costruire una mappa della rete",
+      "Costituiscono il percorso più breve verso una destinazione",
+      "Vengono creati (set up) per il trasporto di pacchetti appartenenti ad una classe di equivalenza di inoltro (forwarding equivalence class, FEC)"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Un LSA Router Link del protocollo OSPF descrive: (2170)",
+    "options": [
+      "Un link che connette l’advertising router con uno dei router ad esso adiacenti",
+      "Un riassunto delle reti raggiungibili",
+      "La lista dei router connessi in una LAN",
+      "Il valore corrente dei parametri (carico della CPU, carico sul link, uptime, etc.) relativi ad un link tra due router"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "OSPF"
+  },
+  {
+    "text": "Il protocollo di routing BGP: (1938)",
+    "options": [
+      "Utilizza regole (policy) su informazioni aggiuntive a metriche di costo per identificare il “migliore” per raggiungere una destinazione",
+      "è utilizzato esclusivamente per scambi di informazioni tra router di autonomous system differenti",
+      "è utilizzato esclusivamente per scambi di informazioni tra router dello stesso autonomous system",
+      "è il protocollo che andrà a sostituire OSPF"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "BGP"
+  },
+  {
+    "text": "LTE uses which channel access? (2151)",
+    "options": [
+      "fdma",
+      "cdma",
+      "ofdma",
+      "tdma"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "La qualità del servizio può essere garantita sulle reti a pacchetto quando (2049)",
+    "options": [
+      "I pacchetti siano trasportati da un'infrastruttura a commutazione di cella (per esempio ATM)",
+      "I nodi di rete mettano in atto opportuni meccanismi che regolano il servizio dei pacchetti (per esempio algoritmi di scheduling)",
+      "Le applicazioni siano in grado di codificare le informazioni da trasferire secondo livelli (layer) di importanza differente"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Un Host A ha indirizzo 192.168.1.1/24 e un Host B 192.168.1.129/25. (2040)",
+    "options": [
+      "A) Entrambi possono comunicare direttamente l’uno con l’altro.",
+      "B) A può comunicare direttamente con B ma non viceversa.",
+      "C) A ha bisogno di un router per comunicare con B",
+      "D) Non possono comunicare."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "IP Addressing"
+  },
+  {
+    "text": "In riferimento agli Short Message Service (SMS), se il Mobile Terminal è off: (2192)",
+    "options": [
+      "la rete GSM informa la rete e memorizza il messaggio, che verrà inviato quando il MT diventa on",
+      "si utilizza SDCCH per recapitare il messaggio",
+      "si utilizza SACCH per recapitare il messaggio",
+      "il messaggio non può essere inviato"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Quale di queste tecniche non è una soluzione per la transizione IPv4-IPv6? (2028)",
+    "options": [
+      "6over4",
+      "6to4",
+      "6mixt4",
+      "Teredo"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Due trame ethernet possono collidere per quale motivo? (1954)",
+    "options": [
+      "Switched full duplex",
+      "Switched half duplex",
+      "Per colpa della coda nei buffer dello switch",
+      "Capita spesso a causa della contesa del canale"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "La tecnica di forwarding “Source Routing”: (1912)",
+    "options": [
+      "Prevede l'utilizzo di client (“host”) molto semplici e di nodi intermedi (“router”) molto complessi",
+      "è adatta quando si vuole minimizzare il numero di bytes necessari per le operazioni di instradamento e presenti in ogni pacchetto",
+      "Il nodo mittente deve avere una conoscenza (almeno parziale) della topologia di rete",
+      "è la tecnica comunemente utilizzata dal protocollo IP nelle operazioni di forwarding"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Un host IPv6 al reboot, acquisirà il seguente indirizzo: (1905)",
+    "options": [
+      "Non è possibile sapere con precisione l'indirizzo stesso, dal momento che l'indirizzo IPv6 viene ogni volta rigenerato con un numero casuale per quanto riguarda la parte riservata all'Interface ID.",
+      "Un indirizzo FE80::/32",
+      "Per quanto riguarda l'indirizzo link-local, assumera' lo stesso indirizzo IPv6 che possedeva prima del reboot.",
+      "L'indirizzo dipende interamente dalla configurazione che acquisirà dal suo default router."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "L'architettura DiffServ è caratterizzata da: (1898)",
+    "options": [
+      "Un meccanismo per separare il traffico in classi ognuna delle quali può ricevere un servizio specifico in ogni nodo attraversato",
+      "Protocolli di segnalazione sofisticati per la prenotazione delle risorse",
+      "La capacità di fornire servizio a qualità garantita alle applicazioni o flussi che nefacciano esplicita richiesta alla rete",
+      "Protocolli di routing sofisticati per scegliere il percorso di ogni singolo pacchetto in modo da assicurare che esso riceva il servizio di cui necessita"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "topic": "QoS"
+  },
+  {
+    "text": "Il protocollo IS-IS (1976)",
+    "options": [
+      "È un protocollo di routing obsoleto non più utilizzato per via delle sue scarse prestazioni",
+      "È un protocollo di routing basatao sull’algoritmo link state molto utilizzato nelle reti di grosse dimensioni",
+      "È un protocollo usato dagli switch Ethernet per creare un albero di instraramento nella rete (spanning tree) eliminando percorsi chiusi",
+      "È un protocollo evoluzione del BGP per lo scambio di informazioni di routing tra router appartenenti ad autonomous system diversi"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  },
+  {
+    "text": "Nell'algoritmo di routing di tipo Path Vector: (1920)",
+    "options": [
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il next hop router per raggiungere quella destinazione",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il prossimo Autonomous System per raggiungere quella destinazione",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco dei router da attaversare per raggiungere quella destinazione",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco degli Autonomous System da attraversare per raggiungere quella destinazione"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "topic": "Routing"
+  }
 ]

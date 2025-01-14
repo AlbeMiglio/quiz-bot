@@ -3,10 +3,8 @@ import re
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
 
-# Stati della conversazione
 INIT, CUSTOM_NQ, QUIZ = range(3)
 
-# Dizionario dei bottoni
 BUTTONS = {
     "quick_quiz": "Quiz rapido - 5",
     "exam_sim31": "Vecchio Esame - 31",
@@ -18,7 +16,6 @@ def get_main_menu_keyboard():
     """
     Costruisce la tastiera dinamica per il menu iniziale (INIT).
     """
-    # Crea una tastiera con i bottoni definiti in BUTTONS
     button_labels = [[label] for label in BUTTONS.values()]
     return ReplyKeyboardMarkup(button_labels, one_time_keyboard=True, resize_keyboard=True)
 
@@ -26,13 +23,12 @@ def build_main_conversation(bot_instance):
     """
     Definisce il flusso di conversazione con i nuovi stati.
     """
-    # Regex per i bottoni del menu INIT
     button_labels_regex = f"^({'|'.join(BUTTONS.values())})$"
 
     return ConversationHandler(
-        entry_points=[CommandHandler('start', bot_instance.start_command)],
+        entry_points=[CommandHandler('start', bot_instance.start_command),
+                      MessageHandler(Filters.regex(button_labels_regex), bot_instance.handle_button_press)],
         states={
-            # Stato INIT: gestione del menu principale
             INIT: [
                 MessageHandler(Filters.regex(button_labels_regex), bot_instance.handle_button_press),
             ],
