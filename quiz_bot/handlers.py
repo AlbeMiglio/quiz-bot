@@ -1,13 +1,14 @@
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
 
-INIT, CUSTOM_NQ, QUIZ = range(3)
+INIT, CUSTOM_NQ, QUIZ, TOPIC = range(4)
 
 BUTTONS = {
     "quick_quiz": "Quiz rapido - 5",
     "exam_sim31": "Vecchio Esame - 31",
     "exam_sim33": "Esame 24/25 - 33",
     "set_nq": "Imposta numero domande",
+    "select_topic": "Scegli un argomento",
 }
 
 def get_main_menu_keyboard():
@@ -36,6 +37,9 @@ def build_main_conversation(bot_instance):
             QUIZ: [
                 MessageHandler(Filters.regex(r"(?i)^(A|B|C|D|E|F|Skip|Cancel)$"), bot_instance.quiz_ans),
             ],
+            TOPIC: [
+                MessageHandler(Filters.text & ~Filters.command, bot_instance.choose_topic),
+            ],
         },
         fallbacks=[MessageHandler(Filters.regex("Cancel"), bot_instance.cancel_quiz)],
         name="quiz_bot_conversation",
@@ -53,5 +57,13 @@ def make_keyboard_for_question(num_options: int, row_size: int = 2) -> ReplyKeyb
     rows = [letters[i:i + row_size] for i in range(0, len(letters), row_size)]
 
     rows.append(["Skip", "Cancel"])
+
+    return ReplyKeyboardMarkup(rows, one_time_keyboard=True, resize_keyboard=True)
+
+def make_keyboard_for_topics(list_topics) -> ReplyKeyboardMarkup:
+    """
+    Crea una tastiera dinamica per selezionare l'argomento
+    """
+    rows = [[topic] for topic in list_topics]
 
     return ReplyKeyboardMarkup(rows, one_time_keyboard=True, resize_keyboard=True)
