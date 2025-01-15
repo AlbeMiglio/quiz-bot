@@ -97,7 +97,8 @@ class NetworkQuizBot:
         context.user_data["quiz"] = {
             "questions_ids": questions_ids,
             "current_index": 0,
-            "correct_count": 0
+            "correct_count": 0,
+            "wrong_count" : 0
         }
         print(f"User {update.effective_user.username} started a quiz with {n_questions} questions.")
         self._send_question(update, context)
@@ -150,6 +151,7 @@ class NetworkQuizBot:
                 user_quiz["correct_count"] += 1
                 text = "✅ Risposta corretta!"
             else:
+                user_quiz["wrong_count"] += 1
                 text = "❌ Risposta sbagliata!"
 
             text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
@@ -173,6 +175,10 @@ class NetworkQuizBot:
             reply_markup=get_main_menu_keyboard()
         )
         return INIT
+    
+    def calculate_score(self, numOfCorrect, numOfWrong):     
+        score = numOfWrong*(-0.33) + numOfCorrect*(1)
+        return score
 
 
     def finish_quiz(self, update: Update, context: CallbackContext):
@@ -181,15 +187,20 @@ class NetworkQuizBot:
         """
         user_quiz = context.user_data.get("quiz", {})
         correct = user_quiz.get("correct_count", 0)
+        wrong = user_quiz.get("wrong_count", 0)
         total = len(user_quiz.get("questions_ids", []))
+
+        score = self.calculate_score(correct, wrong)
 
         context.user_data["quiz"] = {}
         print(f"User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
         update.message.reply_text(
             f"🏁 Quiz terminato!\n\n"
-            f"✅ Risposte corrette: {correct}/{total}")
+            f"✅ Risposte corrette: {correct}/{total}\n\n"
+            f"👉 Punteggio finale ottenuto: {score}")
         self.show_menu(update, context)
         return INIT
+
 
     def cancel_quiz(self, update: Update, context: CallbackContext):
         """
