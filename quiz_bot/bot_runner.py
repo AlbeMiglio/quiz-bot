@@ -240,6 +240,7 @@ class NetworkQuizBot:
         score = self.calculate_score(correct, wrong)
 
         context.user_data["quiz"] = {}
+        context.user_data["selected_topic"] = None
         print(f"User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
         update.message.reply_text(
             f"🏁 Quiz terminato!\n\n"
@@ -254,6 +255,7 @@ class NetworkQuizBot:
         Annulla il quiz in corso.
         """
         context.user_data["quiz"] = {}
+        context.user_data["selected_topic"] = None
         print(f"User {update.effective_user.username} cancelled the quiz.")
         update.message.reply_text("Quiz annullato.")
         return self.show_menu(update, context)
