@@ -1,3 +1,6 @@
+import datetime
+import random
+
 from telegram import Update
 from telegram.ext import Updater, CallbackContext, PicklePersistence, CommandHandler, ConversationHandler
 
@@ -121,6 +124,8 @@ class NetworkQuizBot:
             list_topics = self.quiz_manager.extract_list_of_all_topics()
             if selected_topic in list_topics:
                 context.user_data["selected_topic"] = selected_topic
+                current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                print(f"[{current_time}] User {update.effective_user.username} selected topic: {selected_topic}")
                 self.reply_to_choose_nq(update, context)
                 return CUSTOM_NQ
             else:
@@ -143,11 +148,13 @@ class NetworkQuizBot:
 
         context.user_data["quiz"] = {
             "questions_ids": questions_ids,
+            "current_question_scramble_map": {},
             "current_index": 0,
             "correct_count": 0,
             "wrong_count" : 0
         }
-        print(f"User {update.effective_user.username} started a quiz with {n_questions} questions.")
+        current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        print(f"[{current_time}] User {update.effective_user.username} started a quiz with {n_questions} questions.")
         self._send_question(update, context)
 
     def _send_question(self, update: Update, context: CallbackContext):
@@ -166,9 +173,21 @@ class NetworkQuizBot:
         q_id = q_ids[idx]
         q = self.quiz_manager.get_question_data(q_id)
         text = q.text
-        options = q.options
+        scrambled_options_map = user_quiz["current_question_scramble_map"]
+        if not scrambled_options_map:
+            scrambled_options_map = {}
+        scrambled_options_map.clear()
+        answers_set = [i for i in range(len(q.options))]
+        cnt = 0
+        while cnt < len(q.options):
+            i = random.randint(0, len(answers_set)-1)
+            val = answers_set.pop(i)
+            scrambled_options_map[cnt] = val
+            cnt += 1
+        user_quiz["current_question_scramble_map"] = scrambled_options_map
+        options = [q.options[scrambled_options_map[i]] for i in range(len(q.options))]
         text = f"Domanda {idx + 1}/{len(q_ids)}:\n{text}"
-        msg = f"{text}\n\n" + "\n".join([f"{chr(65+i)}) {opt}" for i, opt in enumerate(options)])
+        msg = f"{text}\n\n" + "\n\n".join([f"{chr(65+i)}) {opt}" for i, opt in enumerate(options)])
         update.message.reply_text(msg, reply_markup=make_keyboard_for_question(len(options)))
 
     def quiz_ans(self, update: Update, context: CallbackContext):
@@ -192,7 +211,7 @@ class NetworkQuizBot:
             if chosen_option < 0 or chosen_option >= len(q.options):
                 update.message.reply_text("Opzione non valida. Riprova!", reply_markup=make_keyboard_for_question(len(q.options)))
                 return QUIZ
-            is_correct = self.quiz_manager.check_answer(q_id, chosen_option)
+            is_correct = self.quiz_manager.check_answer(q_id, chosen_option, user_quiz["current_question_scramble_map"])
 
             if is_correct:
                 user_quiz["correct_count"] += 1
@@ -200,14 +219,16 @@ class NetworkQuizBot:
             else:
                 user_quiz["wrong_count"] += 1
                 text = "❌ Risposta sbagliata!"
+                text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
 
-            text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
             verified = q.verified
             expl = q.explanation if verified else "Spiegazione non disponibile."
             text += f"\n\nCommento: {expl}"
             text = self._escape_markdown(text)
             update.message.reply_text(text, parse_mode="MarkdownV2")
-            print(f"User {update.effective_user.username} answered {ans} for question {q_id}. Correct: {is_correct}")
+
+            current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+            print(f"[{current_time}] User {update.effective_user.username} answered {ans} for question {q_id}. Correct: {is_correct}")
             user_quiz["current_index"] += 1
 
         self._send_question(update, context)
@@ -223,7 +244,7 @@ class NetworkQuizBot:
         )
         return INIT
     
-    def calculate_score(self, numOfCorrect, numOfWrong):     
+    def _calculate_score(self, numOfCorrect, numOfWrong):
         score = numOfWrong*(-0.33) + numOfCorrect*(1)
         return score
 
@@ -237,14 +258,15 @@ class NetworkQuizBot:
         wrong = user_quiz.get("wrong_count", 0)
         total = len(user_quiz.get("questions_ids", []))
 
-        score = self.calculate_score(correct, wrong)
+        score = self._calculate_score(numOfCorrect=correct, numOfWrong=wrong)
 
         context.user_data["quiz"] = {}
-        print(f"User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
+        current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        print(f"[{current_time}] User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
         update.message.reply_text(
             f"🏁 Quiz terminato!\n\n"
             f"✅ Risposte corrette: {correct}/{total}\n\n"
-            f"👉 Punteggio finale ottenuto: {score}")
+            f"👉 Punteggio finale ottenuto: {score:.2f}")
         self.show_menu(update, context)
         return INIT
 

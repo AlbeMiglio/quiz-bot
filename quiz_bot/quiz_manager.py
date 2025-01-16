@@ -31,10 +31,13 @@ class QuizManager:
         available_questions = [k for k in self.questions_db.keys() if k not in exclude]
         return random.sample(available_questions, min(n, len(available_questions)))
 
-    def check_answer(self, question_id: int, answer_index: int) -> bool:
+    def check_answer(self, question_id: int, answer_index: int, scramble_map: dict) -> bool:
         """Verifica se l'indice scelto corrisponde alla risposta corretta."""
         question = self.questions_db.get(question_id)
-        return question and question.correct_index == answer_index
+        ans = answer_index
+        if scramble_map:
+            ans = scramble_map.get(answer_index)
+        return question and question.correct_index == ans
 
     def get_question_data(self, question_id: int) -> Question:
         """Ritorna i dettagli della domanda."""
