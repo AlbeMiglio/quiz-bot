@@ -219,7 +219,11 @@ class NetworkQuizBot:
             else:
                 user_quiz["wrong_count"] += 1
                 text = "❌ Risposta sbagliata!"
-                correct = user_quiz["current_question_scramble_map"][q.correct_index]
+                correct = -1
+                for fake_idx, real_idx in user_quiz["current_question_scramble_map"].items():
+                    if real_idx == q.correct_index:
+                        correct = fake_idx
+                        break
                 text += f"\n\nRisposta corretta: ||{chr(correct + ord('A'))}||"
 
             verified = q.verified
