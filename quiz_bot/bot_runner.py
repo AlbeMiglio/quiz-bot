@@ -219,7 +219,8 @@ class NetworkQuizBot:
             else:
                 user_quiz["wrong_count"] += 1
                 text = "❌ Risposta sbagliata!"
-                text += f"\n\nRisposta corretta: ||{chr(ord('A') + q.correct_index)}||"
+                correct = user_quiz["current_question_scramble_map"][q.correct_index]
+                text += f"\n\nRisposta corretta: ||{chr(correct + ord('A'))}||"
 
             verified = q.verified
             expl = q.explanation if verified else "Spiegazione non disponibile."
@@ -261,6 +262,7 @@ class NetworkQuizBot:
         score = self._calculate_score(numOfCorrect=correct, numOfWrong=wrong)
 
         context.user_data["quiz"] = {}
+        context.user_data["selected_topic"] = None
         current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         print(f"[{current_time}] User {update.effective_user.username} finished the quiz. Correct: {correct}/{total}")
         update.message.reply_text(
@@ -276,6 +278,7 @@ class NetworkQuizBot:
         Annulla il quiz in corso.
         """
         context.user_data["quiz"] = {}
+        context.user_data["selected_topic"] = None
         print(f"User {update.effective_user.username} cancelled the quiz.")
         update.message.reply_text("Quiz annullato.")
         return self.show_menu(update, context)
