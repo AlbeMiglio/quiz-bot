@@ -144,7 +144,7 @@
       "Memorizza nei Path Vectors il prossimo Autonomous System da attraversare per raggiungere una data rete di destinazione",
       "Memorizza nei Path Vectors il prossimo router da attraversare per raggiungere una data rete di destinazione"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "verified": false,
     "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
     "topic": "BGP"
@@ -176,7 +176,7 @@
     "topic": "Routing"
   },
   {
-    "text": "per l'instaurazione di un LSB è indispensabile che (2160)",
+    "text": "Per l'instaurazione di un LSP è indispensabile che (2160)",
     "options": [
       "tutti i link sul percorso utilizzino lo stesso protocollo di livello due",
       "i router mpls sul percorso utilizzino lo stesso protocollo per la distribuzione delle etichette",
@@ -618,9 +618,9 @@
       "Possono comunicare solo se appartenenti alla stessa VLAN, qualsiasi sia la configurazione della rete.",
       "Non possono comunicare utilizzando un router in quanto connessi allo stesso switch."
     ],
-    "correct_index": 2,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: C. Gli host possono comunicare solo se appartengono alla stessa VLAN. Fonte: ChatGPT.",
+    "explanation": "",
     "topic": "Ethernet"
   },
   {
@@ -1454,18 +1454,6 @@
     "correct_index": 1,
     "verified": false,
     "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
-    "topic": "VPN"
-  },
-  {
-    "text": "Le soluzioni di VPN (virtual private network) di livello 3 basate su MPLS sono caratterizzate da (2036)",
-    "options": [
-      "Livelli particolarmente alti di sicurezza grazie all’utilizzo di tecniche crittografiche",
-      "Buon livello di automatizzazione e integrazione tra la dorsale pubblica e le reti private",
-      "Meccanismi di tunneling di livello 3, ovvero all’interno di pacchetti IP"
-    ],
-    "correct_index": 2,
-    "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
     "topic": "VPN"
   },
   {
