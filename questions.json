@@ -27,12 +27,7 @@
   },
   {
     "text": "Un protocollo usato in MPLS per la distribuzione delle label è:",
-    "options": [
-      "OSPF",
-      "IS-IS",
-      "RIP",
-      "BGP"
-    ],
+    "options": ["OSPF", "IS-IS", "RIP", "BGP"],
     "correct_index": 3,
     "verified": true,
     "explanation": "BGP (Border Gateway Protocol) è usato per distribuire le etichette nella dorsale MPLS",
@@ -61,7 +56,7 @@
     "correct_index": 3,
     "verified": true,
     "explanation": "La macrodiversity è una tecnica di comunicazione wireless che sfrutta la presenza di più antenne (LONTANE tra loro) per migliorare la qualità del segnale - UMTS la usa per migliorare la copertura",
-    "topic": "UMTS"
+    "topic": "Mobile Networks"
   },
   {
     "text": "Aumentando il numero di VLAN:",
@@ -616,17 +611,17 @@
     "topic": "QoS"
   },
   {
-    "text": "Due host collegati ad uno switch Ethernet",
+    "text": "Due host collegati ad uno switch Ethernet:",
     "options": [
-      "Possono comunicare solo se appartenenti alla stessa VLAN, qualsiasi sia la configurazione della rete",
-      "Possono comunicare anche se appartenenti a VLAN diverse, dipende dalla configurazione della rete",
-      "Devono poter comunicare sempre senza utilizzare un router intermedio",
+      "Devono poter comunicare sempre senza utilizzare un router intermedio.",
+      "Possono comunicare anche se appartenenti a VLAN diverse, dipende dalla configurazione della rete.",
+      "Possono comunicare solo se appartenenti alla stessa VLAN, qualsiasi sia la configurazione della rete.",
       "Non possono comunicare utilizzando un router in quanto connessi allo stesso switch."
     ],
-    "correct_index": 1,
+    "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
-    "topic": "VLAN"
+    "explanation": "Soluzione: C. Gli host possono comunicare solo se appartengono alla stessa VLAN. Fonte: ChatGPT.",
+    "topic": "Ethernet"
   },
   {
     "text": "Il protocollo RSVP (Resource reSerVation Protocol) è in grado di: (1977)",
@@ -835,12 +830,7 @@
   },
   {
     "text": "Quale di queste tecniche non è una soluzione per la transizione IPV4-IPV6? (1959)",
-    "options": [
-      "6to4",
-      "Teredo",
-      "6over4",
-      "6mix4"
-    ],
+    "options": ["6to4", "Teredo", "6over4", "6mix4"],
     "correct_index": 3,
     "verified": false,
     "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
@@ -1760,12 +1750,7 @@
   },
   {
     "text": "In MPLS, il protocollo per l’assegnazione delle Label è: (1951)",
-    "options": [
-      "OSPF",
-      "RSVP-TE",
-      "IS-IS",
-      "L2TP"
-    ],
+    "options": ["OSPF", "RSVP-TE", "IS-IS", "L2TP"],
     "correct_index": 1,
     "verified": false,
     "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
@@ -2083,12 +2068,7 @@
   },
   {
     "text": "In MPLS, il protocollo per l'assegnazione delle label è: (2153)",
-    "options": [
-      "OSPF",
-      "RSVP-TE",
-      "IS-IS",
-      "L2TP"
-    ],
+    "options": ["OSPF", "RSVP-TE", "IS-IS", "L2TP"],
     "correct_index": 1,
     "verified": false,
     "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
@@ -2354,12 +2334,7 @@
   },
   {
     "text": "LTE uses which channel access? (2151)",
-    "options": [
-      "fdma",
-      "cdma",
-      "ofdma",
-      "tdma"
-    ],
+    "options": ["fdma", "cdma", "ofdma", "tdma"],
     "correct_index": 2,
     "verified": false,
     "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
@@ -2405,12 +2380,7 @@
   },
   {
     "text": "Quale di queste tecniche non è una soluzione per la transizione IPv4-IPv6? (2028)",
-    "options": [
-      "6over4",
-      "6to4",
-      "6mixt4",
-      "Teredo"
-    ],
+    "options": ["6over4", "6to4", "6mixt4", "Teredo"],
     "correct_index": 2,
     "verified": false,
     "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
@@ -2493,5 +2463,135 @@
     "verified": false,
     "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
     "topic": "Routing"
+  },
+  {
+    "text": "In una rete 802.11, al verificarsi di una collisione:",
+    "options": [
+      "il mittente non riceve l'ACK di una trama unicast",
+      "l'Access Point invia una trama Request-To-Send (RTS) agli host coinvolti nella collisione",
+      "il mittente riceve un ACK negativo (NACK) dall'Access Point",
+      "il ricevitore invia una trama Request-To-Send (RTS) al mittente per segnalare la collisione"
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Nelle reti 802.11, la collisione viene dedotta dalla mancata ricezione dell'ACK. Fonte: ChatGPT.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Relativamente a soluzioni di VPN (Virtual Private Network) quali di queste affermazioni è corretta?",
+    "options": [
+      "Nelle soluzioni Provider provisioned l'autenticazione dei pacchetti risulta obbligatoria",
+      "Nelle soluzioni Customer provisioned le VPN utilizzate sono di tipo SSL",
+      "Nelle soluzioni Customer provisioned tutte le funzionalità delle VPN sono a carico del Customer",
+      "Nelle soluzioni Overlay Mode il Routing è sempre ottimizzato"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Le funzionalità VPN nelle soluzioni Customer provisioned sono gestite interamente dal Customer. Fonte: ChatGPT.",
+    "topic": "VPN"
+  },
+  {
+    "text": "La porta di uno switch Ethernet configurata in modalità trunk è in grado di:",
+    "options": [
+      "Inviare traffico appartenente a VLAN diverse, ma senza indicare la VLAN a cui appartiene",
+      "Inviare traffico appartenente a VLAN diverse, indicando opportunamente nelle trame la VLAN di appartenenza",
+      "Ricevere traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione",
+      "Inviare traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. La modalità trunk etichetta il traffico VLAN nei frame Ethernet. Fonte: ChatGPT.",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "Nella soluzione 6PE i pacchetti che transitano sulla dorsale hanno due etichette. Quali sono i loro utilizzi?",
+    "options": [
+      "L'etichetta più interna è usata dai router interni (P) per inoltrare pacchetti verso una destinazione IPv6.",
+      "L'etichetta più esterna è usata dai router interni (P) per inoltrare pacchetti verso una destinazione IPv6.",
+      "L'etichetta più interna è usata dai router interni (P) per inoltrare pacchetti verso un router PE.",
+      "L'etichetta più esterna è usata dai router interni (P) per inoltrare pacchetti verso un router PE."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Nell'architettura 6PE, l'etichetta esterna indirizza i pacchetti verso il router PE. Fonte: ChatGPT.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Nella soluzione di livello 3 VPN basate su MPLS e BGP i pacchetti che transitano sulla dorsale MPLS hanno due etichette. Quali sono i loro utilizzi?",
+    "options": [
+      "Entrambe le etichette sono usate dai router interni (P) per inoltrare pacchetti verso un router PE.",
+      "I router interni (P) non modificano (swap) mai l'etichetta più interna.",
+      "L'etichetta più esterna è usata dai router interni (P) per inoltrare pacchetti verso un router PE.",
+      "L'etichetta più interna è usata dai router interni (P) per inoltrare pacchetti verso un router PE."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. I router interni (P) non modificano l'etichetta più interna nei pacchetti MPLS. Fonte: ChatGPT.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "La cifratura del traffico nelle VPN (Virtual Private Network) è:",
+    "options": [
+      "Una componente importante, per quanto non indispensabile e non presente in alcune soluzioni VPN.",
+      "Non utilizzata in alcuna soluzione; per quanto sia una tecnologia fondamentale nelle reti moderne per assicurare la confidenzialità dei dati, la cifratura non ha nulla a che vedere con soluzioni VPN.",
+      "Una componente sostanziale che è alla base di qualsiasi soluzione di VPN.",
+      "Una componente importante, per quanto non essenziale, presente almeno in modo opzionale in qualsiasi soluzione di VPN."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. La cifratura è importante ma non sempre indispensabile in soluzioni VPN. Fonte: ChatGPT.",
+    "topic": "VPN"
+  },
+  {
+    "text": "In una rete cellulare operante secondo la tecnologia Frequency Division Multiple Access (FDMA):",
+    "options": [
+      "Si usa un'unica frequenza nell'intera rete.",
+      "Non si possono effettuare chiamate. È operativa solo sul traffico dati.",
+      "Le frequenze da utilizzare sono scelte casualmente dai terminali mobili, che poi ripetono l'invio dei campioni vocali in caso di collisione con altri utenti.",
+      "Le frequenze a disposizione vengono suddivise tra un gruppo di celle vicine e poi riutilizzate in celle sufficientemente distanti."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. FDMA suddivide le frequenze tra celle vicine e le riutilizza in celle distanti. Fonte: ChatGPT.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Un terminale mobile effettua un handover quando",
+    "options": [
+      "si sposta dalla rete di un operatore a quella di un altro",
+      "si riattiva grazie al passaggio della mano dell'utente sullo schermo",
+      "si sposta da una cella ad un'altra durante una chiamata, senza che questa si interrompa",
+      "deve essere raggiunto all'interno della rete di un altro operatore"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. L'hand-over avviene quando il terminale passa ad una nuova cella durante una chiamata senza interruzione. (ChatGPT)",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Le moderne reti Ethernet sono",
+    "options": [
+      "generalmente basate su hub come apparati di interconnessione, utilizzando esclusivamente multiple infrastrutture fisiche per l'eventuale segmentazione della rete",
+      "generalmente basate su switch come apparati di interconnessione ed eventualmente solo virtualmente tramite utilizzo di VLAN",
+      "generalmente basate su hub come apparati di interconnessione ed eventualmente solo virtualmente tramite utilizzo di VLAN",
+      "generalmente basate su switch come apparati di interconnessione, utilizzando esclusivamente multiple infrastrutture fisiche per l'eventuale segmentazione della rete"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Le moderne reti Ethernet utilizzano switch per l'interconnessione e VLAN per la segmentazione virtuale. (ChatGPT)",
+    "topic": "Ethernet"
+  },
+  {
+    "text": "Uno dei principali punti di forza del protocollo IPv6 è",
+    "options": [
+      "la cifratura del contenuto dei pacchetti, presente di default in tutti i pacchetti inviati da una stazione",
+      "la vastità dello spazio di indirizzamento a disposizione",
+      "la possibilità di usare canali a 10gb/s, funzionalità non presente in IPv4",
+      "la possibilità di abilitare un sistema di instradamento basato sui nomi e non più sugli indirizzi"
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. IPv6 offre una vasta gamma di indirizzi, permettendo una crescita maggiore rispetto a IPv4. (ChatGPT)",
+    "topic": "IPv6"
   }
 ]
