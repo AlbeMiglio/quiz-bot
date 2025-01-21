@@ -239,7 +239,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. A è sbagliata siccome è vero che i link state convergono più rapidamente dei DV, C è sbagliata siccome i link state generano loops molto più raramente dei DV siccome i nodi hanno conoscenza globale della rete, D è sbagliata siccome nel DV i nodi inviano i distance vectors mediamente molte più volte e questi ultimi sono più grandi rispetto agli Hello packets scambiati nel LS.",
     "topic": "Routing"
   },
   {
@@ -252,7 +252,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Il nodo centrale può fare da single-point-of-failure o da collo di bottiglia. Il traffico intenso è una CONSEGUENZA della centralizzazione del routing, la vera vulnerabilità risiede nella critica dipendenza da un nodo centrale, che può compromettere l'affidabilità e la capacità della rete di crescere in modo efficace.",
     "topic": "Routing"
   },
   {
@@ -265,7 +265,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L'indirizzo link-local è automaticamente generato da ogni host connesso sul link ed è utilizzabile solamente per comunicazioni dentro quel link. Questi indirizzi NON sono instradabili, quindi non sono utilizzabili per comunicazioni all'esterno del link.",
     "topic": "IPv6"
   },
   {
@@ -277,7 +277,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. L'approccio del dividere la rete in sottoaree (subnetting) è generalmente l'approccio più ottimale per semplificare il routing, siccome tiene conto di una struttura logica che facilita l'espansione e l'efficienza. Assegnare gli indirizzi in ordine decrescente di dimensione della rete, invece, non tiene conto delle topologie fisiche della rete, che sono un fattore molto importante per ottimizzare il routing. Assegnari gli indirizzi in modo casuale è sicuramente il metodo più naive e non è mai una buona idea.",
     "topic": "IP Addressing"
   },
   {
@@ -432,7 +432,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Vedere slides su GSM. GSM non usa ancora i pacchetti ma appunto i burst, che sono unità di trasmissione di dati (che contengono piccole quantità di dati) che viaggiano su reti a circuito commutato (quali appunto GSM)",
     "topic": "Mobile Networks"
   },
   {
@@ -482,7 +482,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Le VPN di lvl3 basate su MPLS di default non usano tecniche crittografiche. Si usa MPLS quindi non si usa un semplice tunnelling IP. C'è integrazione tra backbone MPLS (con i router di tipo P) e le reti private siccome questa soluzione VPN è di tipo PEER quindi, al contrario di PWE3 per esempio (che è invece overlay), i router PE comunicano costantemente con i router CE usando protocolli di routing dinamico (IGP)",
     "topic": "VPN"
   },
   {
@@ -495,7 +495,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. ARPv6 NON esiste (è incorporato in ICMPv6). Nel campo target del Neighbor Solicitation è inserito l'indirizzo GLOBAL UNICAST dell'host di cui si vuole sapere il MAC. Il Solicited Node Multicast Address è inserito come indirizzo di DESTINAZIONE, quello sorgente è l'indirizzo global unicast ipv6 dell'host che invia la Neighbor Solicitation.",
     "topic": "IPv6"
   },
   {
@@ -612,7 +612,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Nel leaky-bucket la capacità del secchiello indica quanti token possono essere conservati nel bucket, senza venire utilizzati, prima che questo diventi 'leaky', e cioè quanti token possono venire utiizzati per mandare pacchetti senza dover prima aspettare che il secchiello si 'ricarichi'. Ciò corrisponde al massimo burst size e si riferisce quindi alla quantità di traffico che può essere trasmesso in un colpo solo",
     "topic": "QoS"
   },
   {
@@ -638,7 +638,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. RSVP consente alle applicazioni di comunicare ai router le loro richieste di qualità del servizio (QoS), come la larghezza di banda minima richiesta. Ad esempio, RSVP è usato per offrire, in IntServ, la 'Per-flow resource reservation'",
     "topic": "QoS"
   },
   {
@@ -688,7 +688,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Si veda RFC 3032, che spiega nel dettaglio il label stack. Più label sono ammessi contemporaneamente. A lezione abbiamo visto esempi come 6PE o le VPN con MPLS, che fanno uso di un label interno ed uno esterno. La cifra di 20 label è spesso citata in documenti tecnici e white paper per descrivere un caso d'uso comune, ma non è una regola strettamente definita in un RFC specifico. ",
     "topic": "MPLS"
   },
   {
@@ -701,7 +701,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. IGRP, nella sua versione base, non è gerarchico. Con EIGRP si introducono funzioni simili a OSPF, ma OSPF rimane il protocollo di routing gerarchico per eccellenza. OSPF, lo dice anche il nome, è sempre stato Open, quindi non proprietario (al contrario di IGRP che è stato di proprietà di Cisco fino al 2016). OSPF è un protocollo che consente routing INTRA-AS, non INTER-AS.",
     "topic": "Routing"
   },
   {
@@ -714,7 +714,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Si consiglia di rappresentare le indirizzi e le reti in formato binario. adx di A: ....00000001.00000000, adx di B: 00000001.10000001; la rete di A è /25, quella di B è /24. Quindi la rete di B contiene la rete di A (e quindi l'host A) e va da 130.192.1.0 a 130.192.1.255.  La rete di A va da 130.192.1.0 a 130.192.1.127 quindi non contiene l'host B -> A dovrà usare un router per comunicare con B.",
     "topic": "IP Addressing"
   },
   {
