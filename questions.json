@@ -1434,13 +1434,13 @@
     "text": "L'importanza di MPLS (multi-protocol label switching) nelle reti odierne e future deriva dalla possibilità di (1979)",
     "options": [
       "Realizzare commutatori con supporto specifico per garantire qualità del servizio",
-      "Avere un unico piano di controllo per diverse tencologie di commutazione",
+      "Avere un unico piano di controllo per diverse tecnologie di commutazione",
       "Realizzare apparati in grado di operare senza bisogno di configurazione",
       "Distribuire il traffico su batterie di server"
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. MPLS è nato come soluzione per combinare IP e ATM, evolvendosi in una tecnologia versatile che unifica vari tipi di commutazione sotto un unico punto di controllo.",
     "topic": "MPLS"
   },
   {
