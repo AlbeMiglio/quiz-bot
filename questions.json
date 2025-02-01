@@ -2581,5 +2581,18 @@
     "verified": false,
     "explanation": "Soluzione: C. LTE utilizza tunnel IP, in particolare attraverso il protocollo GTP (GPRS Tunneling Protocol), per trasportare i dati tra l'eNodeB (stazione base LTE) e gli elementi di rete come l'EPC (Evolved Packet Core). Questo consente un instradamento più efficiente del traffico dati. (ChatGPT)",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Una richiesta ARP che un host con indirizzo IP 130.192.10.1/24 invia per apprendere l'indirizzo MAC di un host con indirizzo IP 130.192.10.200:",
+    "options": [
+      "Arriva a destinazione se i due host sono collegati tramite uno switch Ethernet, ignorando eventuali guasti dei collegamenti e dei dispositivi coinvolti.",
+      "Non arriva mai a destinazione.",
+      "In realtà, la richiesta ARP non viene inviata perché l'host di destinazione si trova al di fuori della rete IP della sorgente.",
+      "Arriva sempre a destinazione, ignorando le possibili caratteristiche dei collegamenti e dei dispositivi coinvolti."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. ARP (Address Resolution Protocol) funziona inviando richieste in broadcast all'interno dello stesso dominio di broadcast per ottenere l'indirizzo MAC del destinatario. Un messaggio ARP request inviato da un host sarà ricevuto da tutti i dispositivi nella stessa rete fisica, ma arriverà al destinatario solo se i due dispositivi sono nella stessa rete logica e fisicamente connessi tramite uno switch.\nLa presenza di uno switch permette che la richiesta ARP arrivi al destinatario, poiché gli switch non segmentano il dominio di broadcast. Al contrario, un router spezzerebbe questo dominio, impedendo alla richiesta ARP di raggiungere host in sottoreti diverse (AleDecre e Montie evidenziano che un router interromperebbe la richiesta). (chat GPT)",
+    "topic": "IPv4"
   }
 ]
