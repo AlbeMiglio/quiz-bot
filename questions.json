@@ -144,9 +144,9 @@
       "Memorizza nei Path Vectors il prossimo Autonomous System da attraversare per raggiungere una data rete di destinazione",
       "Memorizza nei Path Vectors il prossimo router da attraversare per raggiungere una data rete di destinazione"
     ],
-    "correct_index": 1,
+    "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. Il protocollo BGP, considerato per routing inter AS, quando usa l'algoritmo path vector per il routing memorizza nel path gli AS.",
     "topic": "BGP"
   },
   {
