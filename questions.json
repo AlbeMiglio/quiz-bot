@@ -1161,7 +1161,7 @@
     "topic": "Optical Networks"
   },
   {
-    "text": "What is the typical role of IPSec in VPNs? (1909)",
+    "text": "What is the typical role of IPSec in VPNs?",
     "options": [
       "To distribute in a secure way the key required by other protocols to open a tunnel",
       "To allow the transmission of authentication information (e.g. username and password) by users of access VPN",
@@ -1303,7 +1303,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "nella soluzione di livello 3 di vpn basate su MPLS e BGP i pachetti che transitano sulla dorsale MPLS hanno due etichette (2286)",
+    "text": "nella soluzione di livello 3 di VPN basate su MPLS e BGP i pachetti che transitano sulla dorsale MPLS hanno due etichette",
     "options": [
       "i router interni (p) non modificano(swap) mai l'etichetta più esterna",
       "l'etichetta più esterna è usata dai router interni(p) per inoltrare verso un router PE",
@@ -1657,9 +1657,9 @@
       "Una banda massima per ogni flusso di pacchetti.",
       "Un burst massimo di pacchetti consecutivi, per ciascun flusso."
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "\n• Le opzioni sui tempi di attraversamento non possono essere vere perché nessuno dei due meccanismi (né la loro combinazione) offre un bound ASSOLUTO sul ritardo (tempo di attraversamento), né in un router né in un NAT.\n• Sebbene il token bucket di fatto possa porre un limite al burst (in termini di byte/pacchetti), non è la caratteristica fondamentale della combinazione con WFQ, né si traduce sempre in un numero massimo rigido di “pacchetti consecutivi” in senso stretto.\n•L'opzione sulla banda è la risposta corretta: la combinazione Token Bucket + WFQ serve (principalmente) a garantire che ciascun flusso non superi una certa banda massima (rate), suddividendo in maniera equa le risorse quando più flussi concorrono tra loro.",
     "topic": "QoS"
   },
   {
@@ -2343,10 +2343,10 @@
   {
     "text": "Un Host A ha indirizzo 192.168.1.1/24 e un Host B 192.168.1.129/25. (2040)",
     "options": [
-      "A) Entrambi possono comunicare direttamente l’uno con l’altro.",
-      "B) A può comunicare direttamente con B ma non viceversa.",
-      "C) A ha bisogno di un router per comunicare con B",
-      "D) Non possono comunicare."
+      "Entrambi possono comunicare direttamente l’uno con l’altro.",
+      "A può comunicare direttamente con B ma non viceversa.",
+      "A ha bisogno di un router per comunicare con B",
+      "Non possono comunicare."
     ],
     "correct_index": 1,
     "verified": false,
@@ -2505,19 +2505,6 @@
     "topic": "MPLS"
   },
   {
-    "text": "Nella soluzione di livello 3 VPN basate su MPLS e BGP i pacchetti che transitano sulla dorsale MPLS hanno due etichette. Quali sono i loro utilizzi?",
-    "options": [
-      "Entrambe le etichette sono usate dai router interni (P) per inoltrare pacchetti verso un router PE.",
-      "I router interni (P) non modificano (swap) mai l'etichetta più interna.",
-      "L'etichetta più esterna è usata dai router interni (P) per inoltrare pacchetti verso un router PE.",
-      "L'etichetta più interna è usata dai router interni (P) per inoltrare pacchetti verso un router PE."
-    ],
-    "correct_index": 1,
-    "verified": false,
-    "explanation": "Soluzione: B. I router interni (P) non modificano l'etichetta più interna nei pacchetti MPLS. Fonte: ChatGPT.",
-    "topic": "MPLS"
-  },
-  {
     "text": "La cifratura del traffico nelle VPN (Virtual Private Network) è:",
     "options": [
       "Una componente importante, per quanto non indispensabile e non presente in alcune soluzioni VPN.",
@@ -2581,7 +2568,7 @@
     "verified": false,
     "explanation": "Soluzione: B. IPv6 offre una vasta gamma di indirizzi, permettendo una crescita maggiore rispetto a IPv4. (ChatGPT)",
     "topic": "IPv6"
-  }
+  },
   {
     "text": "Rispetto alle soluzioni precedenti, la tecnologia Long Term Evolution (LTE) si caratterizza per:",
     "options": [
