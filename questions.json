@@ -2594,5 +2594,18 @@
     "verified": false,
     "explanation": "Soluzione: A. Trovi la spiegazione qui: https://t.me/c/1125192764/57926.",
     "topic": "IPv4"
+  },
+  {
+    "text": "Un host A con indirizzo IP 130.192.225.79/24 invia una ARP request sulla rete locale per conoscere l'indirizzo MAC di un host con indirizzo IP 130.192.225.1/26. La corrispondente ARP reply inviata da B:",
+    "options": [
+      "Viene inviata all'indirizzo MAC del gateway predefinito di B, poiché A si trova al di fuori della rete IP di B.",
+      "Non viene inviata.",
+      "Arriva ad A solo se la rete è basata su un mezzo condiviso (ad esempio, un hub Ethernet).",
+      "Viene inviato all'indirizzo MAC di A."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Trovi la spiegazione qui: https://t.me/c/1125192764/57927.",
+    "topic": "IPv4"
   }
 ]
