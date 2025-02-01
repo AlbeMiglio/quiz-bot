@@ -2592,7 +2592,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. ARP (Address Resolution Protocol) funziona inviando richieste in broadcast all'interno dello stesso dominio di broadcast per ottenere l'indirizzo MAC del destinatario. Un messaggio ARP request inviato da un host sarà ricevuto da tutti i dispositivi nella stessa rete fisica, ma arriverà al destinatario solo se i due dispositivi sono nella stessa rete logica e fisicamente connessi tramite uno switch.\nLa presenza di uno switch permette che la richiesta ARP arrivi al destinatario, poiché gli switch non segmentano il dominio di broadcast. Al contrario, un router spezzerebbe questo dominio, impedendo alla richiesta ARP di raggiungere host in sottoreti diverse (AleDecre e Montie evidenziano che un router interromperebbe la richiesta). (chat GPT)",
+    "explanation": "Soluzione: A. Trovi la spiegazione qui: https://t.me/c/1125192764/57926.",
     "topic": "IPv4"
   }
 ]
