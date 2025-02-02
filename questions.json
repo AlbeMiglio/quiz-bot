@@ -1594,7 +1594,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Nell'ambito dei protocolli di routing distance vector, split horizon è un metodo volto a prevenire routing loops (problema noto come count to infinity).",
     "topic": "Routing"
   },
   {
