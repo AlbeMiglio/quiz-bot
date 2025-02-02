@@ -885,7 +885,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. Essendo un indirizzo FE80/64, è un indirizzo link local, per cui viene utilizzato per le comunicazioni con un altro host sullo stesso link.",
     "topic": "IPv6"
   },
   {
