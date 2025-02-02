@@ -2449,7 +2449,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Path vector a sé è un algoritmo di routing distribuito che memorizza il percorso dei router",
     "topic": "Routing"
   },
   {
