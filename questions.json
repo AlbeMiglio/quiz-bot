@@ -2189,7 +2189,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Un NAP è un punto in cui diversi fornitori di servizi Internet (ISP) si connettono per scambiare traffico. Tipicamente opera a livello 2 (Ethernet) del modello OSI. (ChatGPT)",
     "topic": "Network Architecture"
   },
   {
