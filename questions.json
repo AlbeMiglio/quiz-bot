@@ -1363,7 +1363,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. Per via del fatto che il frequency hopping prevede l'utilizzo di più frequenze, dovendo quindi splittare tutto l'insieme di frequenze la capacità per ogni split è ridotta.",
     "topic": "Mobile Networks"
   },
   {
