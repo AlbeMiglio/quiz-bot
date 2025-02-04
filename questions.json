@@ -116,7 +116,7 @@
       "1",
       "2",
       "3",
-      "E' proporzionale al valore del campo Time To Live presente nel pacchetto"
+      "È proporzionale al valore del campo Time To Live presente nel pacchetto"
     ],
     "correct_index": 3,
     "verified": true,
@@ -1706,9 +1706,9 @@
       "maggiore velocità nelle trasmissioni sul canale",
       "switch ottici performanti e bassa complessità"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. https://t.me/c/1125192764/59997",
     "topic": "Optical Networks"
   },
   {
