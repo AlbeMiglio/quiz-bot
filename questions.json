@@ -2267,7 +2267,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Label Swapping è una funzionalità di MPLS che in presenza di multipath è in grado di applicare traffic engineering.\n\nIl source routing non può essere efficiente perchè ogni stazione sceglie 'per se' e il forwarding by network access si basa su indirizzi quindi la route sarà sempre quella.",
     "topic": "MPLS"
   },
   {
