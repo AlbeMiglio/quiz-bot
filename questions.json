@@ -1066,7 +1066,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Il count to infinity è un problema nel routing per cui i router di rete si aggiornano ripetutamente con informazioni errate sul percorso migliore per raggiungere una destinazione.",
     "topic": "Routing"
   },
   {
