@@ -2456,10 +2456,10 @@
   {
     "text": "In una rete 802.11, al verificarsi di una collisione:",
     "options": [
-      "il mittente non riceve l'ACK di una trama unicast",
-      "l'Access Point invia una trama Request-To-Send (RTS) agli host coinvolti nella collisione",
-      "il mittente riceve un ACK negativo (NACK) dall'Access Point",
-      "il ricevitore invia una trama Request-To-Send (RTS) al mittente per segnalare la collisione"
+      "Il mittente non riceve l'ACK di una trama unicast.",
+      "L'Access Point invia una trama Request-To-Send (RTS) agli host coinvolti nella collisione.",
+      "Il mittente riceve un ACK negativo (NACK) dall'Access Point.",
+      "Il ricevitore invia una trama Request-To-Send (RTS) al mittente per segnalare la collisione."
     ],
     "correct_index": 0,
     "verified": false,
@@ -2469,10 +2469,10 @@
   {
     "text": "Relativamente a soluzioni di VPN (Virtual Private Network) quali di queste affermazioni è corretta?",
     "options": [
-      "Nelle soluzioni Provider provisioned l'autenticazione dei pacchetti risulta obbligatoria",
-      "Nelle soluzioni Customer provisioned le VPN utilizzate sono di tipo SSL",
-      "Nelle soluzioni Customer provisioned tutte le funzionalità delle VPN sono a carico del Customer",
-      "Nelle soluzioni Overlay Mode il Routing è sempre ottimizzato"
+      "Nelle soluzioni Provider provisioned l'autenticazione dei pacchetti risulta obbligatoria.",
+      "Nelle soluzioni Customer provisioned le VPN utilizzate sono di tipo SSL.",
+      "Nelle soluzioni Customer provisioned tutte le funzionalità delle VPN sono a carico del Customer.",
+      "Nelle soluzioni Overlay Mode il Routing è sempre ottimizzato."
     ],
     "correct_index": 2,
     "verified": false,
