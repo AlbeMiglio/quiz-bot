@@ -804,16 +804,16 @@
     "topic": "Routing"
   },
   {
-    "text": "DWDM è una tecnologia che permette di",
+    "text": "DWDM (Dense Wavelength Division Multiplexing) è una tecnologia che consente di:",
     "options": [
-      "impaccare in modo denso un elevato numero di fibre ottiche sullo stesso cavo",
-      "commutare un segnale ottico dall'ingresso all'uscita di un dispositivo",
-      "multiplare/demultiplare segnali ottici a diverse lunghezze d'onda sulla stessa fibra",
-      "multiplare/demultiplare vari flussi di bit rate su un singolo canale ottico a una specifica lunghezza d'onda"
+      "Commutare un segnale ottico dall'ingresso di un dispositivo alla sua porta di uscita.",
+      "Multiplexare/demultiplexare segnali ottici (caratterizzati da lunghezze d'onda diverse) sulla stessa fibra ottica.",
+      "Confezionare in modo denso un gran numero di fibre ottiche nello stesso cavo.",
+      "Multiplexare/demultiplexare vari flussi di bit a diverse velocità di trasmissione su un singolo canale ottico (caratterizzato da una specifica lunghezza d'onda)."
     ],
-    "correct_index": 2,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
     "topic": "Optical Networks"
   },
   {
@@ -1469,15 +1469,16 @@
     "topic": "IPv6"
   },
   {
-    "text": "Le reti private virtuali (virtual private network, VPN) vengono utilizzate per (1901)",
+    "text": "Le reti private virtuali (virtual private network, VPN) vengono utilizzate per:",
     "options": [
-      "Trasportare traffico privato su una infrastruttura condivisa ricreando le stesse condizioni che si avrebbero tramite l'utilizzo di una infrastruttura privata",
-      "Suddividere una rete locale aziendale in una serie di sottoreti separate per le diverse funzioni aziendali (vendite, acquisti, engineering, marketing)",
-      "Partizionare una rete privata (per esempio quella di un'azienda madre con un certo numero di aziende sussidiare) in varie reti virtualmente separate"
+      "Dividere una rete locale aziendale in una serie di sottoreti separate, ciascuna per una diversa funzione aziendale (ad esempio, vendite, appalti, ingegneria, marketing).",
+      "Trasportare il traffico privato attraverso un'infrastruttura condivisa creando le stesse condizioni che il traffico subirebbe attraverso un'infrastruttura privata.",
+      "Ottimizzare una rete pubblica in più reti virtualmente separate.",
+      "Suddividere una rete privata (ad esempio quella di una società madre con varie filiali) in più reti virtualmente separate."
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Definizione di VPN (https://it.wikipedia.org/wiki/Rete_privata_virtuale).",
     "topic": "VPN"
   },
   {
@@ -2427,12 +2428,12 @@
     "topic": "QoS"
   },
   {
-    "text": "Il protocollo IS-IS (1976)",
+    "text": "Il protocollo IS-IS integrato:",
     "options": [
-      "È un protocollo di routing obsoleto non più utilizzato per via delle sue scarse prestazioni",
-      "È un protocollo di routing basatao sull’algoritmo link state molto utilizzato nelle reti di grosse dimensioni",
-      "È un protocollo usato dagli switch Ethernet per creare un albero di instraramento nella rete (spanning tree) eliminando percorsi chiusi",
-      "È un protocollo evoluzione del BGP per lo scambio di informazioni di routing tra router appartenenti ad autonomous system diversi"
+      "È un protocollo di routing obsoleto, non più utilizzato per via delle sue basse prestazioni.",
+      "È un protocollo di routing basatao sull’algoritmo link state molto utilizzato nelle reti di grosse dimensioni.",
+      "È un protocollo usato dagli switch Ethernet per creare un albero di routing nella rete (spanning tree) eliminando percorsi chiusi (cioè i loop).",
+      "È un protocollo derivato come evoluzione del BGP per lo scambio di informazioni tra router appartenenti ad autonomous system diversi."
     ],
     "correct_index": 1,
     "verified": false,
@@ -2596,9 +2597,9 @@
     "topic": "IPv4"
   },
   {
-    "text": "Un host A con indirizzo IP 130.192.225.79/24 invia una ARP request sulla rete locale per conoscere l'indirizzo MAC di un host con indirizzo IP 130.192.225.1/26. La corrispondente ARP reply inviata da B:",
+    "text": "Un host A con indirizzo IP 130.192.225.79/24 invia una ARP Request sulla rete locale per conoscere l'indirizzo MAC di un host con indirizzo IP 130.192.225.1/26. La corrispondente ARP Reply inviata da B:",
     "options": [
-      "Viene inviata all'indirizzo MAC del gateway predefinito di B, poiché A si trova al di fuori della rete IP di B.",
+      "Viene inviata all'indirizzo MAC del default gateway di B, poiché A si trova al di fuori della rete IP di B.",
       "Non viene inviata.",
       "Arriva ad A solo se la rete è basata su un mezzo condiviso (ad esempio, un hub Ethernet).",
       "Viene inviato all'indirizzo MAC di A."
@@ -2724,5 +2725,83 @@
     "verified": false,
     "explanation": "Soluzione: A.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il Random Access CHannel (RACH) in una rete GSM è utilizzato:",
+    "options": [
+      "Dai terminali mobili per l'invio di campioni vocali mediate una tecnica Slotted-Aloha per l'accesso al mezzo di comunicazione.",
+      "Dalla rete, per offrire canali di comunicazione dedicati ai terminali mobili.",
+      "Da parte dei terminali mobili, per richiedere canali di comunicazione dedicati alla rete.",
+      "Da terminali mobili per l'invio di campioni vocali mediante una tecnica CSMA per l'accesso al mezzo."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "L'impostazione di un LSP (Label Switched Path) in MPLS (Multi-Protocol Label Switching) implica che:",
+    "options": [
+      "I router collegati alle estremità di un collegamento condividono l'etichetta da anteporre ai pacchetti appartenenti all'LSP.",
+      "Gli host che inviano e ricevono i pacchetti appartenenti all'LSP supportano MPLS.",
+      "I router alle due estremità dell'LSP (Label Edge Router) si scambiano direttamente informazioni di routing.",
+      "Il router a monte di un collegamento comunica al router a valle quale etichetta deve essere aggiunta ai pacchetti appartenenti all'LSP."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Le soluzioni VPN (Virtual Private Network) basate su SSL sono ampiamente diffuse perché:",
+    "options": [
+      "Non presentano problemi quando i pacchetti passano attraverso una funzione NAT (Network Address Translation) nel loro percorso verso la destinazione.",
+      "Sono le uniche soluzioni VPN che offrono una solida funzionalità di crittografia e autenticazione dei pacchetti.",
+      "Consentono la crittografia e l'autenticazione dei pacchetti senza la necessità di negoziare le chiavi crittografiche.",
+      "Consentono di crittografare e autenticare l'intestazione di livello 3 (livello di rete)."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Quando il collegamento tra due router MPLS utilizza un protocollo di livello 2 che supporta connessioni virtuali (come ATM e Frame Relay):",
+    "options": [
+      "Devono essere utilizzati i protocolli di routing specificati per il protocollo di livello 2 in questione (ad esempio, un protocollo di routing dello standard ATM).",
+      "Le etichette possono essere legate solo a FEC che includono identificatori di destinazione di livello 2 (ad esempio, indirizzi ATM).",
+      "Non è possibile utilizzare più di un'etichetta per ogni pacchetto.",
+      "L'etichetta MPLS più esterna è trasportata all'interno dell'intestazione di livello 2."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D.",
+    "topic": "MPLS"
+  },
+  {
+    "text": "Una VPN (Virtual Private Network) basata su IPSec:",
+    "options": [
+      "Richiede che gli end points supportino il protocollo IPSec.",
+      "Richiede che il gateway coinvolto supporti il protocollo IPSec.",
+      "Implementa un tunneling per consentire la crittografia e/o autenticazione dei pacchetti IP scambiati dagli host aziendali.",
+      "La crittografia è obbligatoria, mentre l'autenticazione è facoltativa."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C.",
+    "topic": "VPN"
+  },
+  {
+    "text": "Gli Extension Headers di IPv6 sono:",
+    "options": [
+      "Catene di header che possono essere aggiunte all'intestazione principale di IPv6 per trasferire al livello di rete alcune funzionalità che sono tipicamente del livello di trasporto (ad esempio, la trasmissione di acknowledgements).",
+      "Tecniche di padding adottate per rendere il pacchetto IPv6 di dimensione fissa pari a 40.",
+      "Catene di header che possono essere aggiunte all'intestazione principale di IPv6 per offrire funzionalità aggiuntive.",
+      "Tecniche di padding adottate per fissare le dimensioni del frame di livello 2 contenente il pacchetto IPv6."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C.",
+    "topic": "IPv6"
   }
 ]
