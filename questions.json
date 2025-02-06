@@ -2181,12 +2181,12 @@
     "topic": "MPLS"
   },
   {
-    "text": "Un Neutral Access Point `e una particolare rete in cui: (2167)",
+    "text": "Un Neutral Access Point `e una particolare rete in cui:",
     "options": [
-      "Tutti gli apparati sono collegati mediante l’utilizzo di un router centrale ad alte prestazioni, dotato di interfacce di rete multiple",
-      "I vari AS si scambiano il traffico in modalità “peering”, ossia non a pagamento",
-      "Il collegamento tra gli apparati è realizzato a livello 2",
-      "Ogni router collegato vede a livello 3 tutti gli altri router presenti sulla rete ed in grado di effettuare peering con ognuno di essi"
+      "Tutti gli apparati sono collegati mediante l’utilizzo di un router centrale ad alte prestazioni, dotato di interfacce di rete multiple.",
+      "I vari AS si scambiano il traffico in modalità “peering”, ossia non a pagamento.",
+      "Il collegamento tra gli apparati è realizzato a livello 2.",
+      "Ogni router collegato vede a livello 3 tutti gli altri router presenti sulla rete ed in grado di effettuare peering con ognuno di essi."
     ],
     "correct_index": 2,
     "verified": false,
