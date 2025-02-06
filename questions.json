@@ -1824,7 +1824,7 @@
     "topic": "VPN"
   },
   {
-    "text": "Gli indirizzi link-local (1887)",
+    "text": "Gli indirizzi link-local:",
     "options": [
       "Sono validi all'interno di una organizzazione che li può utilizzare per assegnare indirizzi alle macchine nelle varie sottoreti della propria intranet (sono gli omologhi degli indirizzi privati di IPv4).",
       "Non possono essere assegnati ai router.",
@@ -1833,7 +1833,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. https://it.wikipedia.org/wiki/Indirizzo_link_local",
     "topic": "IPv6"
   },
   {
