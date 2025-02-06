@@ -2816,5 +2816,18 @@
     "verified": false,
     "explanation": "Soluzione: D. Il VPN gateway assegna un indirizzo IP aziendale all'host remoto. Quest'ultimo sarà quindi dotato di due indirizzi: uno fornito dal VPN gateway e l'indirizzo di cui è dotato normalmente per comunicare con gli host esterni alla rete aziendale.",
     "topic": "VPN"
+  },
+  {
+    "text": "In una rete LTE l'uso di tunnel facilita:",
+    "options": [
+      "La mobilità degli utenti tra celle diverse.",
+      "La compressione degli header dei pacchetti di controllo.",
+      "La cifratura del traffico tra operatori diversi.",
+      "La connettività tra operatori diversi."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A.",
+    "topic": "VPN"
   }
 ]
