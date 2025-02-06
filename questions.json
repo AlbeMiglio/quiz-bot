@@ -992,16 +992,16 @@
     "topic": "IPv6"
   },
   {
-    "text": "Lo stack protocollare dell'interfaccia radio si articola nei seguenti livelli (2195)",
+    "text": "Lo stack protocollare dell'interfaccia radio si articola nei seguenti livelli:",
     "options": [
-      "MAC layer, IP layer, TCP/UDP layer",
-      "MAC layer, Manage protocol layer",
-      "MAC layer, RLC layer, RRC layer",
-      "Esiste un singolo livello"
+      "MAC layer, IP layer, TCP/UDP layer.",
+      "MAC layer, Manage protocol layer.",
+      "MAC layer, RLC layer, RRC layer.",
+      "Esiste un singolo livello."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C.",
     "topic": "Mobile Networks"
   },
   {
