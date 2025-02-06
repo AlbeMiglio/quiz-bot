@@ -456,7 +456,7 @@
     "topic": "Routing"
   },
   {
-    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (2041)",
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in:",
     "options": [
       "192.168.0.0/23",
       "0.0.0.0/0",
@@ -465,7 +465,7 @@
     ],
     "correct_index": 1,
     "verified": true,
-    "explanation": "Sono sempre aggregabili in 0.0.0.0/0, gli ultimi bit in questo caso sono ...10.00000000 e ...01.00000000, quindi sarebbero aggregabili in una rete con prefisso 192.168.0/22, ma non 23",
+    "explanation": "Sono sempre aggregabili in 0.0.0.0/0, gli ultimi bit in questo caso sono ...10.00000000 e ...01.00000000, quindi sarebbero aggregabili in una rete con prefisso 192.168.0/22, ma non 23.",
     "topic": "IP Addressing"
   },
   {
@@ -1837,7 +1837,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (1943)",
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in:",
     "options": [
       "192.168.0.0/23",
       "192.168.1.0/23",
