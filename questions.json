@@ -1902,7 +1902,7 @@
     "topic": "Routing"
   },
   {
-    "text": "Gli indirizzi IPv6 di tipo Private (1967)",
+    "text": "Gli indirizzi IPv6 di tipo Private:",
     "options": [
       "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale",
       "Vengono usati solo per le comunicazioni on-link",
@@ -1911,7 +1911,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. I primi 40 bit dei 56 rimanenti sono inseriti in modo casuale.\nPer la definizione di queste reti private è necessario applicare un algoritmo che, sulla base delle chiavi di inizializzazione, genera una stringa di 40 bit che con altissima probabilità genera una stringa unica.\nNon è detto che 2 reti non abbiano mai lo stesso prefix, ma è altamente improbabile.",
     "topic": "IPv6"
   },
   {
