@@ -1651,7 +1651,7 @@
     "topic": "Routing"
   },
   {
-    "text": "La combinazione di meccanismi di secchiello dei token (o secchio bucato) e Weighted Fair Queueing (WFQ) serve a garantire: (1908)",
+    "text": "La combinazione di meccanismi di secchiello dei token (o secchio bucato) e Weighted Fair Queueing (WFQ) serve a garantire:",
     "options": [
       "Un tempo di attraversamento massimo di un router.",
       "Un tempo di attraversamento massimo di un NAT.",
