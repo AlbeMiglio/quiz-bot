@@ -481,12 +481,12 @@
     "topic": "VPN"
   },
   {
-    "text": "Il Solicited Node Multicast Address è: (2206)",
+    "text": "Il Solicited Node Multicast Address è:",
     "options": [
-      "L'indirizzo multicast utilizzato come indirizzo sorgente in un pacchetto di Neighbor Solicitation",
-      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ARPv6) di un pacchetto di Neighbor Solicitation",
-      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ICMPv6) di un pacchetto di Neighbor Solicitation",
-      "L'indirizzo multicast utilizzato come indirizzo destinazione in un pacchetto di Neighbor Solicitation"
+      "L'indirizzo multicast utilizzato come indirizzo sorgente in un pacchetto di Neighbor Solicitation.",
+      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ARPv6) di un pacchetto di Neighbor Solicitation.",
+      "L'indirizzo multicast che viene inserito nel payload (campo Target Address di ICMPv6) di un pacchetto di Neighbor Solicitation.",
+      "L'indirizzo multicast utilizzato come indirizzo destinazione in un pacchetto di Neighbor Solicitation."
     ],
     "correct_index": 3,
     "verified": false,
