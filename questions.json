@@ -2482,10 +2482,10 @@
   {
     "text": "La porta di uno switch Ethernet configurata in modalità trunk è in grado di:",
     "options": [
-      "Inviare traffico appartenente a VLAN diverse, ma senza indicare la VLAN a cui appartiene",
-      "Inviare traffico appartenente a VLAN diverse, indicando opportunamente nelle trame la VLAN di appartenenza",
-      "Ricevere traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione",
-      "Inviare traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione"
+      "Inviare traffico appartenente a VLAN diverse, ma senza indicare la VLAN a cui appartiene.",
+      "Inviare traffico appartenente a VLAN diverse, indicando opportunamente nelle trame la VLAN di appartenenza.",
+      "Ricevere traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione.",
+      "Inviare traffico solo se questo appartiene ad un'unica VLAN, scelta in fase di configurazione."
     ],
     "correct_index": 1,
     "verified": false,
