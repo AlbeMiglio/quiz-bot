@@ -1517,7 +1517,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. L'host utilizza il prefix dell'indirizzo fornito dal router per configurare indipendentemente il proprio indirizzo IPv6. Non è richiesto l'utilizzo di un server DHCP per ottenere l'indirizzo.",
     "topic": "IPv6"
   },
   {
