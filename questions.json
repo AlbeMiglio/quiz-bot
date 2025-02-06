@@ -1915,7 +1915,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "In che modo MPLS può essere utilizzato per realizzare una VPN? (1873)",
+    "text": "In che modo MPLS può essere utilizzato per realizzare una VPN?",
     "options": [
       "Per realizzare una VPN di accesso.",
       "MPLS non può essere usato per realizzare VPN.",
@@ -1924,7 +1924,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Nell'overlay model, il service provider non conosce le informazioni di routing, quindi fornisce solamente collegamenti punto-punto tra i VPN gateways, nel peer model vengono fornite solo le informazioni di routing, senza conoscere i collegamenti punto-punto tra i VPN gateways.",
     "topic": "MPLS"
   },
   {
