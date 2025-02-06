@@ -1625,7 +1625,7 @@
     "topic": "VPN"
   },
   {
-    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching) (1880)",
+    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching)",
     "options": [
       "Sono ottenuti riservando risorse nei nodi di rete in modo da garantire opportuna qualità del servizio alle applicazioni che li hanno creati.",
       "Costituiscono il percorso più breve verso una destinazione.",
@@ -1634,7 +1634,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. I pacchetti vengono classificati in gruppi chiamati Forwarding Equivalence Class (FEC), ovvero insiemi di pacchetti che devono seguire lo stesso percorso attraverso la rete. Gli LSP sono creati dai nodi della rete, non dalle applicazioni.",
     "topic": "MPLS"
   },
   {
