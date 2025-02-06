@@ -663,14 +663,14 @@
     "topic": "OSPF"
   },
   {
-    "text": "vantaggio fibra ottica: (2046)",
+    "text": "Vantaggio fibra ottica:",
     "options": [
-      "maggiore velocità nelle trasmissioni sul canale",
-      "switch ottici performanti e bassa complessità"
+      "Maggiore velocità nelle trasmissioni sul canale.",
+      "Switch ottici performanti e bassa complessità."
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: A. Sono complessi da ingegnerizzare, anche se i materiali non sono complessi.",
+    "explanation": "Soluzione: B. Lo switch non ha complessità elevata, in quanto deve solo instradare un segnale ottico su una porta di uscita.",
     "topic": "Optical Networks"
   },
   {
@@ -1702,14 +1702,14 @@
     "topic": "IP Addressing"
   },
   {
-    "text": "vantaggio fibra ottica (1952)",
+    "text": "Vantaggio fibra ottica:",
     "options": [
-      "maggiore velocità nelle trasmissioni sul canale",
-      "switch ottici performanti e bassa complessità"
+      "Maggiore velocità nelle trasmissioni sul canale.",
+      "Switch ottici performanti e bassa complessità."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. https://t.me/c/1125192764/59997",
+    "explanation": "Soluzione: B. Lo switch non ha complessità elevata, in quanto deve solo instradare un segnale ottico su una porta di uscita.",
     "topic": "Optical Networks"
   },
   {
