@@ -2828,6 +2828,19 @@
     "correct_index": 0,
     "verified": false,
     "explanation": "Soluzione: A.",
-    "topic": "VPN"
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "In MAP-T:",
+    "options": [
+      "Il valore dell'indirizzo di destinazione IPv4 dalla CPE al Border Relay è lo stesso per ogni pacchetto.",
+      "Il valore dell'indirizzo di destinazione IPv4 dalla CPE al Border Relay potrebbe essere diverso per alcuni pacchetti.",
+      "Il valore dell'indirizzo di destinazione IPv6 dalla CPE al Border Relay potrebbe essere diverso per alcuni pacchetti.",
+      "Il valore dell'indirizzo di destinazione IPv6 dalla CPE al Border Relay è lo stesso per ogni pacchetto."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. MAP-T si occupa di mappare un indirizzo IPv4 in una rete IPv6. In base all'indirizzo 'embeddato' in quello IPv6 questo indirizzo dovrebbe cambiare.",
+    "topic": "IPv6"
   }
 ]
