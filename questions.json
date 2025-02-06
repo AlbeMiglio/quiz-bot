@@ -1573,7 +1573,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "Si supponga l'esistenza di tre AS (Autonomous System) collegati sequenzialmente (A-B-C). Se l'AS intermedio B vuole impedire che la sua rete venga usato come transito da A verso C: (1928)",
+    "text": "Si supponga l'esistenza di tre AS (Autonomous System) collegati sequenzialmente (A-B-C). Se l'AS intermedio B vuole impedire che la sua rete venga usato come transito da A verso C:",
     "options": [
       "Deve effettuare il mascheramento delle route verso A",
       "Deve impostare una access list (“packet filtering”) all'ingresso del suo dominio che scarta tutti i pacchetti in ingresso da A verso C",
@@ -1582,7 +1582,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Il mascheramento impedisce a C di contattare A.",
     "topic": "BGP"
   },
   {
