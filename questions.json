@@ -2441,16 +2441,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Nell'algoritmo di routing di tipo Path Vector: (1920)",
+    "text": "Nell'algoritmo di routing di tipo Path Vector:",
     "options": [
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il next hop router per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il prossimo Autonomous System per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco dei router da attaversare per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco degli Autonomous System da attraversare per raggiungere quella destinazione"
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il next hop router per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il prossimo Autonomous System per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco dei router da attaversare per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco degli Autonomous System da attraversare per raggiungere quella destinazione."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Path vector a sé è un algoritmo di routing distribuito che memorizza il percorso dei router",
+    "explanation": "Soluzione: C. Path vector a sé è un algoritmo di routing distribuito che memorizza il percorso dei router.",
     "topic": "Routing"
   },
   {
