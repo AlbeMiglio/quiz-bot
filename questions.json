@@ -2803,5 +2803,18 @@
     "verified": false,
     "explanation": "Soluzione: C.",
     "topic": "IPv6"
+  },
+  {
+    "text": "In una soluzione VPN provider provisioned, un host remoto che attiva una sessione VPN con la rete aziendale ha:",
+    "options": [
+      "Un singolo indirizzo utilizzato per comunicare con qualsiasi altro host (sia sulla rete aziendale che all'estero).",
+      "Un singolo indirizzo utilizzato per comunicare solo con gli host aziendali.",
+      "Due indirizzi: uno utilizzato per raggiungere il VPN gateway e l'altro per comunicare con qualsiasi altro host (sia sulla rete aziendale che all'esterno).",
+      "Due indirizzi: uno utilizzato per comunicare con gli host aziendali e l'altro per raggiungere il VPN gateway aziendale e gli host esterni alla rete aziendale."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Il VPN gateway assegna un indirizzo IP aziendale all'host remoto. Quest'ultimo sarà quindi dotato di due indirizzi: uno fornito dal VPN gateway e l'indirizzo di cui è dotato normalmente per comunicare con gli host esterni alla rete aziendale.",
+    "topic": "VPN"
   }
 ]
