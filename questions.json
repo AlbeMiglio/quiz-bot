@@ -1018,7 +1018,7 @@
     "topic": "Tunneling"
   },
   {
-    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in: (2025)",
+    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in:",
     "options": [
       "130.192.0.0/23",
       "130.192.2.0/23",
@@ -1027,7 +1027,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Ultimi 2 byte di 130.192.0.0/24 => 0000 0000 0000 0000, ultimi 2 byte di 130.192.2.0/24 => 0000 0010 0000 000, per mascherare il bit a 1 presente è necessaria una netmask /22.",
     "topic": "IP Addressing"
   },
   {
