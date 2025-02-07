@@ -1418,7 +1418,7 @@
     "topic": "QoS"
   },
   {
-    "text": "Relativamente a soluzioni di VPN basate su SSL (Secure Socket Layer), quale di queste affermazioni è falsa? (2208)",
+    "text": "Relativamente a soluzioni di VPN basate su SSL (Secure Socket Layer), quale di queste affermazioni è falsa?",
     "options": [
       "Non fanno autenticazione dell'header IP",
       "Hanno delle criticità rispetto ad attacchi DoS",
@@ -1427,7 +1427,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Non esistono soluzioni standard per VPN SSL, in quanto per implementarle servono dei protocolli particolari che rendono la gestione complessa.",
     "topic": "VPN"
   },
   {
