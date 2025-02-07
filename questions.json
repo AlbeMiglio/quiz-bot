@@ -2658,7 +2658,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B.",
+    "explanation": "Soluzione: B. Analizziamo gli ultimi 2 byte per ciascuna rete: 1) 0000 0001 0000 0000, 2) 0000 0010 0000 0000. Per mascherare i bit settati a 1 è necessario avere una netmask /22. Inoltre, tutte le reti sono aggregabili in 0.0.0.0/0.",
     "topic": "IPv4"
   },
   {
