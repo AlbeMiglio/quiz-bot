@@ -700,7 +700,7 @@
     "topic": "Routing"
   },
   {
-    "text": "Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24. (1963)",
+    "text": "Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24:",
     "options": [
       "A comunica direttamente con B e viceversa",
       "A comunica direttamente con B ma non viceversa",
