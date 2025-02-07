@@ -2873,13 +2873,26 @@
     "text": "Due host A e B appartengono alla stessa rete fisica e hanno rispettivamente gli indirizzi IP 130.192.0.1/26 e 130.192.1.1/23.",
     "options": [
       "A comunica direttamente con B ma non viceversa.",
-      "A comunica con B solo per mezzo di uno switch E.thernet",
+      "A comunica con B solo per mezzo di uno switch Ethernet",
       "A comunica direttamente con B e viceversa.",
       "B comunica direttamente con A ma non viceversa."
     ],
     "correct_index": 3,
     "verified": false,
     "explanation": "Soluzione: D. 130.192.0.1/26: da 130.192.0.0 a 130.192.0.63 - 130.192.1.1/23: da 130.192.0.0 a 130.192.1.255 - B vede A ma A non vede B.",
+    "topic": "IPv4"
+  },
+  {
+    "text": "Un'università deve progettare la rete IP per due laboratori didattici: il laboratorio 1 (120 host) e il laboratorio 2 (64 host). Quale configurazione è sicuramente sbagliata?",
+    "options": [
+      "lab1: 192.168.0.0/24 - lab2: 192.168.1.0/24",
+      "lab1: 192.168.0.0/24 - lab2: 192.168.1.0/25",
+      "lab1: 192.168.0.0/25 - lab2: 192.168.0.128/26",
+      "lab1: 192.168.0.0/25 - lab2: 192.168.0.128/25"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. lab2 necessita di 66 indirizzi (64 host, netword ID e broadcast), mentre in questa risposta il lab2 è settato per poter ospitare solamente 64 indirizzi.",
     "topic": "IPv4"
   }
 ]
