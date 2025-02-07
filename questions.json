@@ -2868,5 +2868,18 @@
     "verified": false,
     "explanation": "Soluzione: B. Il router invia il prefisso di rete tramite il Router Advertisement, mentre l'host genera localmente un valore casuale per l'Interface ID, combinandolo con il prefisso e verificando che non sia duplicato.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Due host A e B appartengono alla stessa rete fisica e hanno rispettivamente gli indirizzi IP 130.192.0.1/26 e 130.192.1.1/23.",
+    "options": [
+      "A comunica direttamente con B ma non viceversa.",
+      "A comunica con B solo per mezzo di uno switch E.thernet",
+      "A comunica direttamente con B e viceversa.",
+      "B comunica direttamente con A ma non viceversa."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. 130.192.0.1/26: da 130.192.0.0 a 130.192.0.63 - 130.192.1.1/23: da 130.192.0.0 a 130.192.1.255 - B vede A ma A non vede B.",
+    "topic": "IPv4"
   }
 ]
