@@ -2116,7 +2116,7 @@
     "topic": "Routing"
   },
   {
-    "text": "la più piccola aggregazione che può contenere le due reti IP 130.192.0.0/25 e 130.192.1.0/25 (2159)",
+    "text": "La più piccola aggregazione che può contenere le due reti IP 130.192.0.0/25 e 130.192.1.0/25:",
     "options": [
       "130.192.1.0/23",
       "130.192.0.0/24",
@@ -2125,7 +2125,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Analizzando gli ultimi 2 byte di ciascuna rete, essi sono rispettivamente: 1) 0000 0000 0000 0000, 2) 0000 0000 0001 0000. Per mascherare l'unico bit a 1 presente è necessaria una netmask di /23. 130.192.1.0/23 non è l'opzione corretta in quanto non è un network ID.",
     "topic": "IP Addressing"
   },
   {
