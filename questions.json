@@ -1547,12 +1547,12 @@
     "topic": "MPLS"
   },
   {
-    "text": "due stazioni A e B hanno rispettivamente 130.192.1.1/25 e 130.192.1.100/24 (2161)",
+    "text": "due stazioni A e B hanno rispettivamente 130.192.1.1/25 e 130.192.1.100/24:",
     "options": [
-      "comunica direttamente con B e viceversa",
-      "comunica direttamente con A ma non viceversa",
-      "comunica direttamente con B solo attraverso un router",
-      "comunica direttamente con b ma non viceversa"
+      "A comunica direttamente con B e viceversa.",
+      "B comunica direttamente con A ma non viceversa.",
+      "A comunica direttamente con B solo attraverso un router.",
+      "A comunica direttamente con B ma non viceversa."
     ],
     "correct_index": 0,
     "verified": false,
