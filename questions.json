@@ -2854,6 +2854,19 @@
     "correct_index": 3,
     "verified": false,
     "explanation": "Soluzione: D. Un router con supporto completo del servizio multicast ne crea copie solo sulle interfacce che servono reti contenenti host iscritti a quel determinato gruppo.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "Un host IPv6 può autoconfigurare il proprio indirizzo usando:",
+    "options": [
+      "Una stringa totalmente casuale a 128 bit.",
+      "Un valore casuale generato localmente come Interface ID, insieme a un prefix appropriato comunicato da un router.",
+      "Il proprio indirizzo MAC (esteso a 64 bit, se necessario) come Interface ID, ricavando il prefix dall'indirizzo sorgente IPv6 dei pacchetti ricevuti.",
+      "Il proprio indirizzo MAC (esteso a 64 bit, se necessario) come Interface ID e un valore casuale generato localmente come prefix."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Il router invia il prefisso di rete tramite il Router Advertisement, mentre l'host genera localmente un valore casuale per l'Interface ID, combinandolo con il prefisso e verificando che non sia duplicato.",
     "topic": "IPv6"
   }
 ]
