@@ -1354,12 +1354,12 @@
     "topic": "Optical Networks"
   },
   {
-    "text": "Il frequency hopping (FH) permette (2179)",
+    "text": "Il frequency hopping (FH) permette:",
     "options": [
-      "di trasmettere bursts consecutivi su frequenze diverse a discapito di una riduzione della capacità",
-      "di trasmettere slot consecutivi sulla stessa frequenza con una riduzione della capacità",
-      "di trasmettere bursts consecutivi su frequenze diverse con un aumento della capacità",
-      "di trasmettere bursts consecutivi sulla stessa frequenza"
+      "Di trasmettere bursts consecutivi su frequenze diverse a discapito di una riduzione della capacità.",
+      "Di trasmettere slot consecutivi sulla stessa frequenza con una riduzione della capacità.",
+      "Di trasmettere bursts consecutivi su frequenze diverse con un aumento della capacità.",
+      "Di trasmettere bursts consecutivi sulla stessa frequenza."
     ],
     "correct_index": 0,
     "verified": false,
