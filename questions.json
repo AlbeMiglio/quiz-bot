@@ -2842,5 +2842,18 @@
     "verified": false,
     "explanation": "Soluzione: C. MAP-T si occupa di mappare un indirizzo IPv4 in una rete IPv6. In base all'indirizzo 'embeddato' in quello IPv6 questo indirizzo dovrebbe cambiare.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Quando un router IP con supporto completo del servizio multicast riceve un pacchetto relativo a un determinato gruppo multicast:",
+    "options": [
+      "Scarta il pacchetto perché non è possibile offrire servizi multicast su una rete IP.",
+      "Invia una copia del pacchetto su tutte le porte.",
+      "Invia una copia del pacchetto su tutte le porte, tranne quella che ha ricevuto il pacchetto.",
+      "Invia una copia del pacchetto su tutte le porte utili per raggiungere le destinazioni appartenenti al multicast."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Un router con supporto completo del servizio multicast ne crea copie solo sulle interfacce che servono reti contenenti host iscritti a quel determinato gruppo.",
+    "topic": "IPv6"
   }
 ]
