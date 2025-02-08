@@ -1187,16 +1187,16 @@
     "topic": "Multicast"
   },
   {
-    "text": "i gruppi multicast in ipv4 (2149)",
+    "text": "I gruppi multicast in IPv4:",
     "options": [
-      "vengono identificati da particolari indirizzi IP che non possono essere assegnati alle singole stazioni",
-      "vengono identificati dalla lista degli indirizzi MAC delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi mac destinazione nelle trame multicast indirizzate",
-      "non esistono",
-      "vengono identificati dalla lista degli indirizzi IP delle stazioni appartenenti ad un dato gruppo. questi indirizzi vengono poi utilizzati come indirizzi IP destinazione nelle trame multicast indirizzate a tali stazioni"
+      "Vengono identificati da particolari indirizzi IP che non possono essere assegnati alle singole stazioni.",
+      "Vengono identificati dalla lista degli indirizzi MAC delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi mac destinazione nelle trame multicast indirizzate.",
+      "Non esistono.",
+      "Vengono identificati dalla lista degli indirizzi IP delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi IP destinazione nelle trame multicast indirizzate a tali stazioni."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La comunicazione multicast avviene verso un singolo indirizzo di gruppo, senza bisogno di specificare tutti i destinatari. Inoltre, livello IP, i gruppi multicast sono definiti dall’indirizzo di livello 3 (IP), non da un insieme di indirizzi di livello 2 (MAC).",
     "topic": "IPv4"
   },
   {
