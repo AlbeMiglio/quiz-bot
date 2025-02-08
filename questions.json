@@ -889,15 +889,15 @@
     "topic": "IPv6"
   },
   {
-    "text": "mplementazione Multicast in IPv4 (1944)",
+    "text": "Implementazione Multicast in IPv4:",
     "options": [
-      "Disponibile senza necessità di protocolli aggiuntivi",
-      "Disponibile ma con protocolli aggiuntivi",
-      "Non supportato"
+      "Disponibile senza necessità di protocolli aggiuntivi.",
+      "Disponibile ma con protocolli aggiuntivi.",
+      "Non supportato."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Vengono utilizzati protocolli aggiuntivi: IGMP, PIM, DVMRP.",
     "topic": "Multicast"
   },
   {
