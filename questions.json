@@ -98,16 +98,16 @@
     "topic": "VPN"
   },
   {
-    "text": "le comunicazioni multicast in una rete ipv4 (2150)",
+    "text": "le comunicazioni multicast in una rete IPv4:",
     "options": [
-      "sono possibili solo all'interno di una singola rete lan, anche con l'utilizzo di protocolli aggiuntivi",
-      "sono sempre possibili, IGMP le rende solo più efficienti",
-      "non sono possibili senza l'utilizzo di protocolli aggiuntivi nella rete",
-      "sono possibili su scala geografica grazie all'utilizzo del solo protocollo IGMP"
+      "Sono possibili solo all'interno di una singola rete LAN, anche con l'utilizzo di protocolli aggiuntivi.",
+      "Sono sempre possibili, IGMP le rende solo più efficienti.",
+      "Non sono possibili senza l'utilizzo di protocolli aggiuntivi nella rete.",
+      "Sono possibili su scala geografica grazie all'utilizzo del solo protocollo IGMP."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "",
+    "explanation": "Per estendere le comunicazioni multicast oltre il confine di una singola LAN, è necessario l’utilizzo di protocolli di routing multicast aggiuntivi, come il Protocol Independent Multicast (PIM) o altri protocolli analoghi.",
     "topic": "Multicast"
   },
   {
