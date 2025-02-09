@@ -741,10 +741,10 @@
   {
     "text": "L'International Mobile Equipment Identity (IMEI) è:",
     "options": [
-      "Un codice temporaneo assegnato dall'ISP",
-      "Un codice fisso assegnato dal BTS",
-      "Un numero telefonico temporaneo assegnato al terminale in base alla sua posizione",
-      "Identifica il dispositivo, è assegnato dal venditore e non è modificabile"
+      "Un codice temporaneo assegnato dall'ISP.",
+      "Un codice fisso assegnato dal BTS.",
+      "Un numero telefonico temporaneo assegnato al terminale in base alla sua posizione.",
+      "Identifica il dispositivo, è assegnato dal venditore e non è modificabile."
     ],
     "correct_index": 3,
     "verified": true,
