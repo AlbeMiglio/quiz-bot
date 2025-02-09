@@ -3115,5 +3115,18 @@
     "verified": false,
     "explanation": "Soluzione: B. Il termine handover indica il processo mediante il quale una comunicazione in corso viene trasferita da una cella all'altra in una rete cellulare, garantendo la continuità del servizio anche mentre il terminale si sposta.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Nelle reti IEEE 802.11, il 'problema del terminale nascosto' si riferisce a:",
+    "options": [
+      "La possibilità che due o più nodi wireless possano interferire tra loro senza saperlo.",
+      "Una minaccia alla sicurezza causata da un intruso nel BSS.",
+      "Un errore nell'associazione a un Access Point durante la procedura di scansione passiva.",
+      "L'utilizzo dello stesso indirizzo MAC da parte di più nodi verso lo stesso BSS."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Questo accade quando i nodi, pur essendo in grado di comunicare con un Access Point comune, non sono in grado di rilevarsi direttamente a causa della loro distanza o di ostacoli fisici. Di conseguenza, se trasmettono contemporaneamente, il segnale proveniente da entrambi potrebbe collidere all'Access Point, causando errori nella communicazione.",
+    "topic": "Mobile Networks"
   }
 ]
