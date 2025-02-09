@@ -1213,7 +1213,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "Gli indirizzi IPv6",
+    "text": "Gli indirizzi IPv6:",
     "options": [
       "Permettono la comunicazione di stazioni IPv6 con stazioni IPv4 senza nessun particolare meccanismo aggiuntivo.",
       "Mantengono la stessa suddivisione flessibile tra una parte network e una parte host già presente in IPv4.",
