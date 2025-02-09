@@ -2710,7 +2710,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A.",
+    "explanation": "Soluzione: A. In IPv6, quando un host necessita di conoscere l'indirizzo MAC associato a un indirizzo IPv6, non viene utilizzato il meccanismo ARP, come avviene in IPv4. Al suo posto, il protocollo prevede l'uso del Neighbor Discovery Protocol (NDP), che sfrutta specifici messaggi ICMPv6.",
     "topic": "Multicast"
   },
   {
