@@ -3050,5 +3050,18 @@
     "verified": false,
     "explanation": "Soluzione: C.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Un frame IEEE 802.11 ha quattro indirizzi MAC di cui:",
+    "options": [
+      "Uno è l'indirizzo MAC dello switch collegato all'Access Point.",
+      "Uno è sempre l'indirizzo broadcast.",
+      "Nessuno è l'indirizzo MAC dell'Access Point.",
+      "Uno è l'indirizzo MAC dell'Access Point."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Nella configurazione più comune, uno di questi indirizzi rappresenta il BSSID, che è l'indirizzo MAC dell'Access Point.",
+    "topic": "Mobile Networks"
   }
 ]
