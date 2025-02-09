@@ -2907,5 +2907,18 @@
     "verified": false,
     "explanation": "Soluzione: D. Range di indirizzi di 180.3.13.192/28: da 180.3.13.192 a 180.3.13.207.\nRange di indirizzi di 180.3.13.224/28: da 180.3.13.224 a 180.3.13.239\nIl range di indirizzi di 180.3.13.208/29 è errato, in quanto quell'indirizzo non ricade in nessun range con soli 8 indirizzi.",
     "topic": "IPv4"
+  },
+  {
+    "text": "Il fattore che ha contribuito al rallentamento della diffusione di IPv6 è:",
+    "options": [
+      "La possibilità di utilizzare indirizzi IPv4 privati per connettersi a Internet.",
+      "Una diminuzione del numero dei dispositivi.",
+      "Un ritiro e redistribuzione più accorta degli indirizzi IPv4 già usati.",
+      "Un miglior utilizzo della rete Internet da parte degli utenti finali."
+    ],
+    "correct_index" 0: ,
+    "verified": false,
+    "explanation": "Soluzione: A. Il rallentamento della diffusione di IPv6 è stato in larga parte dovuto all'adozione della tecnica di Network Address Translation (NAT), che permette l'utilizzo di indirizzi IPv4 privati all'interno delle reti locali, che vengono poi tradptti in un singolo indirizzo IPv4 pubblico per la comunicazione su Internet.",
+    "topic": ""
   }
 ]
