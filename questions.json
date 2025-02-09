@@ -74,10 +74,10 @@
   {
     "text": "Handover è il meccanismo che permette di:",
     "options": [
-      "criptare un canale di comunicazione",
-      "gestire lo sgancio da una cella e il riaggancio ad una nuova",
-      "notificare ad un utente una chiamata in arrivo",
-      "richiedere accesso alla rete da parte di un utente"
+      "Criptare un canale di comunicazione.",
+      "Gestire lo sgancio da una cella e il riaggancio ad una nuova.",
+      "Notificare ad un utente una chiamata in arrivo.",
+      "Richiedere accesso alla rete da parte di un utente."
     ],
     "correct_index": 1,
     "verified": true,
