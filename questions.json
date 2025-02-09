@@ -914,16 +914,16 @@
     "topic": "OSPF"
   },
   {
-    "text": "Il pacchetto ICMPv6 Router Advertisement (1956)",
+    "text": "Il pacchetto ICMPv6 Router Advertisement:",
     "options": [
-      "Viene inviato in risposta ad un pacchetto ICMPv6 Neighbor Solicitation",
-      "è un pacchetto broadcast",
-      "Permette l’autoconfigurazione dei dispositivi senza l’utilizzo del protocollo DHCP",
-      "Viene inviato periodicamente da un router a tutti gli altri router della rete internet"
+      "Viene inviato in risposta ad un pacchetto ICMPv6 Neighbor Solicitation.",
+      "è un pacchetto broadcast.",
+      "Permette l’autoconfigurazione dei dispositivi senza l’utilizzo del protocollo DHCP.",
+      "Viene inviato periodicamente da un router a tutti gli altri router della rete Internet."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Il pacchetto ICMPv6 Router Advertisement viene utilizzato dai router IPv6 per annunciare la loro presenza e fornire informazioni di configurazione essenziali a tutti i nodi sulla rete locale, tra cui il prefisso di rete, che consente ai dispositivi di autoconfigurarsi senza necessità di un server DHCP.",
     "topic": "IPv6"
   },
   {
