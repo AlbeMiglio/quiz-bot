@@ -3089,5 +3089,18 @@
     "verified": false,
     "explanation": "Soluzione: B. Nella procedura di paging in una rete cellulare, il sistema trasmette un messaggio di paging in modalità broadcast all'interno della location area in cui si trova il terminale.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "La procedura di paging in una rete cellulare è utilizzata per:",
+    "options": [
+      "Notificare al terminale mobile che deve essere contattato.",
+      "Comunicare al terminale mobile che sta per cambiare cella.",
+      "Costringere il terminale mobile ad applicare le corrette politiche di condivisione della memoria.",
+      "Inviare un SMS."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Quando la rete riceve una chiamata in ingresso o necessita di inviare una comunicazione a un utente specifico, essa trasmette un segnale di paging su un'area geografica in cui il terminale potrebbe trovarsi. In questo modo, il dispositivo riceve l'avviso e, a sua volta, risponde per stabilire la connessione necessaria.",
+    "topic": "Mobile Networks"
   }
 ]
