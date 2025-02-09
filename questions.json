@@ -3024,5 +3024,18 @@
     "verified": false,
     "explanation": "Soluzione: A. In una configurazione dual stack, ovvero quando un'interfaccia di rete dispone contemporaneamente di un indirizzo IPv4 e di un indirizzo IPv6, il sistema operativo gestisce due stack di protocollo distinti. Ciò significa che l'interfaccia è in grado di ricevere sia pacchetti IPv4 che pacchetti IPv6 in maniera nativa, senza dover ricorrere a meccanismi di tunneling.",
     "topic": "IPv6"
+  },
+  {
+    "text": "L'adozione dell'indirizzo MAC come Interface ID di un host IPv6:",
+    "options": [
+      "Permette all'host di effettuare una comunicazione diretta senza la necessità di inserire un'intestazione di livello 2.",
+      "Non è possibile per questioni di privacy.",
+      "Fa parte di una delle possibili soluzioni di autoconfigurazione disponibili in IPv6.",
+      "È l'unica soluzione possibile in IPv6 per la configurazione dell'Interface ID."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. In IPv6 è previsto il meccanismo di autoconfigurazione stateless (SLAAC), che permette all'host di generare automaticamente il proprio indirizzo IPv6. Una delle tecniche per ottenere l'Interface ID consiste nell'utilizzare l'indirizzo MAC del dispositivo, trasformandolo tramite il metodo EUI-64.",
+    "topic": "IPv6"
   }
 ]
