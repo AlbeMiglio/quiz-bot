@@ -2933,5 +2933,18 @@
     "verified": false,
     "explanation": "Soluzione: C. Lo 'scope' definisce l'area di validità di un indirizzo, determinando ad esempio se esso sia valido solo all'interno di una rete locale (link-local) oppure in un ambito più ampio (globale). Per gli indirizzi link-local può verificarsi l'ambiguità riguardo al mittente quando un dispositivo dispone di più interfacce di rete. In questi casi è necessario specificare uno 'scope identifier' per indicare esattamente quale interfaccia debba essere utilizzata.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Assumendo che tutti i protocolli necessari siano attivi e opportunamente configurati, come lavora una sorgente multicast IP?",
+    "options": [
+      "Invia un pacchetto che poi verrà duplicato opportunamente dai router.",
+      "Non può inviare traffico perché sono i router a creare i pacchetti multicast.",
+      "Invia sempre due copie dello stesso pacchetto per aumentare l'affidabilità.",
+      "Invia molte copie dello stesso pacchetto, una per ogni destinatario."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Nel funzionamento del multicast IP, la sorgente invia un solo pacchetto indirizzato a un indirizzo di gruppo (multicast). Una volta che il pacchetto entra nella rete, i router provvedono a duplicarlo e a inoltrarlo lungo i vari rami dell'albero di distribuzione, in modo che esso raggiunga tutti i destinatari interessati.",
+    "topic": "Multicast"
   }
 ]
