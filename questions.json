@@ -1677,15 +1677,15 @@
     "topic": "IPv6"
   },
   {
-    "text": "Cos'è l'effetto ping-pong? (2193)",
+    "text": "Cos'è l'effetto ping-pong?",
     "options": [
-      "Il proporre la cella di sgancio come cella di aggancio",
-      "Il rimbalzo dei segnali all'interno di una cella",
-      "Un modo alternativo per definire il concetto di handover"
+      "Il proporre la cella di sgancio come cella di aggancio.",
+      "Il rimbalzo dei segnali all'interno di una cella.",
+      "Un modo alternativo per definire il concetto di handover."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L'effetto ping-pong si riferisce al fenomeno in cui un dispositivo mobile, trovandosi in prossimità del confine tra due celle, viene continuamente trasferito da una cella all'altra.",
     "topic": "Mobile Networks"
   },
   {
