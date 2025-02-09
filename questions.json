@@ -3102,5 +3102,18 @@
     "verified": false,
     "explanation": "Soluzione: A. Quando la rete riceve una chiamata in ingresso o necessita di inviare una comunicazione a un utente specifico, essa trasmette un segnale di paging su un'area geografica in cui il terminale potrebbe trovarsi. In questo modo, il dispositivo riceve l'avviso e, a sua volta, risponde per stabilire la connessione necessaria.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il termine handover nelle reti cellulari si riferisce a:",
+    "options": [
+      "Lo spostamento di un terminale mobile da una cella a un'altra, anche se in quel momento non ci sono comunicazioni attive.",
+      "Lo spostamento di un terminale mobile da una cella a un'altra senza l'interruzione di una comunicazione attiva (ad esempio, una chiamata).",
+      "L'utilizzo di un terminale mobile nella rete di un operatore diverso da quello a cui appartiene la carta SIM installata nel terminale.",
+      "L'accensione del terminale mobile dopo un lungo periodo di inattività."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Il termine handover indica il processo mediante il quale una comunicazione in corso viene trasferita da una cella all'altra in una rete cellulare, garantendo la continuità del servizio anche mentre il terminale si sposta.",
+    "topic": "Mobile Networks"
   }
 ]
