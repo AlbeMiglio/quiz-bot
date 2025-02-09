@@ -3011,5 +3011,18 @@
     "verified": false,
     "explanation": "Soluzione: A. Il metodo prevede che, oltre all'indirizzo permanente basato sul MAC o su altri identificatori, il dispositivo generi periodicamente un nuovo Interface ID in maniera casuale.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Un'interfaccia di rete con indirizzo IPv4 e IPv6 può ricevere:",
+    "options": [
+      "Sia pacchetti IPv4 che IPv6.",
+      "Solo pacchetti IPv4 incapsulati in IPv6, secondo l'approccio chiamato 'tunneling'.",
+      "Solo pacchetti IPv6, poiché in questo tipo di configurazione il sistema operativo considera IPv4 obsoleto.",
+      "Solo pacchetti IPv6 incapsulati in IPv4, secondo l'approccio chiamato 'tunneling'."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. In una configurazione dual stack, ovvero quando un'interfaccia di rete dispone contemporaneamente di un indirizzo IPv4 e di un indirizzo IPv6, il sistema operativo gestisce due stack di protocollo distinti. Ciò significa che l'interfaccia è in grado di ricevere sia pacchetti IPv4 che pacchetti IPv6 in maniera nativa, senza dover ricorrere a meccanismi di tunneling.",
+    "topic": "IPv6"
   }
 ]
