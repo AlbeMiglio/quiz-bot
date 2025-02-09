@@ -1560,7 +1560,7 @@
     "topic": "IP Addressing"
   },
   {
-    "text": "Nel IPv6 cosa sparisce dalle intestazioni, rispetto a IPv4? (1885)",
+    "text": "In IPv6 cosa sparisce dalle intestazioni, rispetto a IPv4?",
     "options": [
       "Il tempo di vita del pacchetto.",
       "Gli indirizzi mittente e destinatario.",
@@ -1569,7 +1569,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. La verifica dell'integrità viene ora affidata ad altri strati della rete, come il livello di trasporto o il livello di collegamento dati.",
     "topic": "IPv6"
   },
   {
