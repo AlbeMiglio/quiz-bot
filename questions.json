@@ -1725,16 +1725,16 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "L'indirizzo IPv6 2001:4600::0201:06FF:FEA5:3A4C è: (2207)",
+    "text": "L'indirizzo IPv6 2001:4600::0201:06FF:FEA5:3A4C è:",
     "options": [
-      "Un indirizzo di tipo privato",
-      "Un indirizzo utilizzabile da un server per offrire un servizio sulla Internet pubblica IPv6",
-      "Un indirizzo utilizzabile da un host unicamente per effettuare delle comunicazioni con un altro host sullo stesso link",
-      "Un indirizzo al momento non valido in IPv6"
+      "Un indirizzo di tipo privato.",
+      "Un indirizzo utilizzabile da un server per offrire un servizio sulla Internet pubblica IPv6.",
+      "Un indirizzo utilizzabile da un host unicamente per effettuare delle comunicazioni con un altro host sullo stesso link.",
+      "Un indirizzo al momento non valido in IPv6."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. L'indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C appartiene al blocco degli indirizzi link-local, ovvero quelli che hanno il prefisso FE80::/10. Tali indirizzi sono destinati esclusivamente alle comunicazioni all'interno dello stesso link di rete e non sono instradabili sulla rete internet pubblica.",
     "topic": "IPv6"
   },
   {
