@@ -1904,10 +1904,10 @@
   {
     "text": "Gli indirizzi IPv6 di tipo Private:",
     "options": [
-      "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale",
-      "Vengono usati solo per le comunicazioni on-link",
-      "Vengono usati solo sui router",
-      "Vengono utilizzati per collegare reti private attraverso una rete pubblica"
+      "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale.",
+      "Vengono usati solo per le comunicazioni on-link.",
+      "Vengono usati solo sui router.",
+      "Vengono utilizzati per collegare reti private attraverso una rete pubblica."
     ],
     "correct_index": 0,
     "verified": false,
@@ -2932,6 +2932,6 @@
     "correct_index": 2,
     "verified": false,
     "explanation": "Soluzione: C. Lo 'scope' definisce l'area di validità di un indirizzo, determinando ad esempio se esso sia valido solo all'interno di una rete locale (link-local) oppure in un ambito più ampio (globale). Per gli indirizzi link-local può verificarsi l'ambiguità riguardo al mittente quando un dispositivo dispone di più interfacce di rete. In questi casi è necessario specificare uno 'scope identifier' per indicare esattamente quale interfaccia debba essere utilizzata.",
-    "topic": ""
+    "topic": "IPv6"
   }
 ]
