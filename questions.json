@@ -368,10 +368,10 @@
   {
     "text": "Gli indirizzi IPv6 Aggregatable Global Unicast sono:",
     "options": [
-      "Aggregabili solo in address range molto piccoli, in modo da favorire la precisione del calcolo dei percorsi",
-      "Univoci a livello globale, sostanzialmente equivalenti agli indirizzi pubblici IPv4",
-      "Utilizzabili solo su dispositivi appartenenti alla stessa rete locale",
-      "Utilizzabili a livello globale solo insieme ad opportune tecniche di Network Address Translation (NAT)"
+      "Aggregabili solo in address range molto piccoli, in modo da favorire la precisione del calcolo dei percorsi.",
+      "Univoci a livello globale, sostanzialmente equivalenti agli indirizzi pubblici IPv4.",
+      "Utilizzabili solo su dispositivi appartenenti alla stessa rete locale.",
+      "Utilizzabili a livello globale solo insieme ad opportune tecniche di Network Address Translation (NAT)."
     ],
     "correct_index": 1,
     "verified": true,
