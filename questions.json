@@ -774,7 +774,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Nello schema di indirizzamento IPv6, è prassi comune che i primi 64 bit dell'indirizzo siano dedicati al prefisso di rete, mentre i restanti 64 bit vengono utilizzati come Interface ID.",
     "topic": "IPv6"
   },
   {
