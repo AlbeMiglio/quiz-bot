@@ -2916,9 +2916,22 @@
       "Un ritiro e redistribuzione più accorta degli indirizzi IPv4 già usati.",
       "Un miglior utilizzo della rete Internet da parte degli utenti finali."
     ],
-    "correct_index" 0: ,
+    "correct_index": 0,
     "verified": false,
     "explanation": "Soluzione: A. Il rallentamento della diffusione di IPv6 è stato in larga parte dovuto all'adozione della tecnica di Network Address Translation (NAT), che permette l'utilizzo di indirizzi IPv4 privati all'interno delle reti locali, che vengono poi tradptti in un singolo indirizzo IPv4 pubblico per la comunicazione su Internet.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Qual è la funzione dello 'scope' associato agli indirizzi IPv6?",
+    "options": [
+      "Non esiste uno scope associato agli indirizzi IPv6.",
+      "Serve per poter utilizzare gli indirizzi globali.",
+      "Serve a risolvere, in casi particolari, l'ambiguità riguardo il mittente.",
+      "Server per poter utilizzare gli indirizzi anycast."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Lo 'scope' definisce l'area di validità di un indirizzo, determinando ad esempio se esso sia valido solo all'interno di una rete locale (link-local) oppure in un ambito più ampio (globale). Per gli indirizzi link-local può verificarsi l'ambiguità riguardo al mittente quando un dispositivo dispone di più interfacce di rete. In questi casi è necessario specificare uno 'scope identifier' per indicare esattamente quale interfaccia debba essere utilizzata.",
+    "topic": ""
   }
 ]
