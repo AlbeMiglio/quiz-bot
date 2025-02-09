@@ -876,12 +876,12 @@
     "topic": "BGP"
   },
   {
-    "text": "L’indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C è: (1968)",
+    "text": "L’indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C è:",
     "options": [
-      "Un indirizzo utilizzabile da un host con MAC address 00:01:06:A5:3A:4C per le comunicazioni con un altro host sullo stesso link",
-      "Un indirizzo utilizzabile da un server con MAC address 00:01:06:A5:3A:4C per offrire un servizio sulla Internet pubblica IPv6",
-      "Un indirizzo utilizzabile da più dispositivi nello stesso link",
-      "Un indirizzo al momento non previsto in IPv6"
+      "Un indirizzo utilizzabile da un host con MAC address 00:01:06:A5:3A:4C per le comunicazioni con un altro host sullo stesso link.",
+      "Un indirizzo utilizzabile da un server con MAC address 00:01:06:A5:3A:4C per offrire un servizio sulla Internet pubblica IPv6.",
+      "Un indirizzo utilizzabile da più dispositivi nello stesso link.",
+      "Un indirizzo al momento non previsto in IPv6."
     ],
     "correct_index": 0,
     "verified": false,
@@ -1734,7 +1734,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. L'indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C appartiene al blocco degli indirizzi link-local, ovvero quelli che hanno il prefisso FE80::/10. Tali indirizzi sono destinati esclusivamente alle comunicazioni all'interno dello stesso link di rete e non sono instradabili sulla rete internet pubblica.",
+    "explanation": "Soluzione: B.",
     "topic": "IPv6"
   },
   {
