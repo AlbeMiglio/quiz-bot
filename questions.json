@@ -817,15 +817,15 @@
     "topic": "Optical Networks"
   },
   {
-    "text": "indirizzi global unicast aggregatable (2042)",
+    "text": "indirizzi global unicast aggregatable:",
     "options": [
-      "Possono essere usati solo dai router",
-      "Possono essere usati solo dagli host",
-      "Sono distribuiti geograficamente in modo gerarchico"
+      "Possono essere usati solo dai router.",
+      "Possono essere usati solo dagli host.",
+      "Sono distribuiti geograficamente in modo gerarchico."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Gli indirizzi global unicast aggregatable, soprattutto nel contesto di IPv6, sono strutturati in maniera gerarchica.",
     "topic": "IPv6"
   },
   {
