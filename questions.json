@@ -420,10 +420,10 @@
   {
     "text": "Cosa sono i bursts?",
     "options": [
-      "Sono dei pacchetti che viaggiano sulla rete IP",
-      "Sono trame che viaggiano attraverso onde radio",
-      "Sono blocchi dati che viaggiano su circuit switched networks",
-      "Sono i raggruppamenti di celle di dimensione G"
+      "Sono dei pacchetti che viaggiano sulla rete IP.",
+      "Sono trame che viaggiano attraverso onde radio.",
+      "Sono blocchi dati che viaggiano su circuit switched networks.",
+      "Sono i raggruppamenti di celle di dimensione G."
     ],
     "correct_index": 2,
     "verified": false,
