@@ -1290,16 +1290,16 @@
     "topic": "Multicast"
   },
   {
-    "text": "Il protocollo IPv6 prevede che l'intestazione dei pacchetti IP: (1903)",
+    "text": "Il protocollo IPv6 prevede che l'intestazione dei pacchetti IP:",
     "options": [
-      "Sia sempre autenticata tramite oppurtuni algoritmi di cifratura per aumentare la sicurezza delle transmissioni",
-      "Sia di dimensioni inferiori rispetto a quella dei pacchetti IPv4 in modo da aumentare l'efficienza nell'uso della banda trasmissiva riducendo l'overhead protocollare",
-      "Sia costituita solo da campi di lunghezza fissa che portano informazioni necessarie in ogni pacchetto",
+      "Sia sempre autenticata tramite oppurtuni algoritmi di cifratura per aumentare la sicurezza delle transmissioni.",
+      "Sia di dimensioni inferiori rispetto a quella dei pacchetti IPv4 in modo da aumentare l'efficienza nell'uso della banda trasmissiva riducendo l'overhead protocollare.",
+      "Sia costituita solo da campi di lunghezza fissa che portano informazioni necessarie in ogni pacchetto.",
       "Comprenda alcuni campi, prima disponibili solamente come opzioni di IPv4, per funzionalità che si sono rivelate di largo uso nel corso del tempo."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. L'intestazione IPv6 è costituitsa da campi di lunghezza fissa (40 byte) che contengono le informazioni essenziali per ogni pacchetto.",
     "topic": "IPv6"
   },
   {
