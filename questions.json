@@ -1772,16 +1772,16 @@
     "topic": "Network Architecture"
   },
   {
-    "text": "Gli indirizzi IPv6 di tipo Site Local (2027)",
+    "text": "Gli indirizzi IPv6 di tipo Site Local:",
     "options": [
-      "Sono impostati automaticamente dalle stazioni per le comunicazioni on-link",
-      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale",
-      "Non esistono",
-      "Sono deprecati ma possono comunque essere utilizzati"
+      "Sono impostati automaticamente dalle stazioni per le comunicazioni on-link.",
+      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale.",
+      "Non esistono.",
+      "Sono deprecati ma possono comunque essere utilizzati."
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Gli indirizzi IPv6 di tipo Site Local erano stati originariamente pensati per fornire un indirizzamento privato all'interno di un singolo site, analogamente agli indirizzi privati IPv4. Tuttavia, a causa di alcune ambiguità e problematiche nel definire precisamente cosa costituisse un 'sito', questi indirizzi sono stati deprecati.",
     "topic": "IPv6"
   },
   {
