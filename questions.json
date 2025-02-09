@@ -2840,7 +2840,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. MAP-T si occupa di mappare un indirizzo IPv4 in una rete IPv6. In base all'indirizzo 'embeddato' in quello IPv6 questo indirizzo dovrebbe cambiare.",
+    "explanation": "Soluzione: D. L'intestazione IPv6, usata per instradare il pacchetto attraverso l'infrastruttura del provider, ha come destinazione il Border Relay.",
     "topic": "IPv6"
   },
   {
