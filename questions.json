@@ -829,11 +829,11 @@
     "topic": "IPv6"
   },
   {
-    "text": "Quale di queste tecniche non è una soluzione per la transizione IPV4-IPV6? (1959)",
+    "text": "Quale di queste tecniche non è una soluzione per la transizione IPv4-IPv6?",
     "options": ["6to4", "Teredo", "6over4", "6mix4"],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D.",
     "topic": "IPv6"
   },
   {
