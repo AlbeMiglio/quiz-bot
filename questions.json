@@ -2998,5 +2998,18 @@
     "verified": false,
     "explanation": "Soluzione: D. Quando un host configura un nuovo indirizzo IPv6, esegue il DAD inviando messaggi di Neighbor Solicitation all'indirizzo multicast specifico. Se un altro host risponde a questi messaggi, significa che l'indirizzo è già in uso e, pertanto, il nodo deve scegliere un altro indirizzo.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Utilizzando il metodo di configurazione di tipo privacy-aware (RFC 4941) una stazione IPv6 ottiene un indirizzo:",
+    "options": [
+      "Con un Interface ID non rintracciabile.",
+      "Con un prefisso e Interface ID entrambi non tracciabili.",
+      "Valido solo all'interno di una VPN.",
+      "Con un prefisso non rintracciabile."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Il metodo prevede che, oltre all'indirizzo permanente basato sul MAC o su altri identificatori, il dispositivo generi periodicamente un nuovo Interface ID in maniera casuale.",
+    "topic": "IPv6"
   }
 ]
