@@ -255,8 +255,8 @@
     "options": [
       "È utilizzabile per permettere la comunicazione tra stazioni su link locali (es. una LAN) in mancanza di altri indirizzi IPv6.",
       "Serve per collegare fisicamente due stazioni su un link locale.",
-      "E' l'indirizzo utilizzato dalle stazioni su una LAN per scambiarsi i dati.",
-      "E' utilizzato in tutte le comunicazioni tra stazioni locali."
+      "È l'indirizzo utilizzato dalle stazioni su una LAN per scambiarsi i dati.",
+      "È utilizzato in tutte le comunicazioni tra stazioni locali."
     ],
     "correct_index": 0,
     "verified": false,
