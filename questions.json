@@ -1979,16 +1979,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Nella soluzione DS-Lite per la transizione IPv4-IP6 (2029)",
+    "text": "Nella soluzione DS-Lite per la transizione IPv4-IPv6:",
     "options": [
-      "La funzionalità di NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP",
-      "La funzionalità di NAT è realizzata sul CPE dell’utente",
-      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP",
-      "Non è prevista la funzionalità di NAT"
+      "La funzionalità di NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP.",
+      "La funzionalità di NAT è realizzata sul CPE dell’utente.",
+      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP.",
+      "Non è prevista la funzionalità di NAT."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. Nella soluzione DS-Lite (Dual-Stack Lite) per la transizione da IPv4 a IPv6, il Customer Premises Equipment (CPE) non esegue il NAT. ",
     "topic": "IPv6"
   },
   {
