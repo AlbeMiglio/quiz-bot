@@ -3063,5 +3063,18 @@
     "verified": false,
     "explanation": "Soluzione: D. Nella configurazione più comune, uno di questi indirizzi rappresenta il BSSID, che è l'indirizzo MAC dell'Access Point.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Fissando la dimensione della cella G e diminuendo il raggio R:",
+    "options": [
+      "La capacità rimane invariata.",
+      "La capacità aumenta.",
+      "La capacità diminuisce.",
+      ""
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B.",
+    "topic": "Mobile Networks"
   }
 ]
