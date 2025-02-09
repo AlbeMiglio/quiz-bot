@@ -2985,5 +2985,18 @@
     "verified": false,
     "explanation": "Soluzione: A. Nel protocollo Neighbor Discovery di IPv6, il Solicited Node Multicast Address è un indirizzo multicast specifico che viene utilizzato per la risoluzione degli indirizzi. Quando viene inviato un pacchetto ICMP Neighbor Solicitation, questo viene indirizzato al Solicited Node Multicast Address corrispondente all'indirizzo target. Tutti i nodi appartenenti a quel gruppo elaborano il pacchetto, ma solo il nodo la cui interfaccia possiede l'indirizzo IPv6 esatto per cui è stata inviata la richiesta risponderà con un ICMP Neighbor Advertisement.",
     "topic": "IPv6"
+  },
+  {
+    "text": "La procedura di Duplicate Address Detection (DAD):",
+    "options": [
+      "Viene utilizzata in IPv6 per verificare che un host possa acquisire anche un indirizzo IPv4.",
+      "È utilizzata in IPv6 per verificare che l'indirizzo MAC selezionato per un host non sia già in uso.",
+      "Viene utilizzato in IPv4 per verificare che un host possa acquisire anche un indirizzo IPv6.",
+      "Viene utilizzato in IPv6 per verificare che l'indirizzo IPv6 selezionato per un host non sia già in uso."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Quando un host configura un nuovo indirizzo IPv6, esegue il DAD inviando messaggi di Neighbor Solicitation all'indirizzo multicast specifico. Se un altro host risponde a questi messaggi, significa che l'indirizzo è già in uso e, pertanto, il nodo deve scegliere un altro indirizzo.",
+    "topic": "IPv6"
   }
 ]
