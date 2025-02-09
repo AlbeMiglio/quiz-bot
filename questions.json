@@ -1928,16 +1928,16 @@
     "topic": "MPLS"
   },
   {
-    "text": "Quanti tipi di bursts esistono? (2180)",
+    "text": "Quanti tipi di bursts esistono?",
     "options": [
-      "3: Regular, Access and Synchronization",
-      "2: Regular and Access",
-      "5: Regular, Access, Synchronization, Frequency Correction and Dummy",
-      "1: Regular"
+      "3: Regular, Access and Synchronization.",
+      "2: Regular and Access.",
+      "5: Regular, Access, Synchronization, Frequency Correction and Dummy.",
+      "1: Regular."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C.",
     "topic": "Mobile Networks"
   },
   {
