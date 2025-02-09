@@ -189,15 +189,15 @@
     "topic": "MPLS"
   },
   {
-    "text": "Header IPv6 (2043)",
+    "text": "Header IPv6:",
     "options": [
-      "L’header è di dimensione fissa e non possono essere aggiunte opzioni",
-      "L’header è di dimensione variabile",
-      "Dimensione dell’header fissa ma con eventuale aggiunta di Header aggiuntivi(?)"
+      "L’header è di dimensione fissa e non possono essere aggiunte opzioni.",
+      "L’header è di dimensione variabile.",
+      "Dimensione dell’header fissa ma con eventuale aggiunta di Header aggiuntivi."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. L'header IPv6 è progettato per avere una dimensione fissa di 40 byte, garantendo così una maggiore efficienza nel processamento dei pacchetti, ma allo stesso tempo permette l'aggiunta di extension headers.",
     "topic": "IPv6"
   },
   {
