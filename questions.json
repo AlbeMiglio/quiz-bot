@@ -1325,7 +1325,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L'intestazione (header) di IPv6 è progettata per essere di lunghezza fissa, occupando 40 byte, al fine di semplificare e velocizzare l'elaborazione dei pacchetti.",
     "topic": "IPv6"
   },
   {
