@@ -3037,5 +3037,18 @@
     "verified": false,
     "explanation": "Soluzione: C. In IPv6 è previsto il meccanismo di autoconfigurazione stateless (SLAAC), che permette all'host di generare automaticamente il proprio indirizzo IPv6. Una delle tecniche per ottenere l'Interface ID consiste nell'utilizzare l'indirizzo MAC del dispositivo, trasformandolo tramite il metodo EUI-64.",
     "topic": "IPv6"
+  },
+  {
+    "text": "La tecnica di transizione IPv4-IPv6 denominata Address plus Port (A+P) prevede che:",
+    "options": [
+      "Non siano mai utilizzati indirizzi IPv4 di tipo privato su dispositivi utente.",
+      "Non sia possibile collegare alla rete delle stazioni IPv6.",
+      "Il NAT sia posizionato sul CPE dell'utente.",
+      "Il NAT sia posizionato sull'AFTR."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C.",
+    "topic": "IPv6"
   }
 ]
