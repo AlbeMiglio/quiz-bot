@@ -1316,7 +1316,7 @@
     "topic": "MPLS"
   },
   {
-    "text": "A differenza della versione 4 dell'IP, la versione 6: (1878)",
+    "text": "A differenza della versione 4 dell'IP, la versione 6:",
     "options": [
       "Non ha intestazione di lunghezza variabile.",
       "Non permette di scoprire l'indirizzo MAC di un'altra stazione, conoscendone l'indirizzo IP.",
