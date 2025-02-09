@@ -2619,7 +2619,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B.",
+    "explanation": "Soluzione: B. L'Interface ID di un indirizzo IPv6 corrisponde tipicamente agli ultimi 64 bit dell'indirizzo. Questi bit possono essere configurati in maniera arbitraria oppure, in molti casi, vengono generati automaticamente a partire dall'indirizzo MAC della scheda di rete mediante l'algoritmo EUI-64.",
     "topic": "IPv6"
   },
   {
