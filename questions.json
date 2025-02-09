@@ -2064,7 +2064,7 @@
     "topic": "MPLS"
   },
   {
-    "text": "Uno dei motivi che stanno favorendo la diffusione di ipv6 è:",
+    "text": "Uno dei motivi che stanno favorendo la diffusione di IPv6 è:",
     "options": [
       "La necessità sempre più diffusa di utilizzare applicazioni multicast.",
       "La scarsa propensione degli operatori di rete a modificare la configurazione delle proprie reti.",
@@ -2073,7 +2073,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C.",
+    "explanation": "Soluzione: C. Uno dei principali fattori che ha spinto alla diffusione di IPv6 è l'esaurimento degli indirizzi IPv4.",
     "topic": "IPv6"
   },
   {
