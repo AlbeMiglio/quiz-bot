@@ -1087,7 +1087,7 @@
     "options": [
       "Non vi sono particolari problemi.",
       "Non permette la cifratura del carico.",
-      "E' possibile individuare la stessa interfaccia, se si collega a internet da vari provider.",
+      "È possibile individuare la stessa interfaccia, se si collega a internet da vari provider.",
       "Non permette l'uso delle intestazioni di sicurezza (tipo IPsec)."
     ],
     "correct_index": 2,
