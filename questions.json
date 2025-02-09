@@ -2963,7 +2963,7 @@
   {
     "text": "Una delle funzioni della suite di protocolli IPv4 che è stata sostituita da ICMPv6 è:",
     "options": [
-      "IPsec.",
+      "IPsec",
       "PPP",
       "OSPF",
       "IGMP"
@@ -2971,6 +2971,19 @@
     "correct_index": 3,
     "verified": false,
     "explanation": "Soluzione: D. In IPv4 il protocollo IGMP (Internet Management Group Protocol) era impiegto per la gestione dei gruppi multicast. Con l'introduzione di IPv6, molte funzioni sono state riorganizzate e integrate in ICMPv6.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Il Solicited Node Multicast Address:",
+    "options": [
+      "È un gruppo multicast speciale che può contenere uno o più nodi. Questi nodi ricevono ed elaborano l'ICMP Neighbor Solicitation, ma solo uno risponderà con un ICMP Neighbor Advertisement.",
+      "È un gruppo multicast speciale che contiene tutti i nodi di un determinato Link, in quanto sostituisce l'indirizzo broadcast nel contesto IPv6. Tutti i nodi ricevono ed elaborano l'ICMP Neighbor Solicitation, ma solo uno risponderà con un ICMP Neighbor Advertisement.",
+      "È una tecnica obsoleta di Neighbor Discovery, ora sostituita da una soluzione più efficiente basata su ARP.",
+      "È un gruppo multicast speciale che contiene un solo nodo. Questo nodo riceve ed elabora l'ICMP Neighbor Solicitation e poi risponde con un ICMP Neighbor Advertisement."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Nel protocollo Neighbor Discovery di IPv6, il Solicited Node Multicast Address è un indirizzo multicast specifico che viene utilizzato per la risoluzione degli indirizzi. Quando viene inviato un pacchetto ICMP Neighbor Solicitation, questo viene indirizzato al Solicited Node Multicast Address corrispondente all'indirizzo target. Tutti i nodi appartenenti a quel gruppo elaborano il pacchetto, ma solo il nodo la cui interfaccia possiede l'indirizzo IPv6 esatto per cui è stata inviata la richiesta risponderà con un ICMP Neighbor Advertisement.",
     "topic": "IPv6"
   }
 ]
