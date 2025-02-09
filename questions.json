@@ -2402,16 +2402,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Un host IPv6 al reboot, acquisirà il seguente indirizzo: (1905)",
+    "text": "Un host IPv6 al reboot, acquisirà il seguente indirizzo:",
     "options": [
       "Non è possibile sapere con precisione l'indirizzo stesso, dal momento che l'indirizzo IPv6 viene ogni volta rigenerato con un numero casuale per quanto riguarda la parte riservata all'Interface ID.",
       "Un indirizzo FE80::/32",
-      "Per quanto riguarda l'indirizzo link-local, assumera' lo stesso indirizzo IPv6 che possedeva prima del reboot.",
+      "Per quanto riguarda l'indirizzo link-local, assumerà lo stesso indirizzo IPv6 che possedeva prima del reboot.",
       "L'indirizzo dipende interamente dalla configurazione che acquisirà dal suo default router."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Dato che l'Interface ID è calcolato in maniera deterministica (cioè, basandosi su dati fissi come il MAC), l'indirizzo link-local rimane invariato al riavvio del sistema.",
     "topic": "IPv6"
   },
   {
