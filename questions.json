@@ -1734,7 +1734,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B.",
+    "explanation": "Soluzione: B. L'indirizzo IPv6 fornito, 2001:4600::0201:06FF:FEA5:3A4C, appartiene allo spazio degli indirizzi gloabl unicast. Questi indirizzi sono caratterizzati da un prefisso compreso all'interno del range 2000::/3, il che li rende validi per la comunicazione sulla rete Internet pubblica IPv6.",
     "topic": "IPv6"
   },
   {
