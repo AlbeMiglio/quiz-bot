@@ -1798,16 +1798,16 @@
     "topic": "Routing"
   },
   {
-    "text": "In una interfaccia radio, tra le tante funzioni il MAC layer (2196)",
+    "text": "In una interfaccia radio, tra le tante funzioni il MAC layer:",
     "options": [
-      "Permette il controllo del flusso",
-      "Permette l'accesso al canale",
-      "Esegue la negoziazione e il controllo del QoS",
-      "Nessuna delle precedenti"
+      "Permette il controllo del flusso.",
+      "Permette l'accesso al canale,",
+      "Esegue la negoziazione e il controllo del QoS.",
+      "Nessuna delle precedenti."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Il MAC layer si occupa di regolare e coordinare l'uso del mezzo condiviso stabilendo le regole con cui i vari dispositivi possono trasmettere dati, evitando collisioni e garantendo un uso efficiente della banda disponibile.",
     "topic": "Mobile Networks"
   },
   {
