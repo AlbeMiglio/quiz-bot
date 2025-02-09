@@ -2801,7 +2801,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C.",
+    "explanation": "Soluzione: C. Gli Extension Headers in IPv6 rappresentano una serie di header aggiuntivi che si concatenano all'header principale e permettono di implementare funzionalità extra.",
     "topic": "IPv6"
   },
   {
