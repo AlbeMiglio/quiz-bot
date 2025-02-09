@@ -1053,7 +1053,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Il dispositivo dotato di NAT64 intercetta un pacchetto IPv6 e ne esegue la traduzione, sostituendo l'intestazione IPv6 con una corrispondente intestazione IPv4.",
     "topic": "IPv6"
   },
   {
