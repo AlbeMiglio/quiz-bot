@@ -2532,12 +2532,12 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "Un terminale mobile effettua un handover quando",
+    "text": "Un terminale mobile effettua un handover quando:",
     "options": [
-      "si sposta dalla rete di un operatore a quella di un altro",
-      "si riattiva grazie al passaggio della mano dell'utente sullo schermo",
-      "si sposta da una cella ad un'altra durante una chiamata, senza che questa si interrompa",
-      "deve essere raggiunto all'interno della rete di un altro operatore"
+      "Si sposta dalla rete di un operatore a quella di un altro.",
+      "Si riattiva grazie al passaggio della mano dell'utente sullo schermo.",
+      "Si sposta da una cella ad un'altra durante una chiamata, senza che questa si interrompa.",
+      "Deve essere raggiunto all'interno della rete di un altro operatore."
     ],
     "correct_index": 2,
     "verified": false,
