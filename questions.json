@@ -2919,6 +2919,6 @@
     "correct_index" 0: ,
     "verified": false,
     "explanation": "Soluzione: A. Il rallentamento della diffusione di IPv6 è stato in larga parte dovuto all'adozione della tecnica di Network Address Translation (NAT), che permette l'utilizzo di indirizzi IPv4 privati all'interno delle reti locali, che vengono poi tradptti in un singolo indirizzo IPv4 pubblico per la comunicazione su Internet.",
-    "topic": ""
+    "topic": "IPv6"
   }
 ]
