@@ -2697,7 +2697,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D.",
+    "explanation": "Soluzione: D. Il protocollo IGMP (Internet Group Management Protocol) è stato progettato per consentire agli host di informare i router locali del proprio interesse nel ricevere il traffico multicast relativo a un determinato gruppo.",
     "topic": "Multicast"
   },
   {
