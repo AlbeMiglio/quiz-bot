@@ -2959,4 +2959,18 @@
     "verified": false,
     "explanation": "Soluzione: D.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Una delle funzioni della suite di protocolli IPv4 che è stata sostituita da ICMPv6 è:",
+    "options": [
+      "IPsec.",
+      "PPP",
+      "OSPF",
+      "IGMP"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. In IPv4 il protocollo IGMP (Internet Management Group Protocol) era impiegto per la gestione dei gruppi multicast. Con l'introduzione di IPv6, molte funzioni sono state riorganizzate e integrate in ICMPv6.",
+    "topic": "IPv6"
+  }
 ]
