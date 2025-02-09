@@ -1508,7 +1508,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "L'autoconfigurazione stateless in IPv6 richiede: (1892)",
+    "text": "L'autoconfigurazione stateless in IPv6 richiede:",
     "options": [
       "Un server DHCPv6 (Dinamic Host Configuration Protocol version 6).",
       "Un server presente sulla rete locale.",
