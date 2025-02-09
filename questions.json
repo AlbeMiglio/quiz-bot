@@ -2090,7 +2090,7 @@
     "topic": "Tunneling"
   },
   {
-    "text": "Nel protocollo IPv6: (1884)",
+    "text": "Nel protocollo IPv6:",
     "options": [
       "I protocolli di routing (ad esempio il formato dei pacchetti) non cambiano rispetto ad IPv4.",
       "Il protocollo ARP viene inglobato in ICMPv6, ma mantiene esattamente lo schema di funzionamento (richiesta broadcast, risposta unicast) precedente.",
@@ -2099,7 +2099,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. IPv6 consente a una stazione di autoconfigurarsi ascoltando i messaggi di Router Advertisement, sfruttando il meccanismo SLAAC per ottenere il proprio indirizzo IP e altri parmetri di rete.",
     "topic": "IPv6"
   },
   {
