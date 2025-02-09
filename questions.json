@@ -1664,16 +1664,16 @@
     "topic": "QoS"
   },
   {
-    "text": "La procedura di Neighbor Discovery in IPv6 (1966)",
+    "text": "La procedura di Neighbor Discovery in IPv6:",
     "options": [
-      "E’ basata su un pacchetto ICMPv6 inviato in multicast",
-      "E’ basata su un pacchetto ICMPv6 inviato in broadcast",
-      "E’ basata su ARPv6",
-      "Richiede che la rete supporti anche IPv4"
+      "È basata su un pacchetto ICMPv6 inviato in multicast.",
+      "È basata su un pacchetto ICMPv6 inviato in broadcast.",
+      "È basata su ARPv6.",
+      "Richiede che la rete supporti anche IPv4."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La procedura di Neighbor Discovery in IPv6 non utilizza il meccanismo di broadcast tipico di IPv4, bensì si basa su pacchetti ICMPv6 inviati in multicast.",
     "topic": "IPv6"
   },
   {
