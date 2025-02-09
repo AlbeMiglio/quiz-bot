@@ -3076,5 +3076,18 @@
     "verified": false,
     "explanation": "Soluzione: B.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "La procedura di paging in una rete cellulare:",
+    "options": [
+      "È basata su un messaggio che viene diffuso in modalità broadcast nell'intera rete cellulare.",
+      "È basata su un messaggio che viene diffuso in modalità broadcast all'interno della location area in cui si trova il terminale.",
+      "È riferita alla procedura usata dal terminale per gestire la memoria interna.",
+      "È riferita alla procedura usata dal terminale per aggiornare la loro posizione corrente in un database centrale."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Nella procedura di paging in una rete cellulare, il sistema trasmette un messaggio di paging in modalità broadcast all'interno della location area in cui si trova il terminale.",
+    "topic": "Mobile Networks"
   }
 ]
