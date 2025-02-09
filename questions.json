@@ -1202,10 +1202,10 @@
   {
     "text": "La tecnica di transizione IPv4-IPv6 denominata DS-lite prevede che:",
     "options": [
-      "Non sia possibile collegare alla rete delle stazioni IPv6",
-      "Il NAT sia posizionato sul Customer Premises Equipment (CPE) dell'utente",
-      "Non siano mai utilizzati indirizzi IPv4 di tipo privato sui dispositivi utente",
-      "Il NAT sia posizionato sull'Address Family Translation Router (AFTR)"
+      "Non sia possibile collegare alla rete delle stazioni IPv6.",
+      "Il NAT sia posizionato sul Customer Premises Equipment (CPE) dell'utente.",
+      "Non siano mai utilizzati indirizzi IPv4 di tipo privato sui dispositivi utente.",
+      "Il NAT sia posizionato sull'Address Family Translation Router (AFTR)."
     ],
     "correct_index": 3,
     "verified": false,
