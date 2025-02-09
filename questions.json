@@ -979,7 +979,7 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "L'inoltro di pacchetti Ipv6 su una LAN: (1904)",
+    "text": "L'inoltro di pacchetti IPv6 su una LAN:",
     "options": [
       "Non fa uso di meccanismi di neighbor discovery in quanto esiste una regola per mappare un qualunque indirizzo IPv6 in un indirizzo MAC.",
       "Non fa uso di meccanismo di neighbor discovery per quanto riguarda l'inoltro di pacchetti IPv6 multicast e broadcast in quanto esiste una regola per mappare questi indirizzi IPv6 in un indirizzo MAC.",
