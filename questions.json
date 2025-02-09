@@ -1338,7 +1338,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La tecnica Mapping Address and Port (MAP) per la transizione IPv4-IPv6 si basa sull'assegnazione, al Customer Premises Equipment (CPE), di un indirizzo IPv6 costruito mediante l'incorporazione dell'indirizzo IPv4 e del Port Set ID (PSID) che il provider assegna al cliente.",
     "topic": "IPv6"
   },
   {
