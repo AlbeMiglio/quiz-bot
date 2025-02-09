@@ -1277,16 +1277,16 @@
     "topic": "BGP"
   },
   {
-    "text": "Il protocollo IGMP (Internet Group Management Protocol)",
+    "text": "Il protocollo IGMP (Internet Group Management Protocol):",
     "options": [
-      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono presenti in una rete ad esso direttamente connessa",
-      "Permette ad un host IPv4 di creare un nuovo gruppo multicast",
-      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono attivi in un dato momento nella rete Internet",
-      "E’ una nuova versione del protocollo ICMP"
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono presenti in una rete ad esso direttamente connessa.",
+      "Permette ad un host IPv4 di creare un nuovo gruppo multicast.",
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono attivi in un dato momento nella rete Internet.",
+      "E’ una nuova versione del protocollo ICMP."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L’IGMP (Internet Group Management Protocol) è il protocollo utilizzato principalmente dagli host IPv4 e dai router per gestire in modo efficiente la partecipazione ai gruppi multicast all’interno di reti locali. ",
     "topic": "Multicast"
   },
   {
