@@ -74,10 +74,10 @@
   {
     "text": "Handover è il meccanismo che permette di:",
     "options": [
-      "criptare un canale di comunicazione",
-      "gestire lo sgancio da una cella e il riaggancio ad una nuova",
-      "notificare ad un utente una chiamata in arrivo",
-      "richiedere accesso alla rete da parte di un utente"
+      "Criptare un canale di comunicazione.",
+      "Gestire lo sgancio da una cella e il riaggancio ad una nuova.",
+      "Notificare ad un utente una chiamata in arrivo.",
+      "Richiedere accesso alla rete da parte di un utente."
     ],
     "correct_index": 1,
     "verified": true,
@@ -98,16 +98,16 @@
     "topic": "VPN"
   },
   {
-    "text": "le comunicazioni multicast in una rete ipv4 (2150)",
+    "text": "le comunicazioni multicast in una rete IPv4:",
     "options": [
-      "sono possibili solo all'interno di una singola rete lan, anche con l'utilizzo di protocolli aggiuntivi",
-      "sono sempre possibili, IGMP le rende solo più efficienti",
-      "non sono possibili senza l'utilizzo di protocolli aggiuntivi nella rete",
-      "sono possibili su scala geografica grazie all'utilizzo del solo protocollo IGMP"
+      "Sono possibili solo all'interno di una singola rete LAN, anche con l'utilizzo di protocolli aggiuntivi.",
+      "Sono sempre possibili, IGMP le rende solo più efficienti.",
+      "Non sono possibili senza l'utilizzo di protocolli aggiuntivi nella rete.",
+      "Sono possibili su scala geografica grazie all'utilizzo del solo protocollo IGMP."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "",
+    "explanation": "Per estendere le comunicazioni multicast oltre il confine di una singola LAN, è necessario l’utilizzo di protocolli di routing multicast aggiuntivi, come il Protocol Independent Multicast (PIM) o altri protocolli analoghi.",
     "topic": "Multicast"
   },
   {
@@ -189,15 +189,15 @@
     "topic": "MPLS"
   },
   {
-    "text": "Header IPv6 (2043)",
+    "text": "Header IPv6:",
     "options": [
-      "L’header è di dimensione fissa e non possono essere aggiunte opzioni",
-      "L’header è di dimensione variabile",
-      "Dimensione dell’header fissa ma con eventuale aggiunta di Header aggiuntivi(?)"
+      "L’header è di dimensione fissa e non possono essere aggiunte opzioni.",
+      "L’header è di dimensione variabile.",
+      "Dimensione dell’header fissa ma con eventuale aggiunta di Header aggiuntivi."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. L'header IPv6 è progettato per avere una dimensione fissa di 40 byte, garantendo così una maggiore efficienza nel processamento dei pacchetti, ma allo stesso tempo permette l'aggiunta di extension headers.",
     "topic": "IPv6"
   },
   {
@@ -251,12 +251,12 @@
     "topic": "Routing"
   },
   {
-    "text": "Un indirizzo link-local: (1906)",
+    "text": "Un indirizzo link-local:",
     "options": [
-      "E' utilizzabile per permettere la comunicazione tra stazioni su link locali (es. una LAN) in mancanza di altri indirizzi IPv6.",
+      "È utilizzabile per permettere la comunicazione tra stazioni su link locali (es. una LAN) in mancanza di altri indirizzi IPv6.",
       "Serve per collegare fisicamente due stazioni su un link locale.",
-      "E' l'indirizzo utilizzato dalle stazioni su una LAN per scambiarsi i dati.",
-      "E' utilizzato in tutte le comunicazioni tra stazioni locali."
+      "È l'indirizzo utilizzato dalle stazioni su una LAN per scambiarsi i dati.",
+      "È utilizzato in tutte le comunicazioni tra stazioni locali."
     ],
     "correct_index": 0,
     "verified": false,
@@ -368,10 +368,10 @@
   {
     "text": "Gli indirizzi IPv6 Aggregatable Global Unicast sono:",
     "options": [
-      "Aggregabili solo in address range molto piccoli, in modo da favorire la precisione del calcolo dei percorsi",
-      "Univoci a livello globale, sostanzialmente equivalenti agli indirizzi pubblici IPv4",
-      "Utilizzabili solo su dispositivi appartenenti alla stessa rete locale",
-      "Utilizzabili a livello globale solo insieme ad opportune tecniche di Network Address Translation (NAT)"
+      "Aggregabili solo in address range molto piccoli, in modo da favorire la precisione del calcolo dei percorsi.",
+      "Univoci a livello globale, sostanzialmente equivalenti agli indirizzi pubblici IPv4.",
+      "Utilizzabili solo su dispositivi appartenenti alla stessa rete locale.",
+      "Utilizzabili a livello globale solo insieme ad opportune tecniche di Network Address Translation (NAT)."
     ],
     "correct_index": 1,
     "verified": true,
@@ -420,10 +420,10 @@
   {
     "text": "Cosa sono i bursts?",
     "options": [
-      "Sono dei pacchetti che viaggiano sulla rete IP",
-      "Sono trame che viaggiano attraverso onde radio",
-      "Sono blocchi dati che viaggiano su circuit switched networks",
-      "Sono i raggruppamenti di celle di dimensione G"
+      "Sono dei pacchetti che viaggiano sulla rete IP.",
+      "Sono trame che viaggiano attraverso onde radio.",
+      "Sono blocchi dati che viaggiano su circuit switched networks.",
+      "Sono i raggruppamenti di celle di dimensione G."
     ],
     "correct_index": 2,
     "verified": false,
@@ -456,7 +456,7 @@
     "topic": "Routing"
   },
   {
-    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (2041)",
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in:",
     "options": [
       "192.168.0.0/23",
       "0.0.0.0/0",
@@ -465,7 +465,7 @@
     ],
     "correct_index": 1,
     "verified": true,
-    "explanation": "Sono sempre aggregabili in 0.0.0.0/0, gli ultimi bit in questo caso sono ...10.00000000 e ...01.00000000, quindi sarebbero aggregabili in una rete con prefisso 192.168.0/22, ma non 23",
+    "explanation": "Sono sempre aggregabili in 0.0.0.0/0, gli ultimi bit in questo caso sono ...10.00000000 e ...01.00000000, quindi sarebbero aggregabili in una rete con prefisso 192.168.0/22, ma non 23.",
     "topic": "IP Addressing"
   },
   {
@@ -663,14 +663,14 @@
     "topic": "OSPF"
   },
   {
-    "text": "vantaggio fibra ottica: (2046)",
+    "text": "Vantaggio fibra ottica:",
     "options": [
-      "maggiore velocità nelle trasmissioni sul canale",
-      "switch ottici performanti e bassa complessità"
+      "Maggiore velocità nelle trasmissioni sul canale.",
+      "Switch ottici performanti e bassa complessità."
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: A. Sono complessi da ingegnerizzare, anche se i materiali non sono complessi.",
+    "explanation": "Soluzione: B. Lo switch non ha complessità elevata, in quanto deve solo instradare un segnale ottico su una porta di uscita.",
     "topic": "Optical Networks"
   },
   {
@@ -700,12 +700,12 @@
     "topic": "Routing"
   },
   {
-    "text": "Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24. (1963)",
+    "text": "Due stazioni A e B appartengono alla stessa rete fisica e hanno rispettivamente indirizzi IP 130.192.1.1/25 e 130.192.1.129/24:",
     "options": [
-      "A comunica direttamente con B e viceversa",
-      "A comunica direttamente con B ma non viceversa",
-      "A comunica con B solo attraverso un router",
-      "A non può comunicare con B"
+      "A comunica direttamente con B e viceversa.",
+      "A comunica direttamente con B ma non viceversa.",
+      "A comunica con B solo attraverso un router.",
+      "A non può comunicare con B."
     ],
     "correct_index": 2,
     "verified": false,
@@ -741,10 +741,10 @@
   {
     "text": "L'International Mobile Equipment Identity (IMEI) è:",
     "options": [
-      "Un codice temporaneo assegnato dall'ISP",
-      "Un codice fisso assegnato dal BTS",
-      "Un numero telefonico temporaneo assegnato al terminale in base alla sua posizione",
-      "Identifica il dispositivo, è assegnato dal venditore e non è modificabile"
+      "Un codice temporaneo assegnato dall'ISP.",
+      "Un codice fisso assegnato dal BTS.",
+      "Un numero telefonico temporaneo assegnato al terminale in base alla sua posizione.",
+      "Identifica il dispositivo, è assegnato dal venditore e non è modificabile."
     ],
     "correct_index": 3,
     "verified": true,
@@ -774,7 +774,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Nello schema di indirizzamento IPv6, è prassi comune che i primi 64 bit dell'indirizzo siano dedicati al prefisso di rete, mentre i restanti 64 bit vengono utilizzati come Interface ID.",
     "topic": "IPv6"
   },
   {
@@ -817,23 +817,23 @@
     "topic": "Optical Networks"
   },
   {
-    "text": "indirizzi global unicast aggregatable (2042)",
+    "text": "indirizzi global unicast aggregatable:",
     "options": [
-      "Possono essere usati solo dai router",
-      "Possono essere usati solo dagli host",
-      "Sono distribuiti geograficamente in modo gerarchico"
+      "Possono essere usati solo dai router.",
+      "Possono essere usati solo dagli host.",
+      "Sono distribuiti geograficamente in modo gerarchico."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Gli indirizzi global unicast aggregatable, soprattutto nel contesto di IPv6, sono strutturati in maniera gerarchica.",
     "topic": "IPv6"
   },
   {
-    "text": "Quale di queste tecniche non è una soluzione per la transizione IPV4-IPV6? (1959)",
+    "text": "Quale di queste tecniche non è una soluzione per la transizione IPv4-IPv6?",
     "options": ["6to4", "Teredo", "6over4", "6mix4"],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D.",
     "topic": "IPv6"
   },
   {
@@ -876,12 +876,12 @@
     "topic": "BGP"
   },
   {
-    "text": "L’indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C è: (1968)",
+    "text": "L’indirizzo IPv6 FE80::0201:06FF:FEA5:3A4C è:",
     "options": [
-      "Un indirizzo utilizzabile da un host con MAC address 00:01:06:A5:3A:4C per le comunicazioni con un altro host sullo stesso link",
-      "Un indirizzo utilizzabile da un server con MAC address 00:01:06:A5:3A:4C per offrire un servizio sulla Internet pubblica IPv6",
-      "Un indirizzo utilizzabile da più dispositivi nello stesso link",
-      "Un indirizzo al momento non previsto in IPv6"
+      "Un indirizzo utilizzabile da un host con MAC address 00:01:06:A5:3A:4C per le comunicazioni con un altro host sullo stesso link.",
+      "Un indirizzo utilizzabile da un server con MAC address 00:01:06:A5:3A:4C per offrire un servizio sulla Internet pubblica IPv6.",
+      "Un indirizzo utilizzabile da più dispositivi nello stesso link.",
+      "Un indirizzo al momento non previsto in IPv6."
     ],
     "correct_index": 0,
     "verified": false,
@@ -889,15 +889,15 @@
     "topic": "IPv6"
   },
   {
-    "text": "mplementazione Multicast in IPv4 (1944)",
+    "text": "Implementazione Multicast in IPv4:",
     "options": [
-      "Disponibile senza necessità di protocolli aggiuntivi",
-      "Disponibile ma con protocolli aggiuntivi",
-      "Non supportato"
+      "Disponibile senza necessità di protocolli aggiuntivi.",
+      "Disponibile ma con protocolli aggiuntivi.",
+      "Non supportato."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Vengono utilizzati protocolli aggiuntivi: IGMP, PIM, DVMRP.",
     "topic": "Multicast"
   },
   {
@@ -914,16 +914,16 @@
     "topic": "OSPF"
   },
   {
-    "text": "Il pacchetto ICMPv6 Router Advertisement (1956)",
+    "text": "Il pacchetto ICMPv6 Router Advertisement:",
     "options": [
-      "Viene inviato in risposta ad un pacchetto ICMPv6 Neighbor Solicitation",
-      "è un pacchetto broadcast",
-      "Permette l’autoconfigurazione dei dispositivi senza l’utilizzo del protocollo DHCP",
-      "Viene inviato periodicamente da un router a tutti gli altri router della rete internet"
+      "Viene inviato in risposta ad un pacchetto ICMPv6 Neighbor Solicitation.",
+      "è un pacchetto broadcast.",
+      "Permette l’autoconfigurazione dei dispositivi senza l’utilizzo del protocollo DHCP.",
+      "Viene inviato periodicamente da un router a tutti gli altri router della rete Internet."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Il pacchetto ICMPv6 Router Advertisement viene utilizzato dai router IPv6 per annunciare la loro presenza e fornire informazioni di configurazione essenziali a tutti i nodi sulla rete locale, tra cui il prefisso di rete, che consente ai dispositivi di autoconfigurarsi senza necessità di un server DHCP.",
     "topic": "IPv6"
   },
   {
@@ -979,7 +979,7 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "L'inoltro di pacchetti Ipv6 su una LAN: (1904)",
+    "text": "L'inoltro di pacchetti IPv6 su una LAN:",
     "options": [
       "Non fa uso di meccanismi di neighbor discovery in quanto esiste una regola per mappare un qualunque indirizzo IPv6 in un indirizzo MAC.",
       "Non fa uso di meccanismo di neighbor discovery per quanto riguarda l'inoltro di pacchetti IPv6 multicast e broadcast in quanto esiste una regola per mappare questi indirizzi IPv6 in un indirizzo MAC.",
@@ -992,16 +992,16 @@
     "topic": "IPv6"
   },
   {
-    "text": "Lo stack protocollare dell'interfaccia radio si articola nei seguenti livelli (2195)",
+    "text": "Lo stack protocollare dell'interfaccia radio si articola nei seguenti livelli:",
     "options": [
-      "MAC layer, IP layer, TCP/UDP layer",
-      "MAC layer, Manage protocol layer",
-      "MAC layer, RLC layer, RRC layer",
-      "Esiste un singolo livello"
+      "MAC layer, IP layer, TCP/UDP layer.",
+      "MAC layer, Manage protocol layer.",
+      "MAC layer, RLC layer, RRC layer.",
+      "Esiste un singolo livello."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C.",
     "topic": "Mobile Networks"
   },
   {
@@ -1018,7 +1018,7 @@
     "topic": "Tunneling"
   },
   {
-    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in: (2025)",
+    "text": "Due reti IP 130.192.0.0/24 e 130.192.2.0/24 sono aggregabili in:",
     "options": [
       "130.192.0.0/23",
       "130.192.2.0/23",
@@ -1027,7 +1027,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Ultimi 2 byte di 130.192.0.0/24 => 0000 0000 0000 0000, ultimi 2 byte di 130.192.2.0/24 => 0000 0010 0000 000, per mascherare il bit a 1 presente è necessaria una netmask /22.",
     "topic": "IP Addressing"
   },
   {
@@ -1053,7 +1053,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Il dispositivo dotato di NAT64 intercetta un pacchetto IPv6 e ne esegue la traduzione, sostituendo l'intestazione IPv6 con una corrispondente intestazione IPv4.",
     "topic": "IPv6"
   },
   {
@@ -1087,7 +1087,7 @@
     "options": [
       "Non vi sono particolari problemi.",
       "Non permette la cifratura del carico.",
-      "E' possibile individuare la stessa interfaccia, se si collega a internet da vari provider.",
+      "È possibile individuare la stessa interfaccia, se si collega a internet da vari provider.",
       "Non permette l'uso delle intestazioni di sicurezza (tipo IPsec)."
     ],
     "correct_index": 2,
@@ -1187,25 +1187,25 @@
     "topic": "Multicast"
   },
   {
-    "text": "i gruppi multicast in ipv4 (2149)",
+    "text": "I gruppi multicast in IPv4:",
     "options": [
-      "vengono identificati da particolari indirizzi IP che non possono essere assegnati alle singole stazioni",
-      "vengono identificati dalla lista degli indirizzi MAC delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi mac destinazione nelle trame multicast indirizzate",
-      "non esistono",
-      "vengono identificati dalla lista degli indirizzi IP delle stazioni appartenenti ad un dato gruppo. questi indirizzi vengono poi utilizzati come indirizzi IP destinazione nelle trame multicast indirizzate a tali stazioni"
+      "Vengono identificati da particolari indirizzi IP che non possono essere assegnati alle singole stazioni.",
+      "Vengono identificati dalla lista degli indirizzi MAC delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi mac destinazione nelle trame multicast indirizzate.",
+      "Non esistono.",
+      "Vengono identificati dalla lista degli indirizzi IP delle stazioni appartenenti ad un dato gruppo. Questi indirizzi vengono poi utilizzati come indirizzi IP destinazione nelle trame multicast indirizzate a tali stazioni."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La comunicazione multicast avviene verso un singolo indirizzo di gruppo, senza bisogno di specificare tutti i destinatari. Inoltre, livello IP, i gruppi multicast sono definiti dall’indirizzo di livello 3 (IP), non da un insieme di indirizzi di livello 2 (MAC).",
     "topic": "IPv4"
   },
   {
     "text": "La tecnica di transizione IPv4-IPv6 denominata DS-lite prevede che:",
     "options": [
-      "Non sia possibile collegare alla rete delle stazioni IPv6",
-      "Il NAT sia posizionato sul Customer Premises Equipment (CPE) dell'utente",
-      "Non siano mai utilizzati indirizzi IPv4 di tipo privato sui dispositivi utente",
-      "Il NAT sia posizionato sull'Address Family Translation Router (AFTR)"
+      "Non sia possibile collegare alla rete delle stazioni IPv6.",
+      "Il NAT sia posizionato sul Customer Premises Equipment (CPE) dell'utente.",
+      "Non siano mai utilizzati indirizzi IPv4 di tipo privato sui dispositivi utente.",
+      "Il NAT sia posizionato sull'Address Family Translation Router (AFTR)."
     ],
     "correct_index": 3,
     "verified": false,
@@ -1213,7 +1213,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "Gli indirizzi IPv6",
+    "text": "Gli indirizzi IPv6:",
     "options": [
       "Permettono la comunicazione di stazioni IPv6 con stazioni IPv4 senza nessun particolare meccanismo aggiuntivo.",
       "Mantengono la stessa suddivisione flessibile tra una parte network e una parte host già presente in IPv4.",
@@ -1277,29 +1277,29 @@
     "topic": "BGP"
   },
   {
-    "text": "Il protocollo IGMP (Internet Group Management Protocol)",
+    "text": "Il protocollo IGMP (Internet Group Management Protocol):",
     "options": [
-      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono presenti in una rete ad esso direttamente connessa",
-      "Permette ad un host IPv4 di creare un nuovo gruppo multicast",
-      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono attivi in un dato momento nella rete Internet",
-      "E’ una nuova versione del protocollo ICMP"
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono presenti in una rete ad esso direttamente connessa.",
+      "Permette ad un host IPv4 di creare un nuovo gruppo multicast.",
+      "Permette ad un router IPv4 di scoprire quali gruppi multicast sono attivi in un dato momento nella rete Internet.",
+      "E’ una nuova versione del protocollo ICMP."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L’IGMP (Internet Group Management Protocol) è il protocollo utilizzato principalmente dagli host IPv4 e dai router per gestire in modo efficiente la partecipazione ai gruppi multicast all’interno di reti locali. ",
     "topic": "Multicast"
   },
   {
-    "text": "Il protocollo IPv6 prevede che l'intestazione dei pacchetti IP: (1903)",
+    "text": "Il protocollo IPv6 prevede che l'intestazione dei pacchetti IP:",
     "options": [
-      "Sia sempre autenticata tramite oppurtuni algoritmi di cifratura per aumentare la sicurezza delle transmissioni",
-      "Sia di dimensioni inferiori rispetto a quella dei pacchetti IPv4 in modo da aumentare l'efficienza nell'uso della banda trasmissiva riducendo l'overhead protocollare",
-      "Sia costituita solo da campi di lunghezza fissa che portano informazioni necessarie in ogni pacchetto",
+      "Sia sempre autenticata tramite oppurtuni algoritmi di cifratura per aumentare la sicurezza delle transmissioni.",
+      "Sia di dimensioni inferiori rispetto a quella dei pacchetti IPv4 in modo da aumentare l'efficienza nell'uso della banda trasmissiva riducendo l'overhead protocollare.",
+      "Sia costituita solo da campi di lunghezza fissa che portano informazioni necessarie in ogni pacchetto.",
       "Comprenda alcuni campi, prima disponibili solamente come opzioni di IPv4, per funzionalità che si sono rivelate di largo uso nel corso del tempo."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. L'intestazione IPv6 è costituitsa da campi di lunghezza fissa (40 byte) che contengono le informazioni essenziali per ogni pacchetto.",
     "topic": "IPv6"
   },
   {
@@ -1316,7 +1316,7 @@
     "topic": "MPLS"
   },
   {
-    "text": "A differenza della versione 4 dell'IP, la versione 6: (1878)",
+    "text": "A differenza della versione 4 dell'IP, la versione 6:",
     "options": [
       "Non ha intestazione di lunghezza variabile.",
       "Non permette di scoprire l'indirizzo MAC di un'altra stazione, conoscendone l'indirizzo IP.",
@@ -1325,7 +1325,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L'intestazione (header) di IPv6 è progettata per essere di lunghezza fissa, occupando 40 byte, al fine di semplificare e velocizzare l'elaborazione dei pacchetti.",
     "topic": "IPv6"
   },
   {
@@ -1338,7 +1338,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La tecnica Mapping Address and Port (MAP) per la transizione IPv4-IPv6 si basa sull'assegnazione, al Customer Premises Equipment (CPE), di un indirizzo IPv6 costruito mediante l'incorporazione dell'indirizzo IPv4 e del Port Set ID (PSID) che il provider assegna al cliente.",
     "topic": "IPv6"
   },
   {
@@ -1354,12 +1354,12 @@
     "topic": "Optical Networks"
   },
   {
-    "text": "Il frequency hopping (FH) permette (2179)",
+    "text": "Il frequency hopping (FH) permette:",
     "options": [
-      "di trasmettere bursts consecutivi su frequenze diverse a discapito di una riduzione della capacità",
-      "di trasmettere slot consecutivi sulla stessa frequenza con una riduzione della capacità",
-      "di trasmettere bursts consecutivi su frequenze diverse con un aumento della capacità",
-      "di trasmettere bursts consecutivi sulla stessa frequenza"
+      "Di trasmettere bursts consecutivi su frequenze diverse a discapito di una riduzione della capacità.",
+      "Di trasmettere slot consecutivi sulla stessa frequenza con una riduzione della capacità.",
+      "Di trasmettere bursts consecutivi su frequenze diverse con un aumento della capacità.",
+      "Di trasmettere bursts consecutivi sulla stessa frequenza."
     ],
     "correct_index": 0,
     "verified": false,
@@ -1418,7 +1418,7 @@
     "topic": "QoS"
   },
   {
-    "text": "Relativamente a soluzioni di VPN basate su SSL (Secure Socket Layer), quale di queste affermazioni è falsa? (2208)",
+    "text": "Relativamente a soluzioni di VPN basate su SSL (Secure Socket Layer), quale di queste affermazioni è falsa?",
     "options": [
       "Non fanno autenticazione dell'header IP",
       "Hanno delle criticità rispetto ad attacchi DoS",
@@ -1427,7 +1427,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Non esistono soluzioni standard per VPN SSL, in quanto per implementarle servono dei protocolli particolari che rendono la gestione complessa.",
     "topic": "VPN"
   },
   {
@@ -1508,7 +1508,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "L'autoconfigurazione stateless in IPv6 richiede: (1892)",
+    "text": "L'autoconfigurazione stateless in IPv6 richiede:",
     "options": [
       "Un server DHCPv6 (Dinamic Host Configuration Protocol version 6).",
       "Un server presente sulla rete locale.",
@@ -1517,7 +1517,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. L'host utilizza il prefix dell'indirizzo fornito dal router per configurare indipendentemente il proprio indirizzo IPv6. Non è richiesto l'utilizzo di un server DHCP per ottenere l'indirizzo.",
     "topic": "IPv6"
   },
   {
@@ -1547,12 +1547,12 @@
     "topic": "MPLS"
   },
   {
-    "text": "due stazioni A e B hanno rispettivamente 130.192.1.1/25 e 130.192.1.100/24 (2161)",
+    "text": "due stazioni A e B hanno rispettivamente 130.192.1.1/25 e 130.192.1.100/24:",
     "options": [
-      "comunica direttamente con B e viceversa",
-      "comunica direttamente con A ma non viceversa",
-      "comunica direttamente con B solo attraverso un router",
-      "comunica direttamente con b ma non viceversa"
+      "A comunica direttamente con B e viceversa.",
+      "B comunica direttamente con A ma non viceversa.",
+      "A comunica direttamente con B solo attraverso un router.",
+      "A comunica direttamente con B ma non viceversa."
     ],
     "correct_index": 0,
     "verified": false,
@@ -1560,7 +1560,7 @@
     "topic": "IP Addressing"
   },
   {
-    "text": "Nel IPv6 cosa sparisce dalle intestazioni, rispetto a IPv4? (1885)",
+    "text": "In IPv6 cosa sparisce dalle intestazioni, rispetto a IPv4?",
     "options": [
       "Il tempo di vita del pacchetto.",
       "Gli indirizzi mittente e destinatario.",
@@ -1569,7 +1569,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. La verifica dell'integrità viene ora affidata ad altri strati della rete, come il livello di trasporto o il livello di collegamento dati.",
     "topic": "IPv6"
   },
   {
@@ -1625,7 +1625,7 @@
     "topic": "VPN"
   },
   {
-    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching) (1880)",
+    "text": "Gli LSP (label switched path) nell'architettura MPLS (multi-protocol label switching)",
     "options": [
       "Sono ottenuti riservando risorse nei nodi di rete in modo da garantire opportuna qualità del servizio alle applicazioni che li hanno creati.",
       "Costituiscono il percorso più breve verso una destinazione.",
@@ -1634,7 +1634,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. I pacchetti vengono classificati in gruppi chiamati Forwarding Equivalence Class (FEC), ovvero insiemi di pacchetti che devono seguire lo stesso percorso attraverso la rete. Gli LSP sono creati dai nodi della rete, non dalle applicazioni.",
     "topic": "MPLS"
   },
   {
@@ -1651,7 +1651,7 @@
     "topic": "Routing"
   },
   {
-    "text": "La combinazione di meccanismi di secchiello dei token (o secchio bucato) e Weighted Fair Queueing (WFQ) serve a garantire: (1908)",
+    "text": "La combinazione di meccanismi di secchiello dei token (o secchio bucato) e Weighted Fair Queueing (WFQ) serve a garantire:",
     "options": [
       "Un tempo di attraversamento massimo di un router.",
       "Un tempo di attraversamento massimo di un NAT.",
@@ -1664,32 +1664,32 @@
     "topic": "QoS"
   },
   {
-    "text": "La procedura di Neighbor Discovery in IPv6 (1966)",
+    "text": "La procedura di Neighbor Discovery in IPv6:",
     "options": [
-      "E’ basata su un pacchetto ICMPv6 inviato in multicast",
-      "E’ basata su un pacchetto ICMPv6 inviato in broadcast",
-      "E’ basata su ARPv6",
-      "Richiede che la rete supporti anche IPv4"
+      "È basata su un pacchetto ICMPv6 inviato in multicast.",
+      "È basata su un pacchetto ICMPv6 inviato in broadcast.",
+      "È basata su ARPv6.",
+      "Richiede che la rete supporti anche IPv4."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. La procedura di Neighbor Discovery in IPv6 non utilizza il meccanismo di broadcast tipico di IPv4, bensì si basa su pacchetti ICMPv6 inviati in multicast.",
     "topic": "IPv6"
   },
   {
-    "text": "Cos'è l'effetto ping-pong? (2193)",
+    "text": "Cos'è l'effetto ping-pong?",
     "options": [
-      "Il proporre la cella di sgancio come cella di aggancio",
-      "Il rimbalzo dei segnali all'interno di una cella",
-      "Un modo alternativo per definire il concetto di handover"
+      "Il proporre la cella di sgancio come cella di aggancio.",
+      "Il rimbalzo dei segnali all'interno di una cella.",
+      "Un modo alternativo per definire il concetto di handover."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. L'effetto ping-pong si riferisce al fenomeno in cui un dispositivo mobile, trovandosi in prossimità del confine tra due celle, viene continuamente trasferito da una cella all'altra.",
     "topic": "Mobile Networks"
   },
   {
-    "text": "Un Host A ha indirizzo 192.168.1.1/24 e un Host B 192.168.1.129/25. (1942)",
+    "text": "Un Host A ha indirizzo 192.168.1.1/24 e un Host B 192.168.1.129/25.",
     "options": [
       "Entrambi possono comunicare direttamente l’uno con l’altro.",
       "A può comunicare direttamente con B ma non viceversa.",
@@ -1698,18 +1698,18 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. A: da 192.168.1.0 a 192.168.1.255. B: da 192.168.1.128 a 192.168.1.255. L'indirizzo di A non è compreso nel range di B, mentre quello di B è compreso nel range di B.",
     "topic": "IP Addressing"
   },
   {
-    "text": "vantaggio fibra ottica (1952)",
+    "text": "Vantaggio fibra ottica:",
     "options": [
-      "maggiore velocità nelle trasmissioni sul canale",
-      "switch ottici performanti e bassa complessità"
+      "Maggiore velocità nelle trasmissioni sul canale.",
+      "Switch ottici performanti e bassa complessità."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. https://t.me/c/1125192764/59997",
+    "explanation": "Soluzione: B. Lo switch non ha complessità elevata, in quanto deve solo instradare un segnale ottico su una porta di uscita.",
     "topic": "Optical Networks"
   },
   {
@@ -1725,16 +1725,16 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "L'indirizzo IPv6 2001:4600::0201:06FF:FEA5:3A4C è: (2207)",
+    "text": "L'indirizzo IPv6 2001:4600::0201:06FF:FEA5:3A4C è:",
     "options": [
-      "Un indirizzo di tipo privato",
-      "Un indirizzo utilizzabile da un server per offrire un servizio sulla Internet pubblica IPv6",
-      "Un indirizzo utilizzabile da un host unicamente per effettuare delle comunicazioni con un altro host sullo stesso link",
-      "Un indirizzo al momento non valido in IPv6"
+      "Un indirizzo di tipo privato.",
+      "Un indirizzo utilizzabile da un server per offrire un servizio sulla Internet pubblica IPv6.",
+      "Un indirizzo utilizzabile da un host unicamente per effettuare delle comunicazioni con un altro host sullo stesso link.",
+      "Un indirizzo al momento non valido in IPv6."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. L'indirizzo IPv6 fornito, 2001:4600::0201:06FF:FEA5:3A4C, appartiene allo spazio degli indirizzi gloabl unicast. Questi indirizzi sono caratterizzati da un prefisso compreso all'interno del range 2000::/3, il che li rende validi per la comunicazione sulla rete Internet pubblica IPv6.",
     "topic": "IPv6"
   },
   {
@@ -1772,16 +1772,16 @@
     "topic": "Network Architecture"
   },
   {
-    "text": "Gli indirizzi IPv6 di tipo Site Local (2027)",
+    "text": "Gli indirizzi IPv6 di tipo Site Local:",
     "options": [
-      "Sono impostati automaticamente dalle stazioni per le comunicazioni on-link",
-      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale",
-      "Non esistono",
-      "Sono deprecati ma possono comunque essere utilizzati"
+      "Sono impostati automaticamente dalle stazioni per le comunicazioni on-link.",
+      "Vengono assegnati da un’autorità centrale che ne garantisce l’univocità a livello mondiale.",
+      "Non esistono.",
+      "Sono deprecati ma possono comunque essere utilizzati."
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Gli indirizzi IPv6 di tipo Site Local erano stati originariamente pensati per fornire un indirizzamento privato all'interno di un singolo site, analogamente agli indirizzi privati IPv4. Tuttavia, a causa di alcune ambiguità e problematiche nel definire precisamente cosa costituisse un 'sito', questi indirizzi sono stati deprecati.",
     "topic": "IPv6"
   },
   {
@@ -1798,16 +1798,16 @@
     "topic": "Routing"
   },
   {
-    "text": "In una interfaccia radio, tra le tante funzioni il MAC layer (2196)",
+    "text": "In una interfaccia radio, tra le tante funzioni il MAC layer:",
     "options": [
-      "Permette il controllo del flusso",
-      "Permette l'accesso al canale",
-      "Esegue la negoziazione e il controllo del QoS",
-      "Nessuna delle precedenti"
+      "Permette il controllo del flusso.",
+      "Permette l'accesso al canale,",
+      "Esegue la negoziazione e il controllo del QoS.",
+      "Nessuna delle precedenti."
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: B. Il MAC layer si occupa di regolare e coordinare l'uso del mezzo condiviso stabilendo le regole con cui i vari dispositivi possono trasmettere dati, evitando collisioni e garantendo un uso efficiente della banda disponibile.",
     "topic": "Mobile Networks"
   },
   {
@@ -1837,7 +1837,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in: (1943)",
+    "text": "Le reti 192.168.1.0/24 e 192.168.2.0/24 sono aggregabili in:",
     "options": [
       "192.168.0.0/23",
       "192.168.1.0/23",
@@ -1904,10 +1904,10 @@
   {
     "text": "Gli indirizzi IPv6 di tipo Private:",
     "options": [
-      "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale",
-      "Vengono usati solo per le comunicazioni on-link",
-      "Vengono usati solo sui router",
-      "Vengono utilizzati per collegare reti private attraverso una rete pubblica"
+      "Sono definiti in modo tale da essere univoci con elevata probabilità, ma non possono comunque essere utilizzati a livello globale.",
+      "Vengono usati solo per le comunicazioni on-link.",
+      "Vengono usati solo sui router.",
+      "Vengono utilizzati per collegare reti private attraverso una rete pubblica."
     ],
     "correct_index": 0,
     "verified": false,
@@ -1915,7 +1915,7 @@
     "topic": "IPv6"
   },
   {
-    "text": "In che modo MPLS può essere utilizzato per realizzare una VPN? (1873)",
+    "text": "In che modo MPLS può essere utilizzato per realizzare una VPN?",
     "options": [
       "Per realizzare una VPN di accesso.",
       "MPLS non può essere usato per realizzare VPN.",
@@ -1924,20 +1924,20 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Nell'overlay model, il service provider non conosce le informazioni di routing, quindi fornisce solamente collegamenti punto-punto tra i VPN gateways, nel peer model vengono fornite solo le informazioni di routing, senza conoscere i collegamenti punto-punto tra i VPN gateways.",
     "topic": "MPLS"
   },
   {
-    "text": "Quanti tipi di bursts esistono? (2180)",
+    "text": "Quanti tipi di bursts esistono?",
     "options": [
-      "3: Regular, Access and Synchronization",
-      "2: Regular and Access",
-      "5: Regular, Access, Synchronization, Frequency Correction and Dummy",
-      "1: Regular"
+      "3: Regular, Access and Synchronization.",
+      "2: Regular and Access.",
+      "5: Regular, Access, Synchronization, Frequency Correction and Dummy.",
+      "1: Regular."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C.",
     "topic": "Mobile Networks"
   },
   {
@@ -1979,16 +1979,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Nella soluzione DS-Lite per la transizione IPv4-IP6 (2029)",
+    "text": "Nella soluzione DS-Lite per la transizione IPv4-IPv6:",
     "options": [
-      "La funzionalità di NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP",
-      "La funzionalità di NAT è realizzata sul CPE dell’utente",
-      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP",
-      "Non è prevista la funzionalità di NAT"
+      "La funzionalità di NAT è realizzata per tutti gli utenti su opportuni dispositivi dell’ISP.",
+      "La funzionalità di NAT è realizzata sul CPE dell’utente.",
+      "La funzionalità di NAT è realizzata sia sul CPE che sui dispositivi dell’ISP.",
+      "Non è prevista la funzionalità di NAT."
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: A. Nella soluzione DS-Lite (Dual-Stack Lite) per la transizione da IPv4 a IPv6, il Customer Premises Equipment (CPE) non esegue il NAT. ",
     "topic": "IPv6"
   },
   {
@@ -2064,7 +2064,7 @@
     "topic": "MPLS"
   },
   {
-    "text": "Uno dei motivi che stanno favorendo la diffusione di ipv6 è:",
+    "text": "Uno dei motivi che stanno favorendo la diffusione di IPv6 è:",
     "options": [
       "La necessità sempre più diffusa di utilizzare applicazioni multicast.",
       "La scarsa propensione degli operatori di rete a modificare la configurazione delle proprie reti.",
@@ -2073,7 +2073,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C.",
+    "explanation": "Soluzione: C. Uno dei principali fattori che ha spinto alla diffusione di IPv6 è l'esaurimento degli indirizzi IPv4.",
     "topic": "IPv6"
   },
   {
@@ -2090,7 +2090,7 @@
     "topic": "Tunneling"
   },
   {
-    "text": "Nel protocollo IPv6: (1884)",
+    "text": "Nel protocollo IPv6:",
     "options": [
       "I protocolli di routing (ad esempio il formato dei pacchetti) non cambiano rispetto ad IPv4.",
       "Il protocollo ARP viene inglobato in ICMPv6, ma mantiene esattamente lo schema di funzionamento (richiesta broadcast, risposta unicast) precedente.",
@@ -2099,7 +2099,7 @@
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. IPv6 consente a una stazione di autoconfigurarsi ascoltando i messaggi di Router Advertisement, sfruttando il meccanismo SLAAC per ottenere il proprio indirizzo IP e altri parmetri di rete.",
     "topic": "IPv6"
   },
   {
@@ -2116,7 +2116,7 @@
     "topic": "Routing"
   },
   {
-    "text": "la più piccola aggregazione che può contenere le due reti IP 130.192.0.0/25 e 130.192.1.0/25 (2159)",
+    "text": "La più piccola aggregazione che può contenere le due reti IP 130.192.0.0/25 e 130.192.1.0/25:",
     "options": [
       "130.192.1.0/23",
       "130.192.0.0/24",
@@ -2125,7 +2125,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: D. Analizzando gli ultimi 2 byte di ciascuna rete, essi sono rispettivamente: 1) 0000 0000 0000 0000, 2) 0000 0000 0001 0000. Per mascherare l'unico bit a 1 presente è necessaria una netmask di /23. 130.192.1.0/23 non è l'opzione corretta in quanto non è un network ID.",
     "topic": "IP Addressing"
   },
   {
@@ -2402,16 +2402,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Un host IPv6 al reboot, acquisirà il seguente indirizzo: (1905)",
+    "text": "Un host IPv6 al reboot, acquisirà il seguente indirizzo:",
     "options": [
       "Non è possibile sapere con precisione l'indirizzo stesso, dal momento che l'indirizzo IPv6 viene ogni volta rigenerato con un numero casuale per quanto riguarda la parte riservata all'Interface ID.",
       "Un indirizzo FE80::/32",
-      "Per quanto riguarda l'indirizzo link-local, assumera' lo stesso indirizzo IPv6 che possedeva prima del reboot.",
+      "Per quanto riguarda l'indirizzo link-local, assumerà lo stesso indirizzo IPv6 che possedeva prima del reboot.",
       "L'indirizzo dipende interamente dalla configurazione che acquisirà dal suo default router."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Spiegazione non disponibile nel file.",
+    "explanation": "Soluzione: C. Dato che l'Interface ID è calcolato in maniera deterministica (cioè, basandosi su dati fissi come il MAC), l'indirizzo link-local rimane invariato al riavvio del sistema.",
     "topic": "IPv6"
   },
   {
@@ -2441,16 +2441,16 @@
     "topic": "Routing"
   },
   {
-    "text": "Nell'algoritmo di routing di tipo Path Vector: (1920)",
+    "text": "Nell'algoritmo di routing di tipo Path Vector:",
     "options": [
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il next hop router per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il prossimo Autonomous System per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco dei router da attaversare per raggiungere quella destinazione",
-      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco degli Autonomous System da attraversare per raggiungere quella destinazione"
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il next hop router per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e il prossimo Autonomous System per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco dei router da attaversare per raggiungere quella destinazione.",
+      "Ogni record contenuto nel Path Vector contiene la destinazione, la distanza dal router in esame, e l'elenco degli Autonomous System da attraversare per raggiungere quella destinazione."
     ],
     "correct_index": 2,
     "verified": false,
-    "explanation": "Soluzione: C. Path vector a sé è un algoritmo di routing distribuito che memorizza il percorso dei router",
+    "explanation": "Soluzione: C. Path vector a sé è un algoritmo di routing distribuito che memorizza il percorso dei router.",
     "topic": "Routing"
   },
   {
@@ -2532,12 +2532,12 @@
     "topic": "Mobile Networks"
   },
   {
-    "text": "Un terminale mobile effettua un handover quando",
+    "text": "Un terminale mobile effettua un handover quando:",
     "options": [
-      "si sposta dalla rete di un operatore a quella di un altro",
-      "si riattiva grazie al passaggio della mano dell'utente sullo schermo",
-      "si sposta da una cella ad un'altra durante una chiamata, senza che questa si interrompa",
-      "deve essere raggiunto all'interno della rete di un altro operatore"
+      "Si sposta dalla rete di un operatore a quella di un altro.",
+      "Si riattiva grazie al passaggio della mano dell'utente sullo schermo.",
+      "Si sposta da una cella ad un'altra durante una chiamata, senza che questa si interrompa.",
+      "Deve essere raggiunto all'interno della rete di un altro operatore."
     ],
     "correct_index": 2,
     "verified": false,
@@ -2619,7 +2619,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B.",
+    "explanation": "Soluzione: B. L'Interface ID di un indirizzo IPv6 corrisponde tipicamente agli ultimi 64 bit dell'indirizzo. Questi bit possono essere configurati in maniera arbitraria oppure, in molti casi, vengono generati automaticamente a partire dall'indirizzo MAC della scheda di rete mediante l'algoritmo EUI-64.",
     "topic": "IPv6"
   },
   {
@@ -2658,7 +2658,7 @@
     ],
     "correct_index": 1,
     "verified": false,
-    "explanation": "Soluzione: B.",
+    "explanation": "Soluzione: B. Analizziamo gli ultimi 2 byte per ciascuna rete: 1) 0000 0001 0000 0000, 2) 0000 0010 0000 0000. Per mascherare i bit settati a 1 è necessario avere una netmask /22. Inoltre, tutte le reti sono aggregabili in 0.0.0.0/0.",
     "topic": "IPv4"
   },
   {
@@ -2697,7 +2697,7 @@
     ],
     "correct_index": 3,
     "verified": false,
-    "explanation": "Soluzione: D.",
+    "explanation": "Soluzione: D. Il protocollo IGMP (Internet Group Management Protocol) è stato progettato per consentire agli host di informare i router locali del proprio interesse nel ricevere il traffico multicast relativo a un determinato gruppo.",
     "topic": "Multicast"
   },
   {
@@ -2710,7 +2710,7 @@
     ],
     "correct_index": 0,
     "verified": false,
-    "explanation": "Soluzione: A.",
+    "explanation": "Soluzione: A. In IPv6, quando un host necessita di conoscere l'indirizzo MAC associato a un indirizzo IPv6, non viene utilizzato il meccanismo ARP, come avviene in IPv4. Al suo posto, il protocollo prevede l'uso del Neighbor Discovery Protocol (NDP), che sfrutta specifici messaggi ICMPv6.",
     "topic": "Multicast"
   },
   {
@@ -2801,7 +2801,345 @@
     ],
     "correct_index": 2,
     "verified": false,
+    "explanation": "Soluzione: C. Gli Extension Headers in IPv6 rappresentano una serie di header aggiuntivi che si concatenano all'header principale e permettono di implementare funzionalità extra.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "In una soluzione VPN provider provisioned, un host remoto che attiva una sessione VPN con la rete aziendale ha:",
+    "options": [
+      "Un singolo indirizzo utilizzato per comunicare con qualsiasi altro host (sia sulla rete aziendale che all'estero).",
+      "Un singolo indirizzo utilizzato per comunicare solo con gli host aziendali.",
+      "Due indirizzi: uno utilizzato per raggiungere il VPN gateway e l'altro per comunicare con qualsiasi altro host (sia sulla rete aziendale che all'esterno).",
+      "Due indirizzi: uno utilizzato per comunicare con gli host aziendali e l'altro per raggiungere il VPN gateway aziendale e gli host esterni alla rete aziendale."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Il VPN gateway assegna un indirizzo IP aziendale all'host remoto. Quest'ultimo sarà quindi dotato di due indirizzi: uno fornito dal VPN gateway e l'indirizzo di cui è dotato normalmente per comunicare con gli host esterni alla rete aziendale.",
+    "topic": "VPN"
+  },
+  {
+    "text": "In una rete LTE l'uso di tunnel facilita:",
+    "options": [
+      "La mobilità degli utenti tra celle diverse.",
+      "La compressione degli header dei pacchetti di controllo.",
+      "La cifratura del traffico tra operatori diversi.",
+      "La connettività tra operatori diversi."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "In MAP-T:",
+    "options": [
+      "Il valore dell'indirizzo di destinazione IPv4 dalla CPE al Border Relay è lo stesso per ogni pacchetto.",
+      "Il valore dell'indirizzo di destinazione IPv4 dalla CPE al Border Relay potrebbe essere diverso per alcuni pacchetti.",
+      "Il valore dell'indirizzo di destinazione IPv6 dalla CPE al Border Relay potrebbe essere diverso per alcuni pacchetti.",
+      "Il valore dell'indirizzo di destinazione IPv6 dalla CPE al Border Relay è lo stesso per ogni pacchetto."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: D. L'intestazione IPv6, usata per instradare il pacchetto attraverso l'infrastruttura del provider, ha come destinazione il Border Relay.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Quando un router IP con supporto completo del servizio multicast riceve un pacchetto relativo a un determinato gruppo multicast:",
+    "options": [
+      "Scarta il pacchetto perché non è possibile offrire servizi multicast su una rete IP.",
+      "Invia una copia del pacchetto su tutte le porte.",
+      "Invia una copia del pacchetto su tutte le porte, tranne quella che ha ricevuto il pacchetto.",
+      "Invia una copia del pacchetto su tutte le porte utili per raggiungere le destinazioni appartenenti al multicast."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Un router con supporto completo del servizio multicast ne crea copie solo sulle interfacce che servono reti contenenti host iscritti a quel determinato gruppo.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "Un host IPv6 può autoconfigurare il proprio indirizzo usando:",
+    "options": [
+      "Una stringa totalmente casuale a 128 bit.",
+      "Un valore casuale generato localmente come Interface ID, insieme a un prefix appropriato comunicato da un router.",
+      "Il proprio indirizzo MAC (esteso a 64 bit, se necessario) come Interface ID, ricavando il prefix dall'indirizzo sorgente IPv6 dei pacchetti ricevuti.",
+      "Il proprio indirizzo MAC (esteso a 64 bit, se necessario) come Interface ID e un valore casuale generato localmente come prefix."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Il router invia il prefisso di rete tramite il Router Advertisement, mentre l'host genera localmente un valore casuale per l'Interface ID, combinandolo con il prefisso e verificando che non sia duplicato.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Due host A e B appartengono alla stessa rete fisica e hanno rispettivamente gli indirizzi IP 130.192.0.1/26 e 130.192.1.1/23.",
+    "options": [
+      "A comunica direttamente con B ma non viceversa.",
+      "A comunica con B solo per mezzo di uno switch Ethernet",
+      "A comunica direttamente con B e viceversa.",
+      "B comunica direttamente con A ma non viceversa."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. 130.192.0.1/26: da 130.192.0.0 a 130.192.0.63 - 130.192.1.1/23: da 130.192.0.0 a 130.192.1.255 - B vede A ma A non vede B.",
+    "topic": "IPv4"
+  },
+  {
+    "text": "Un'università deve progettare la rete IP per due laboratori didattici: il laboratorio 1 (120 host) e il laboratorio 2 (64 host). Quale configurazione è sicuramente sbagliata?",
+    "options": [
+      "lab1: 192.168.0.0/24 - lab2: 192.168.1.0/24",
+      "lab1: 192.168.0.0/24 - lab2: 192.168.1.0/25",
+      "lab1: 192.168.0.0/25 - lab2: 192.168.0.128/26",
+      "lab1: 192.168.0.0/25 - lab2: 192.168.0.128/25"
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. lab2 necessita di 66 indirizzi (64 host, netword ID e broadcast), mentre in questa risposta il lab2 è settato per poter ospitare solamente 64 indirizzi.",
+    "topic": "IPv4"
+  },
+  {
+    "text": "Quale delle seguenti di una tabella di routing fa longest prefix matching con 180.3.13.223?",
+    "options": [
+      "180.3.13.192/28",
+      "180.3.13.224/28",
+      "180.3.13.208/29",
+      "Nessuna delle precedenti."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Range di indirizzi di 180.3.13.192/28: da 180.3.13.192 a 180.3.13.207.\nRange di indirizzi di 180.3.13.224/28: da 180.3.13.224 a 180.3.13.239\nIl range di indirizzi di 180.3.13.208/29 è errato, in quanto quell'indirizzo non ricade in nessun range con soli 8 indirizzi.",
+    "topic": "IPv4"
+  },
+  {
+    "text": "Il fattore che ha contribuito al rallentamento della diffusione di IPv6 è:",
+    "options": [
+      "La possibilità di utilizzare indirizzi IPv4 privati per connettersi a Internet.",
+      "Una diminuzione del numero dei dispositivi.",
+      "Un ritiro e redistribuzione più accorta degli indirizzi IPv4 già usati.",
+      "Un miglior utilizzo della rete Internet da parte degli utenti finali."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Il rallentamento della diffusione di IPv6 è stato in larga parte dovuto all'adozione della tecnica di Network Address Translation (NAT), che permette l'utilizzo di indirizzi IPv4 privati all'interno delle reti locali, che vengono poi tradptti in un singolo indirizzo IPv4 pubblico per la comunicazione su Internet.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Qual è la funzione dello 'scope' associato agli indirizzi IPv6?",
+    "options": [
+      "Non esiste uno scope associato agli indirizzi IPv6.",
+      "Serve per poter utilizzare gli indirizzi globali.",
+      "Serve a risolvere, in casi particolari, l'ambiguità riguardo il mittente.",
+      "Server per poter utilizzare gli indirizzi anycast."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. Lo 'scope' definisce l'area di validità di un indirizzo, determinando ad esempio se esso sia valido solo all'interno di una rete locale (link-local) oppure in un ambito più ampio (globale). Per gli indirizzi link-local può verificarsi l'ambiguità riguardo al mittente quando un dispositivo dispone di più interfacce di rete. In questi casi è necessario specificare uno 'scope identifier' per indicare esattamente quale interfaccia debba essere utilizzata.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Assumendo che tutti i protocolli necessari siano attivi e opportunamente configurati, come lavora una sorgente multicast IP?",
+    "options": [
+      "Invia un pacchetto che poi verrà duplicato opportunamente dai router.",
+      "Non può inviare traffico perché sono i router a creare i pacchetti multicast.",
+      "Invia sempre due copie dello stesso pacchetto per aumentare l'affidabilità.",
+      "Invia molte copie dello stesso pacchetto, una per ogni destinatario."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Nel funzionamento del multicast IP, la sorgente invia un solo pacchetto indirizzato a un indirizzo di gruppo (multicast). Una volta che il pacchetto entra nella rete, i router provvedono a duplicarlo e a inoltrarlo lungo i vari rami dell'albero di distribuzione, in modo che esso raggiunga tutti i destinatari interessati.",
+    "topic": "Multicast"
+  },
+  {
+    "text": "La shortcut relativa all'indirizzo IPv6 1070:5::1:2A4:E8:7782:BB59 corrisponde a quale dei seguenti indirizzi completi?",
+    "options": [
+      "1070:5001:0000:0000:02A4:E008:7782:BB59",
+      "1070:0005:0000:0001:2A40:E008:7782:BB59",
+      "1070:5000:0000:1000:2A40:E800:7782:BB59",
+      "1070:0005:0000:0001:02A4:00E8:7782:BB59"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Una delle funzioni della suite di protocolli IPv4 che è stata sostituita da ICMPv6 è:",
+    "options": [
+      "IPsec",
+      "PPP",
+      "OSPF",
+      "IGMP"
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. In IPv4 il protocollo IGMP (Internet Management Group Protocol) era impiegto per la gestione dei gruppi multicast. Con l'introduzione di IPv6, molte funzioni sono state riorganizzate e integrate in ICMPv6.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Il Solicited Node Multicast Address:",
+    "options": [
+      "È un gruppo multicast speciale che può contenere uno o più nodi. Questi nodi ricevono ed elaborano l'ICMP Neighbor Solicitation, ma solo uno risponderà con un ICMP Neighbor Advertisement.",
+      "È un gruppo multicast speciale che contiene tutti i nodi di un determinato Link, in quanto sostituisce l'indirizzo broadcast nel contesto IPv6. Tutti i nodi ricevono ed elaborano l'ICMP Neighbor Solicitation, ma solo uno risponderà con un ICMP Neighbor Advertisement.",
+      "È una tecnica obsoleta di Neighbor Discovery, ora sostituita da una soluzione più efficiente basata su ARP.",
+      "È un gruppo multicast speciale che contiene un solo nodo. Questo nodo riceve ed elabora l'ICMP Neighbor Solicitation e poi risponde con un ICMP Neighbor Advertisement."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Nel protocollo Neighbor Discovery di IPv6, il Solicited Node Multicast Address è un indirizzo multicast specifico che viene utilizzato per la risoluzione degli indirizzi. Quando viene inviato un pacchetto ICMP Neighbor Solicitation, questo viene indirizzato al Solicited Node Multicast Address corrispondente all'indirizzo target. Tutti i nodi appartenenti a quel gruppo elaborano il pacchetto, ma solo il nodo la cui interfaccia possiede l'indirizzo IPv6 esatto per cui è stata inviata la richiesta risponderà con un ICMP Neighbor Advertisement.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "La procedura di Duplicate Address Detection (DAD):",
+    "options": [
+      "Viene utilizzata in IPv6 per verificare che un host possa acquisire anche un indirizzo IPv4.",
+      "È utilizzata in IPv6 per verificare che l'indirizzo MAC selezionato per un host non sia già in uso.",
+      "Viene utilizzato in IPv4 per verificare che un host possa acquisire anche un indirizzo IPv6.",
+      "Viene utilizzato in IPv6 per verificare che l'indirizzo IPv6 selezionato per un host non sia già in uso."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Quando un host configura un nuovo indirizzo IPv6, esegue il DAD inviando messaggi di Neighbor Solicitation all'indirizzo multicast specifico. Se un altro host risponde a questi messaggi, significa che l'indirizzo è già in uso e, pertanto, il nodo deve scegliere un altro indirizzo.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Utilizzando il metodo di configurazione di tipo privacy-aware (RFC 4941) una stazione IPv6 ottiene un indirizzo:",
+    "options": [
+      "Con un Interface ID non rintracciabile.",
+      "Con un prefisso e Interface ID entrambi non tracciabili.",
+      "Valido solo all'interno di una VPN.",
+      "Con un prefisso non rintracciabile."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Il metodo prevede che, oltre all'indirizzo permanente basato sul MAC o su altri identificatori, il dispositivo generi periodicamente un nuovo Interface ID in maniera casuale.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "Un'interfaccia di rete con indirizzo IPv4 e IPv6 può ricevere:",
+    "options": [
+      "Sia pacchetti IPv4 che IPv6.",
+      "Solo pacchetti IPv4 incapsulati in IPv6, secondo l'approccio chiamato 'tunneling'.",
+      "Solo pacchetti IPv6, poiché in questo tipo di configurazione il sistema operativo considera IPv4 obsoleto.",
+      "Solo pacchetti IPv6 incapsulati in IPv4, secondo l'approccio chiamato 'tunneling'."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. In una configurazione dual stack, ovvero quando un'interfaccia di rete dispone contemporaneamente di un indirizzo IPv4 e di un indirizzo IPv6, il sistema operativo gestisce due stack di protocollo distinti. Ciò significa che l'interfaccia è in grado di ricevere sia pacchetti IPv4 che pacchetti IPv6 in maniera nativa, senza dover ricorrere a meccanismi di tunneling.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "L'adozione dell'indirizzo MAC come Interface ID di un host IPv6:",
+    "options": [
+      "Permette all'host di effettuare una comunicazione diretta senza la necessità di inserire un'intestazione di livello 2.",
+      "Non è possibile per questioni di privacy.",
+      "Fa parte di una delle possibili soluzioni di autoconfigurazione disponibili in IPv6.",
+      "È l'unica soluzione possibile in IPv6 per la configurazione dell'Interface ID."
+    ],
+    "correct_index": 2,
+    "verified": false,
+    "explanation": "Soluzione: C. In IPv6 è previsto il meccanismo di autoconfigurazione stateless (SLAAC), che permette all'host di generare automaticamente il proprio indirizzo IPv6. Una delle tecniche per ottenere l'Interface ID consiste nell'utilizzare l'indirizzo MAC del dispositivo, trasformandolo tramite il metodo EUI-64.",
+    "topic": "IPv6"
+  },
+  {
+    "text": "La tecnica di transizione IPv4-IPv6 denominata Address plus Port (A+P) prevede che:",
+    "options": [
+      "Non siano mai utilizzati indirizzi IPv4 di tipo privato su dispositivi utente.",
+      "Non sia possibile collegare alla rete delle stazioni IPv6.",
+      "Il NAT sia posizionato sul CPE dell'utente.",
+      "Il NAT sia posizionato sull'AFTR."
+    ],
+    "correct_index": 2,
+    "verified": false,
     "explanation": "Soluzione: C.",
     "topic": "IPv6"
+  },
+  {
+    "text": "Un frame IEEE 802.11 ha quattro indirizzi MAC di cui:",
+    "options": [
+      "Uno è l'indirizzo MAC dello switch collegato all'Access Point.",
+      "Uno è sempre l'indirizzo broadcast.",
+      "Nessuno è l'indirizzo MAC dell'Access Point.",
+      "Uno è l'indirizzo MAC dell'Access Point."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. Nella configurazione più comune, uno di questi indirizzi rappresenta il BSSID, che è l'indirizzo MAC dell'Access Point.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Fissando la dimensione della cella G e diminuendo il raggio R:",
+    "options": [
+      "La capacità rimane invariata.",
+      "La capacità aumenta.",
+      "La capacità diminuisce.",
+      ""
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "La procedura di paging in una rete cellulare:",
+    "options": [
+      "È basata su un messaggio che viene diffuso in modalità broadcast nell'intera rete cellulare.",
+      "È basata su un messaggio che viene diffuso in modalità broadcast all'interno della location area in cui si trova il terminale.",
+      "È riferita alla procedura usata dal terminale per gestire la memoria interna.",
+      "È riferita alla procedura usata dal terminale per aggiornare la loro posizione corrente in un database centrale."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Nella procedura di paging in una rete cellulare, il sistema trasmette un messaggio di paging in modalità broadcast all'interno della location area in cui si trova il terminale.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "La procedura di paging in una rete cellulare è utilizzata per:",
+    "options": [
+      "Notificare al terminale mobile che deve essere contattato.",
+      "Comunicare al terminale mobile che sta per cambiare cella.",
+      "Costringere il terminale mobile ad applicare le corrette politiche di condivisione della memoria.",
+      "Inviare un SMS."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Quando la rete riceve una chiamata in ingresso o necessita di inviare una comunicazione a un utente specifico, essa trasmette un segnale di paging su un'area geografica in cui il terminale potrebbe trovarsi. In questo modo, il dispositivo riceve l'avviso e, a sua volta, risponde per stabilire la connessione necessaria.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il termine handover nelle reti cellulari si riferisce a:",
+    "options": [
+      "Lo spostamento di un terminale mobile da una cella a un'altra, anche se in quel momento non ci sono comunicazioni attive.",
+      "Lo spostamento di un terminale mobile da una cella a un'altra senza l'interruzione di una comunicazione attiva (ad esempio, una chiamata).",
+      "L'utilizzo di un terminale mobile nella rete di un operatore diverso da quello a cui appartiene la carta SIM installata nel terminale.",
+      "L'accensione del terminale mobile dopo un lungo periodo di inattività."
+    ],
+    "correct_index": 1,
+    "verified": false,
+    "explanation": "Soluzione: B. Il termine handover indica il processo mediante il quale una comunicazione in corso viene trasferita da una cella all'altra in una rete cellulare, garantendo la continuità del servizio anche mentre il terminale si sposta.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Nelle reti IEEE 802.11, il 'problema del terminale nascosto' si riferisce a:",
+    "options": [
+      "La possibilità che due o più nodi wireless possano interferire tra loro senza saperlo.",
+      "Una minaccia alla sicurezza causata da un intruso nel BSS.",
+      "Un errore nell'associazione a un Access Point durante la procedura di scansione passiva.",
+      "L'utilizzo dello stesso indirizzo MAC da parte di più nodi verso lo stesso BSS."
+    ],
+    "correct_index": 0,
+    "verified": false,
+    "explanation": "Soluzione: A. Questo accade quando i nodi, pur essendo in grado di comunicare con un Access Point comune, non sono in grado di rilevarsi direttamente a causa della loro distanza o di ostacoli fisici. Di conseguenza, se trasmettono contemporaneamente, il segnale proveniente da entrambi potrebbe collidere all'Access Point, causando errori nella communicazione.",
+    "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il riutilizzo delle frequenze in una rete cellulare si riferisce a:",
+    "options": [
+      "Il riutilizzo di frequenze solitamente adottate per altri servizi (ad esempio, le trasmissioni televisive).",
+      "Il riutilizzo della stessa frequenza per inviare messaggi di testo consecutivi (SMS).",
+      "Il riutilizzo della stessa frequenza per tutte le telefonate effettuate da un terminale.",
+      "Il riutilizzo della stessa frequenza in celle diverse sufficientemente distanti."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. La tecnica del riutilizzo delle frequenze consiste nell'assegnare le stesse bande di frequenza a celle differenti, purché esse siano distanziate in modo da ridurre al minimo le interferenze tra di esse.",
+    "topic": "Mobile Networks"
   }
 ]
