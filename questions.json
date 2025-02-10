@@ -3128,5 +3128,18 @@
     "verified": false,
     "explanation": "Soluzione: A. Questo accade quando i nodi, pur essendo in grado di comunicare con un Access Point comune, non sono in grado di rilevarsi direttamente a causa della loro distanza o di ostacoli fisici. Di conseguenza, se trasmettono contemporaneamente, il segnale proveniente da entrambi potrebbe collidere all'Access Point, causando errori nella communicazione.",
     "topic": "Mobile Networks"
+  },
+  {
+    "text": "Il riutilizzo delle frequenze in una rete cellulare si riferisce a:",
+    "options": [
+      "Il riutilizzo di frequenze solitamente adottate per altri servizi (ad esempio, le trasmissioni televisive).",
+      "Il riutilizzo della stessa frequenza per inviare messaggi di testo consecutivi (SMS).",
+      "Il riutilizzo della stessa frequenza per tutte le telefonate effettuate da un terminale.",
+      "Il riutilizzo della stessa frequenza in celle diverse sufficientemente distanti."
+    ],
+    "correct_index": 3,
+    "verified": false,
+    "explanation": "Soluzione: D. La tecnica del riutilizzo delle frequenze consiste nell'assegnare le stesse bande di frequenza a celle differenti, purché esse siano distanziate in modo da ridurre al minimo le interferenze tra di esse.",
+    "topic": "Mobile Networks"
   }
 ]
